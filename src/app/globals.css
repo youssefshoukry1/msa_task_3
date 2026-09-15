@@ -10,6 +10,19 @@
 /* Raw WordPress export (HTML/CSS/scripts) is reference material, not app source. */
 @source not "../../mowix-export";
 
+/* Entrance animations (fadeInRight etc.) and decorative shapes poke past the right edge, which let
+   phones pan sideways / zoom out. `clip` (unlike `hidden`) doesn't make body a scroll container,
+   so window scroll events keep driving the motion and sticky effects. */
+html {
+  overflow-x: hidden;
+}
+@supports (overflow-x: clip) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+}
+
 .nav-link{
 
 }

@@ -38,11 +38,10 @@ function createSticky(element, settings) {
     effectsOffset = Number(responsiveValue(settings, "sticky_effects_offset")) || 0;
   };
 
-  const stickElement = () => {
+  // `left` and `width` are measured by the caller while the element (or its spacer) is in flow;
+  // once fixed, percentage widths resolve against the viewport.
+  const stickElement = (left, width) => {
     unstickyCss = backup(element, STICK_PROPS);
-    // Measure while still in flow; once fixed, percentage widths resolve against the viewport.
-    const left = element.getBoundingClientRect().left;
-    const width = outerSize(element, "width");
     element.style.position = "fixed";
     element.style.width = `${width}px`;
     element.style.marginTop = "0px";
@@ -72,6 +71,10 @@ function createSticky(element, settings) {
     isFollowingParent = false;
   };
   const stick = () => {
+    // Measure before inserting the spacer: a layout with both in flow would let the browser's
+    // scroll anchoring shift the page by the element's height.
+    const left = element.getBoundingClientRect().left;
+    const width = outerSize(element, "width");
     spacer = element.cloneNode(true);
     spacer.classList.add(CLASSES.spacer);
     spacer.style.visibility = "hidden";
@@ -79,7 +82,7 @@ function createSticky(element, settings) {
     spacer.style.animation = "none";
     element.after(spacer);
     isSticky = true;
-    stickElement();
+    stickElement(left, width);
   };
   const unstick = () => {
     isSticky = false;
@@ -133,18 +136,16 @@ function createSticky(element, settings) {
   const onResize = () => {
     readOffsets();
     if (!isSticky) return checkPosition();
-    if (isFollowingParent) unfollowParent();
-    unstickElement();
-    // Measure the in-flow spacer so the re-stuck element takes the new width and left edge.
-    spacer.style.visibility = "";
-    element.style.display = "none";
+    // The hidden spacer holds the element's in-flow box, so measure it without moving the element
+    // back into flow. Doing that doubled the element's height for a layout, and scroll anchoring
+    // then jumped the page — on phones every URL-bar show/hide fires a resize.
     const rect = spacer.getBoundingClientRect();
-    element.style.display = "";
-    spacer.style.visibility = "hidden";
-    stickElement();
     element.style.width = `${rect.width}px`;
-    element.style.setProperty("inset-inline-start", `${rect.left}px`);
-    if (parent) checkParent();
+    if (!isFollowingParent) {
+      element.style.setProperty(to, `${offset}px`);
+      element.style.setProperty("inset-inline-start", `${rect.left}px`);
+    }
+    checkPosition();
   };
 
   readOffsets();

@@ -1,0 +1,122 @@
+/* Phone layout fixes for the home page, loaded after the Elementor export so they win on equal specificity. */
+
+@media (max-width: 767px) {
+  /* ── Parallax band (after "Who We Are") ─────────────────────────────
+     The background video is hidden on phones, so the 500px frame was mostly empty scroll. */
+  .elementor-971 .elementor-element.elementor-element-7bb95567 {
+    --margin-bottom: -50px;
+  }
+  .elementor-971 .elementor-element.elementor-element-5ab44066 {
+    --width: 70%;
+    --min-height: 200px;
+    border-width: 6px;
+    --border-radius: 20px;
+  }
+  .elementor-971 .elementor-element.elementor-element-1bea180f,
+  .elementor-971 .elementor-element.elementor-element-4584e0b5 {
+    --min-height: 60px;
+  }
+
+  /* ── Process section ("Where Precision Meets Long Term Performance") ── */
+  .elementor-971 .elementor-element.elementor-element-3ffbff72 {
+    --padding-top: 90px;
+    --padding-bottom: 60px;
+  }
+  .elementor-971 .elementor-element.elementor-element-223e489a {
+    --gap: 16px 0px;
+    --row-gap: 16px;
+    --padding-bottom: 30px;
+  }
+  .elementor-971 .elementor-element.elementor-element-50958c1,
+  .elementor-971 .elementor-element.elementor-element-5486c2b1 {
+    --padding-bottom: 0px;
+  }
+  .elementor-971 .elementor-element.elementor-element-38689137 p {
+    margin-block-end: 16px;
+  }
+
+  /* Tall portrait cut-out: cap its height instead of letting it fill the screen. */
+  .elementor-971 .elementor-element.elementor-element-597bfd4e {
+    --justify-content: center;
+  }
+  .elementor-971 .elementor-element.elementor-element-6d909a90 {
+    text-align: center;
+  }
+  .elementor-971 .elementor-element.elementor-element-6d909a90 img {
+    width: auto;
+    max-width: 100%;
+    max-height: 260px;
+    object-fit: contain;
+  }
+
+  /* Steps list: tighter spacing between the columns. */
+  .elementor-971 .elementor-element.elementor-element-5bbb4380 {
+    --padding-top: 30px;
+    --gap: 24px 0px;
+    --row-gap: 24px;
+  }
+  .elementor-971 .elementor-element.elementor-element-7613a62c,
+  .elementor-971 .elementor-element.elementor-element-60bf3a87 {
+    --gap: 20px 0px;
+    --row-gap: 20px;
+  }
+
+  /* Each step: icon on the left, title + text beside it (was a centered, stacked column). */
+  .elementor-971 .elementor-element.elementor-element-6396fc4c,
+  .elementor-971 .elementor-element.elementor-element-2e492cfc,
+  .elementor-971 .elementor-element.elementor-element-7a9d82c9,
+  .elementor-971 .elementor-element.elementor-element-31ad843c {
+    --flex-wrap-mobile: nowrap;
+    --flex-wrap: nowrap;
+    --justify-content: flex-start;
+    --align-items: flex-start;
+    --gap: 0px 18px;
+    --row-gap: 0px;
+    --column-gap: 18px;
+  }
+  .elementor-971 .elementor-element.elementor-element-b8b299c,
+  .elementor-971 .elementor-element.elementor-element-537a78c1,
+  .elementor-971 .elementor-element.elementor-element-2803e70b,
+  .elementor-971 .elementor-element.elementor-element-5017219 {
+    --width: 54px;
+    --min-height: 54px;
+    --flex-shrink: 0;
+  }
+  .elementor-971 .elementor-element.elementor-element-55ca4a5d,
+  .elementor-971 .elementor-element.elementor-element-7f8bf563,
+  .elementor-971 .elementor-element.elementor-element-239bdc58,
+  .elementor-971 .elementor-element.elementor-element-774ac38e {
+    --width: auto;
+    --flex-grow: 1;
+    --flex-basis: 0;
+    --gap: 6px 0px;
+    --row-gap: 6px;
+  }
+  .elementor-971 .elementor-element.elementor-element-6a2d5f87,
+  .elementor-971 .elementor-element.elementor-element-5de3c49a,
+  .elementor-971 .elementor-element.elementor-element-5551ca31,
+  .elementor-971 .elementor-element.elementor-element-112a8d4,
+  .elementor-971 .elementor-element.elementor-element-616ed14c,
+  .elementor-971 .elementor-element.elementor-element-5e2d74dd,
+  .elementor-971 .elementor-element.elementor-element-5731d7b6,
+  .elementor-971 .elementor-element.elementor-element-77eb9308 {
+    text-align: start;
+  }
+  .elementor-971 .elementor-element.elementor-element-616ed14c p,
+  .elementor-971 .elementor-element.elementor-element-5e2d74dd p,
+  .elementor-971 .elementor-element.elementor-element-5731d7b6 p,
+  .elementor-971 .elementor-element.elementor-element-77eb9308 p {
+    margin-block-end: 0;
+  }
+
+  /* Divider lines between steps: keep them thin, no extra height. */
+  .elementor-971 .elementor-element.elementor-element-258abffe,
+  .elementor-971 .elementor-element.elementor-element-563334ec {
+    --min-height: 1px;
+  }
+
+  /* Middle image between steps 2 and 3. */
+  .elementor-971 .elementor-element.elementor-element-67db69f3 img {
+    height: 180px;
+  }
+}
