@@ -1,0 +1,10 @@
+/* Mowix home page styles, in the original WordPress load order.
+ * Imported into the `mowix` cascade layer from src/app/globals.css. */
+@import "./01-theme.css";
+@import "./02-elementor-frontend.css";
+@import "./03-kit.css";
+@import "./04-widgets.css";
+@import "./05-page-home.css";
+@import "./06-header.css";
+@import "./07-footer.css";
+@import "./08-blog-loop.css";

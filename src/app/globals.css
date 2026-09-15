@@ -1,0 +1,19 @@
+/* Layer order: Tailwind preflight is left out because Hello Elementor's reset
+   (styles/mowix/01-theme.css) is the base the Mowix markup was designed on.
+   Mowix sits below `utilities`, so Tailwind classes can still override it. */
+@layer theme, base, mowix, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "../styles/mowix/index.css" layer(mowix);
+
+/* Raw WordPress export (HTML/CSS/scripts) is reference material, not app source. */
+@source not "../../mowix-export";
+
+.nav-link{
+
+}
+
+.active-link{
+
+}

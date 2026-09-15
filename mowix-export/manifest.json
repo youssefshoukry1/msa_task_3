@@ -1,0 +1,799 @@
+{
+  "page": "https://pawzia.foxcreation.online/mowix/",
+  "exportedAt": "2026-09-15T15:55:28.892Z",
+  "stylesheets": [
+    {
+      "kind": "inline",
+      "id": "wp-img-auto-sizes-contain-inline-css",
+      "file": "css/01-wp-img-auto-sizes-contain-inline-css.css",
+      "bytes": 135
+    },
+    {
+      "kind": "inline",
+      "id": "wp-emoji-styles-inline-css",
+      "file": "css/02-wp-emoji-styles-inline-css.css",
+      "bytes": 340
+    },
+    {
+      "kind": "inline",
+      "id": "global-styles-inline-css",
+      "file": "css/03-global-styles-inline-css.css",
+      "bytes": 11306
+    },
+    {
+      "kind": "file",
+      "id": "template-kit-export-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/template-kit-export/assets/public/template-kit-export-public.css?ver=1.0.23",
+      "file": "css/04-template-kit-export-css.css",
+      "bytes": 1130
+    },
+    {
+      "kind": "file",
+      "id": "hello-elementor-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1",
+      "file": "css/05-hello-elementor-css.css",
+      "bytes": 5829
+    },
+    {
+      "kind": "file",
+      "id": "hello-elementor-theme-style-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.5.1",
+      "file": "css/06-hello-elementor-theme-style-css.css",
+      "bytes": 5823
+    },
+    {
+      "kind": "file",
+      "id": "hello-elementor-header-footer-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.5.1",
+      "file": "css/07-hello-elementor-header-footer-css.css",
+      "bytes": 7532
+    },
+    {
+      "kind": "file",
+      "id": "elementor-frontend-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+      "file": "css/08-elementor-frontend-css.css",
+      "bytes": 54666
+    },
+    {
+      "kind": "file",
+      "id": "elementor-post-3-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/elementor/css/post-3.css?ver=1789487697",
+      "file": "css/09-elementor-post-3-css.css",
+      "bytes": 12565
+    },
+    {
+      "kind": "file",
+      "id": "widget-image-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4",
+      "file": "css/10-widget-image-css.css",
+      "bytes": 214
+    },
+    {
+      "kind": "file",
+      "id": "widget-spacer-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.4",
+      "file": "css/11-widget-spacer-css.css",
+      "bytes": 1793
+    },
+    {
+      "kind": "file",
+      "id": "widget-nav-menu-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=4.1.0",
+      "file": "css/12-widget-nav-menu-css.css",
+      "bytes": 27362
+    },
+    {
+      "kind": "file",
+      "id": "widget-heading-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4",
+      "file": "css/13-widget-heading-css.css",
+      "bytes": 560
+    },
+    {
+      "kind": "file",
+      "id": "widget-icon-list-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.4",
+      "file": "css/14-widget-icon-list-css.css",
+      "bytes": 10255
+    },
+    {
+      "kind": "file",
+      "id": "widget-social-icons-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.2.4",
+      "file": "css/15-widget-social-icons-css.css",
+      "bytes": 5110
+    },
+    {
+      "kind": "file",
+      "id": "e-apple-webkit-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.2.4",
+      "file": "css/16-e-apple-webkit-css.css",
+      "bytes": 6713
+    },
+    {
+      "kind": "file",
+      "id": "e-animation-fadeInLeft-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=4.2.4",
+      "file": "css/17-e-animation-fadeInLeft-css.css",
+      "bytes": 137
+    },
+    {
+      "kind": "file",
+      "id": "widget-divider-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.4",
+      "file": "css/18-widget-divider-css.css",
+      "bytes": 4258
+    },
+    {
+      "kind": "file",
+      "id": "widget-counter-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/widget-counter.min.css?ver=4.2.4",
+      "file": "css/19-widget-counter-css.css",
+      "bytes": 753
+    },
+    {
+      "kind": "file",
+      "id": "widget-rating-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/widget-rating.min.css?ver=4.2.4",
+      "file": "css/20-widget-rating-css.css",
+      "bytes": 1310
+    },
+    {
+      "kind": "file",
+      "id": "e-animation-fadeInRight-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.2.4",
+      "file": "css/21-e-animation-fadeInRight-css.css",
+      "bytes": 139
+    },
+    {
+      "kind": "file",
+      "id": "e-motion-fx-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css?ver=4.1.0",
+      "file": "css/22-e-motion-fx-css.css",
+      "bytes": 778
+    },
+    {
+      "kind": "file",
+      "id": "swiper-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
+      "file": "css/23-swiper-css.css",
+      "bytes": 16471
+    },
+    {
+      "kind": "file",
+      "id": "e-swiper-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.2.4",
+      "file": "css/24-e-swiper-css.css",
+      "bytes": 5486
+    },
+    {
+      "kind": "file",
+      "id": "widget-nested-carousel-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor-pro/assets/css/widget-nested-carousel.min.css?ver=4.1.0",
+      "file": "css/25-widget-nested-carousel-css.css",
+      "bytes": 9760
+    },
+    {
+      "kind": "file",
+      "id": "widget-nested-tabs-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/widget-nested-tabs.min.css?ver=4.2.4",
+      "file": "css/26-widget-nested-tabs-css.css",
+      "bytes": 14818
+    },
+    {
+      "kind": "file",
+      "id": "widget-text-path-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/widget-text-path.min.css?ver=4.2.4",
+      "file": "css/27-widget-text-path-css.css",
+      "bytes": 1044
+    },
+    {
+      "kind": "file",
+      "id": "widget-nested-accordion-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor/assets/css/widget-nested-accordion.min.css?ver=4.2.4",
+      "file": "css/28-widget-nested-accordion-css.css",
+      "bytes": 5206
+    },
+    {
+      "kind": "file",
+      "id": "e-sticky-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=4.1.0",
+      "file": "css/29-e-sticky-css.css",
+      "bytes": 162
+    },
+    {
+      "kind": "file",
+      "id": "widget-loop-common-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor-pro/assets/css/widget-loop-common.min.css?ver=4.1.0",
+      "file": "css/30-widget-loop-common-css.css",
+      "bytes": 207
+    },
+    {
+      "kind": "file",
+      "id": "widget-loop-grid-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor-pro/assets/css/widget-loop-grid.min.css?ver=4.1.0",
+      "file": "css/31-widget-loop-grid-css.css",
+      "bytes": 13212
+    },
+    {
+      "kind": "file",
+      "id": "elementor-post-971-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/elementor/css/post-971.css?ver=1789487706",
+      "file": "css/32-elementor-post-971-css.css",
+      "bytes": 332105
+    },
+    {
+      "kind": "file",
+      "id": "elementor-post-335-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/elementor/css/post-335.css?ver=1789487706",
+      "file": "css/33-elementor-post-335-css.css",
+      "bytes": 13089
+    },
+    {
+      "kind": "file",
+      "id": "elementor-post-1002-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/elementor/css/post-1002.css?ver=1789487706",
+      "file": "css/34-elementor-post-1002-css.css",
+      "bytes": 14864
+    },
+    {
+      "kind": "inline",
+      "id": "inline",
+      "file": "css/35-inline.css",
+      "bytes": 722
+    },
+    {
+      "kind": "inline",
+      "id": "loop-1065",
+      "file": "css/36-loop-1065.css",
+      "bytes": 4968
+    },
+    {
+      "kind": "file",
+      "id": "widget-post-info-css",
+      "source": "https://pawzia.foxcreation.online/mowix/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css?ver=4.1.0",
+      "file": "css/37-widget-post-info-css.css",
+      "bytes": 559
+    }
+  ],
+  "skippedStylesheets": [
+    {
+      "href": "https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto",
+      "reason": "external (Google Fonts → next/font in step 3)"
+    },
+    {
+      "href": "https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto",
+      "reason": "external (Google Fonts → next/font in step 3)"
+    },
+    {
+      "href": "https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto",
+      "reason": "external (Google Fonts → next/font in step 3)"
+    }
+  ],
+  "assets": {
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Hero-Background-New.jpg": {
+      "local": "/mowix/images/2026/02/Hero-Background-New.jpg",
+      "bytes": 230711,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Residential-1.jpg": {
+      "local": "/mowix/images/2026/03/Residential-1.jpg",
+      "bytes": 129070,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Arrow-3.png": {
+      "local": "/mowix/images/2026/02/Arrow-3.png",
+      "bytes": 501,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Arrow-4.png": {
+      "local": "/mowix/images/2026/02/Arrow-4.png",
+      "bytes": 534,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Residential-2.jpg": {
+      "local": "/mowix/images/2026/03/Residential-2.jpg",
+      "bytes": 178040,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Residential-3.jpg": {
+      "local": "/mowix/images/2026/03/Residential-3.jpg",
+      "bytes": 134979,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Residential-4.jpg": {
+      "local": "/mowix/images/2026/03/Residential-4.jpg",
+      "bytes": 144431,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Residential-5.jpg": {
+      "local": "/mowix/images/2026/03/Residential-5.jpg",
+      "bytes": 141567,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Residential-6.jpg": {
+      "local": "/mowix/images/2026/03/Residential-6.jpg",
+      "bytes": 137947,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Commercial-1.jpg": {
+      "local": "/mowix/images/2026/03/Commercial-1.jpg",
+      "bytes": 143746,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Commercial-2.jpg": {
+      "local": "/mowix/images/2026/03/Commercial-2.jpg",
+      "bytes": 450943,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Commercial-3.jpg": {
+      "local": "/mowix/images/2026/03/Commercial-3.jpg",
+      "bytes": 126202,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Commercial-4.jpg": {
+      "local": "/mowix/images/2026/03/Commercial-4.jpg",
+      "bytes": 202960,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Commercial-5.jpg": {
+      "local": "/mowix/images/2026/03/Commercial-5.jpg",
+      "bytes": 171164,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Commercial-6.jpg": {
+      "local": "/mowix/images/2026/03/Commercial-6.jpg",
+      "bytes": 104522,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Logo-Mawix.png": {
+      "local": "/mowix/images/2026/02/Logo-Mawix.png",
+      "bytes": 6396,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Mowix-Masking-1.png": {
+      "local": "/mowix/images/2026/02/Mowix-Masking-1.png",
+      "bytes": 11474,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/quote-Icon-2.png": {
+      "local": "/mowix/images/2026/02/quote-Icon-2.png",
+      "bytes": 5692,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/CTA-Image-2.jpg": {
+      "local": "/mowix/images/2026/03/CTA-Image-2.jpg",
+      "bytes": 199559,
+      "usedBy": [
+        "elementor-post-971-css"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Mowix-Logo.png": {
+      "local": "/mowix/images/2026/02/Mowix-Logo.png",
+      "bytes": 10704,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-12.jpg": {
+      "local": "/mowix/images/2026/02/Photo-12.jpg",
+      "bytes": 97813,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-5.jpg": {
+      "local": "/mowix/images/2026/02/Photo-5.jpg",
+      "bytes": 132918,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-8.jpg": {
+      "local": "/mowix/images/2026/02/Photo-8.jpg",
+      "bytes": 170591,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-2.png": {
+      "local": "/mowix/images/2026/03/Icon-2.png",
+      "bytes": 13999,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-3.png": {
+      "local": "/mowix/images/2026/03/Icon-3.png",
+      "bytes": 11736,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-4.png": {
+      "local": "/mowix/images/2026/03/Icon-4.png",
+      "bytes": 15803,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-1.png": {
+      "local": "/mowix/images/2026/03/Icon-Residential-1.png",
+      "bytes": 21046,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-2.png": {
+      "local": "/mowix/images/2026/03/Icon-Residential-2.png",
+      "bytes": 17848,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-3.png": {
+      "local": "/mowix/images/2026/03/Icon-Residential-3.png",
+      "bytes": 14855,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-4.png": {
+      "local": "/mowix/images/2026/03/Icon-Residential-4.png",
+      "bytes": 15274,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-5.png": {
+      "local": "/mowix/images/2026/03/Icon-Residential-5.png",
+      "bytes": 7841,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-6.png": {
+      "local": "/mowix/images/2026/03/Icon-Residential-6.png",
+      "bytes": 12203,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-1.png": {
+      "local": "/mowix/images/2026/03/Icon-Commercial-1.png",
+      "bytes": 14115,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-2.png": {
+      "local": "/mowix/images/2026/03/Icon-Commercial-2.png",
+      "bytes": 15081,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-3.png": {
+      "local": "/mowix/images/2026/03/Icon-Commercial-3.png",
+      "bytes": 16991,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-4.png": {
+      "local": "/mowix/images/2026/03/Icon-Commercial-4.png",
+      "bytes": 15451,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-5.png": {
+      "local": "/mowix/images/2026/03/Icon-Commercial-5.png",
+      "bytes": 17461,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-6.png": {
+      "local": "/mowix/images/2026/03/Icon-Commercial-6.png",
+      "bytes": 11663,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Who-We-Are-2.jpg": {
+      "local": "/mowix/images/2026/03/Who-We-Are-2.jpg",
+      "bytes": 209391,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Who-we-are-1.jpg": {
+      "local": "/mowix/images/2026/03/Who-we-are-1.jpg",
+      "bytes": 263207,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Why-choose-us-Iamge-1-729x1024.png": {
+      "local": "/mowix/images/2026/02/Why-choose-us-Iamge-1-729x1024.png",
+      "bytes": 268939,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Why-Choose-Us.jpg": {
+      "local": "/mowix/images/2026/03/Why-Choose-Us.jpg",
+      "bytes": 243219,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-1-1024x683.jpg": {
+      "local": "/mowix/images/2026/03/Project-1-1024x683.jpg",
+      "bytes": 123304,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-1.png": {
+      "local": "/mowix/images/2026/03/Icon-Project-1.png",
+      "bytes": 21952,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-2-1024x683.jpg": {
+      "local": "/mowix/images/2026/03/Project-2-1024x683.jpg",
+      "bytes": 168198,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-2.png": {
+      "local": "/mowix/images/2026/03/Icon-Project-2.png",
+      "bytes": 17241,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-3-1024x683.jpg": {
+      "local": "/mowix/images/2026/03/Project-3-1024x683.jpg",
+      "bytes": 188716,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-3.png": {
+      "local": "/mowix/images/2026/03/Icon-Project-3.png",
+      "bytes": 21567,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-4-1024x683.jpg": {
+      "local": "/mowix/images/2026/03/Project-4-1024x683.jpg",
+      "bytes": 211827,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-4.png": {
+      "local": "/mowix/images/2026/03/Icon-Project-4.png",
+      "bytes": 16691,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Hero-Background-1-1024x683.jpg": {
+      "local": "/mowix/images/2026/02/Hero-Background-1-1024x683.jpg",
+      "bytes": 127347,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/google.png": {
+      "local": "/mowix/images/2026/02/google.png",
+      "bytes": 20865,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-13.jpg": {
+      "local": "/mowix/images/2026/02/Photo-13.jpg",
+      "bytes": 83847,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-6-1024x683.jpg": {
+      "local": "/mowix/images/2026/02/Blog-6-1024x683.jpg",
+      "bytes": 156260,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-5-1024x683.jpg": {
+      "local": "/mowix/images/2026/02/Blog-5-1024x683.jpg",
+      "bytes": 130194,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-4-1024x683.jpg": {
+      "local": "/mowix/images/2026/02/Blog-4-1024x683.jpg",
+      "bytes": 194875,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Mowix-Logo-light.png": {
+      "local": "/mowix/images/2026/02/Mowix-Logo-light.png",
+      "bytes": 10454,
+      "usedBy": [
+        "html:src"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Mowix-Favicon-150x150.png": {
+      "local": "/mowix/images/2026/02/Mowix-Favicon-150x150.png",
+      "bytes": 4063,
+      "usedBy": [
+        "html:icon",
+        "html:other"
+      ]
+    },
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Mowix-Favicon-300x300.png": {
+      "local": "/mowix/images/2026/02/Mowix-Favicon-300x300.png",
+      "bytes": 8756,
+      "usedBy": [
+        "html:icon",
+        "html:other"
+      ]
+    }
+  },
+  "skippedSrcsetVariants": [
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Mowix-Logo-300x84.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-12-300x300.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-12-150x150.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-12-768x768.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-12-800x800.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-5-300x300.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-5-150x150.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-5-768x768.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-5-800x800.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-8-300x300.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-8-150x150.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-8-768x768.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-8-800x800.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-2-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-2-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-3-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-3-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-4-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-4-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-1-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-1-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-2-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-2-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-3-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-3-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-4-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-4-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-5-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-5-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-6-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Residential-6-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-1-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-1-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-2-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-2-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-3-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-3-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-4-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-4-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-5-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-5-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-6-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Commercial-6-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Who-We-Are-2-300x300.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Who-We-Are-2-150x150.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Who-We-Are-2-768x768.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Who-We-Are-2-800x800.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Who-we-are-1-300x300.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Who-we-are-1-150x150.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Who-we-are-1-768x768.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Who-we-are-1-800x800.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Why-choose-us-Iamge-1-214x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Why-choose-us-Iamge-1-768x1078.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Why-choose-us-Iamge-1.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Why-Choose-Us-300x300.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Why-Choose-Us-150x150.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Why-Choose-Us-768x768.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Why-Choose-Us-800x800.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-1-300x200.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-1-768x512.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-1-800x533.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-1.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-1-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-1-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-2-300x200.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-2-768x512.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-2-800x533.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-2.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-2-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-2-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-3-300x200.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-3-768x512.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-3-800x533.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-3.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-3-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-3-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-4-300x200.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-4-768x512.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-4-800x533.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Project-4.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-4-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/03/Icon-Project-4-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Hero-Background-1-300x200.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Hero-Background-1-768x512.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Hero-Background-1-800x533.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Hero-Background-1.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/google-300x300.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/google-150x150.png",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-13-300x300.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-13-150x150.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-13-768x768.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Photo-13-800x800.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-6-300x200.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-6-768x512.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-6-800x533.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-6.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-5-300x200.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-5-768x512.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-5-800x533.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-5.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-4-300x200.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-4-768x512.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-4-800x533.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Blog-4.jpg",
+    "https://pawzia.foxcreation.online/mowix/wp-content/uploads/sites/9/2026/02/Mowix-Logo-light-300x84.png"
+  ],
+  "failures": []
+}
