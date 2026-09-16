@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 7fb7d3ba) by mowix-export/convert-html.mjs.
-import Icon from "./Icon";
+import HomeIcon from "./HomeIcon";
 
 export default function Hero() {
   return (
@@ -19,7 +19,7 @@ export default function Hero() {
                 <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
                   <span className="elementor-button-content-wrapper">
                     <span className="elementor-button-icon">
-                      <Icon name="fas-arrow-circle-right" />
+                      <HomeIcon name="arrowRight" />
                     </span>
                     {" "}
                     <span className="elementor-button-text">Finanzierung anfragen</span>
@@ -76,10 +76,10 @@ export default function Hero() {
                       <div className="e-rating-wrapper" itemProp="ratingValue" content="1" role="img" aria-label="Rated 1 out of 1">
                         <div className="e-icon">
                           <div className="e-icon-wrapper e-icon-marked">
-                            <Icon name="eicon-star" />
+                            <HomeIcon name="star" />
                           </div>
                           <div className="e-icon-wrapper e-icon-unmarked">
-                            <Icon name="eicon-star" />
+                            <HomeIcon name="star" />
                           </div>
                         </div>
                       </div>
@@ -111,7 +111,7 @@ export default function Hero() {
                   <li className="elementor-icon-list-item">
                     <a href="#">
                       <span className="elementor-icon-list-icon">
-                        <Icon name="far-dot-circle" />
+                        <HomeIcon name="housing" />
                       </span>
                       {" "}
                       <span className="elementor-icon-list-text">Wohnbaufinanzierung</span>
@@ -124,7 +124,7 @@ export default function Hero() {
                   <li className="elementor-icon-list-item">
                     <a href="#">
                       <span className="elementor-icon-list-icon">
-                        <Icon name="far-dot-circle" />
+                        <HomeIcon name="bankComparison" />
                       </span>
                       {" "}
                       <span className="elementor-icon-list-text">Bankenvergleich</span>
@@ -137,7 +137,7 @@ export default function Hero() {
                   <li className="elementor-icon-list-item">
                     <a href="#">
                       <span className="elementor-icon-list-icon">
-                        <Icon name="far-dot-circle" />
+                        <HomeIcon name="refinancing" />
                       </span>
                       {" "}
                       <span className="elementor-icon-list-text">Umschuldung</span>

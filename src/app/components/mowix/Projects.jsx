@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 7fbc4fc7) by mowix-export/convert-html.mjs.
-import Icon from "./Icon";
+import HomeIcon from "./HomeIcon";
 
 export default function Projects() {
   return (
@@ -13,7 +13,7 @@ export default function Projects() {
                 <li className="elementor-icon-list-item">
                   <a href="#">
                     <span className="elementor-icon-list-icon">
-                      <Icon name="far-dot-circle" />
+                      <HomeIcon name="housing" />
                     </span>
                     {" "}
                     <span className="elementor-icon-list-text">Finanzierung nach Maß</span>
@@ -38,13 +38,13 @@ export default function Projects() {
                 </div>
                 <div className="elementor-element elementor-element-3aee76d0 e-con-full e-flex e-con e-child" data-id="3aee76d0">
                   <div className="elementor-element elementor-element-33720dbd elementor-widget elementor-widget-image" data-id="33720dbd" data-widget_type="image.default">
-                    <img loading="lazy" decoding="async" width="800" height="534" src="/mowix/images/2026/03/Project-1-1024x683.jpg" className="attachment-large size-large wp-image-1196" alt="" />
+                    <img loading="lazy" decoding="async" width="4961" height="3721" src="/mowix/images/related_content_imgs/couple standing outside new house.jpg" className="attachment-large size-large wp-image-1196" alt="Paar vor dem neu erworbenen Eigenheim" />
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-4a3f8348 e-con-full e-flex e-con e-child" data-id="4a3f8348">
                   <div className="elementor-element elementor-element-169ca5e e-con-full e-flex e-con e-child" data-id="169ca5e">
                     <div className="elementor-element elementor-element-7b1555d1 elementor-widget elementor-widget-image" data-id="7b1555d1" data-widget_type="image.default">
-                      <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Project-1.png" className="attachment-large size-large wp-image-1203" alt="" />
+                      <HomeIcon name="key" variant="card" />
                     </div>
                   </div>
                   <div className="elementor-element elementor-element-38473f4d elementor-widget elementor-widget-heading" data-id="38473f4d" data-widget_type="heading.default">
@@ -100,13 +100,13 @@ export default function Projects() {
                 </div>
                 <div className="elementor-element elementor-element-2762a242 e-con-full e-flex e-con e-child" data-id="2762a242">
                   <div className="elementor-element elementor-element-46e179a4 elementor-widget elementor-widget-image" data-id="46e179a4" data-widget_type="image.default">
-                    <img loading="lazy" decoding="async" width="800" height="534" src="/mowix/images/2026/03/Project-2-1024x683.jpg" className="attachment-large size-large wp-image-1197" alt="" />
+                    <img loading="lazy" decoding="async" width="1920" height="1280" src="/mowix/images/related_content_imgs/modern house construction.webp" className="attachment-large size-large wp-image-1197" alt="Modernes Wohnhaus während der Bauphase" />
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-39f6be45 e-con-full e-flex e-con e-child" data-id="39f6be45">
                   <div className="elementor-element elementor-element-4a7fccab e-con-full e-flex e-con e-child" data-id="4a7fccab">
                     <div className="elementor-element elementor-element-d1344de elementor-widget elementor-widget-image" data-id="d1344de" data-widget_type="image.default">
-                      <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Project-2.png" className="attachment-large size-large wp-image-1204" alt="" />
+                      <HomeIcon name="construction" variant="card" />
                     </div>
                   </div>
                   <div className="elementor-element elementor-element-23f91f34 elementor-widget elementor-widget-heading" data-id="23f91f34" data-widget_type="heading.default">
@@ -162,13 +162,13 @@ export default function Projects() {
                 </div>
                 <div className="elementor-element elementor-element-4d617115 e-con-full e-flex e-con e-child" data-id="4d617115">
                   <div className="elementor-element elementor-element-5b74b907 elementor-widget elementor-widget-image" data-id="5b74b907" data-widget_type="image.default">
-                    <img loading="lazy" decoding="async" width="800" height="534" src="/mowix/images/2026/03/Project-3-1024x683.jpg" className="attachment-large size-large wp-image-1198" alt="" />
+                    <img loading="lazy" decoding="async" width="1920" height="1280" src="/mowix/images/related_content_imgs/home renovation couple.webp" className="attachment-large size-large wp-image-1198" alt="Paar bei der Planung einer Haussanierung" />
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-606af3d5 e-con-full e-flex e-con e-child" data-id="606af3d5">
                   <div className="elementor-element elementor-element-26f1ea81 e-con-full e-flex e-con e-child" data-id="26f1ea81">
                     <div className="elementor-element elementor-element-3af1784f elementor-widget elementor-widget-image" data-id="3af1784f" data-widget_type="image.default">
-                      <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Project-3.png" className="attachment-large size-large wp-image-1205" alt="" />
+                      <HomeIcon name="projectRenovation" variant="card" />
                     </div>
                   </div>
                   <div className="elementor-element elementor-element-7416d11e elementor-widget elementor-widget-heading" data-id="7416d11e" data-widget_type="heading.default">
@@ -224,13 +224,13 @@ export default function Projects() {
                 </div>
                 <div className="elementor-element elementor-element-25bd57ab e-con-full e-flex e-con e-child" data-id="25bd57ab">
                   <div className="elementor-element elementor-element-708fcf6a elementor-widget elementor-widget-image" data-id="708fcf6a" data-widget_type="image.default">
-                    <img loading="lazy" decoding="async" width="800" height="534" src="/mowix/images/2026/03/Project-4-1024x683.jpg" className="attachment-large size-large wp-image-1199" alt="" />
+                    <img loading="lazy" decoding="async" width="3000" height="2001" src="/mowix/images/related_content_imgs/mortgage interest rate comparison.jpg" className="attachment-large size-large wp-image-1199" alt="Vergleich verschiedener Immobilienkredite und Konditionen" />
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-20de0ee5 e-con-full e-flex e-con e-child" data-id="20de0ee5">
                   <div className="elementor-element elementor-element-5a0f04dd e-con-full e-flex e-con e-child" data-id="5a0f04dd">
                     <div className="elementor-element elementor-element-15032be2 elementor-widget elementor-widget-image" data-id="15032be2" data-widget_type="image.default">
-                      <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Project-4.png" className="attachment-large size-large wp-image-1206" alt="" />
+                      <HomeIcon name="refinancing" variant="card" />
                     </div>
                   </div>
                   <div className="elementor-element elementor-element-3f104f36 elementor-widget elementor-widget-heading" data-id="3f104f36" data-widget_type="heading.default">

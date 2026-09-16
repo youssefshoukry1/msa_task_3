@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 1fdee9fc) by mowix-export/convert-html.mjs.
-import Icon from "./Icon";
+import HomeIcon from "./HomeIcon";
 
 export default function Stats() {
   return (
@@ -14,7 +14,7 @@ export default function Stats() {
                   <li className="elementor-icon-list-item">
                     <a href="#">
                       <span className="elementor-icon-list-icon">
-                        <Icon name="far-dot-circle" />
+                        <HomeIcon name="overview" />
                       </span>
                       {" "}
                       <span className="elementor-icon-list-text">Erfahrung, die Vertrauen schafft</span>
@@ -36,7 +36,7 @@ export default function Stats() {
             <div className="elementor-element elementor-element-a98c060 e-con-full e-flex e-con e-child" data-id="a98c060" data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateY_effect":"yes","motion_fx_translateY_direction":"negative","motion_fx_translateY_speed":{"unit":"px","size":0.3,"sizes":[]},"motion_fx_range":"page","motion_fx_devices":["desktop","tablet"],"motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}'>
               <div className="elementor-element elementor-element-2f4b91c e-con-full e-flex e-con e-child" data-id="2f4b91c">
                 <div className="elementor-element elementor-element-5fa890a2 elementor-widget elementor-widget-image" data-id="5fa890a2" data-widget_type="image.default">
-                  <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-2.png" className="attachment-large size-large wp-image-1118" alt="" />
+                  <HomeIcon name="experience" variant="card" />
                 </div>
               </div>
               <div className="elementor-element elementor-element-58d04c04 e-con-full e-flex e-con e-child" data-id="58d04c04">
@@ -65,7 +65,7 @@ export default function Stats() {
             <div className="elementor-element elementor-element-6c748ea1 e-con-full e-flex e-con e-child" data-id="6c748ea1" data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateY_effect":"yes","motion_fx_translateY_speed":{"unit":"px","size":0.3,"sizes":[]},"motion_fx_devices":["desktop","tablet"],"motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}'>
               <div className="elementor-element elementor-element-128371aa e-con-full e-flex e-con e-child" data-id="128371aa">
                 <div className="elementor-element elementor-element-1926a19f elementor-widget elementor-widget-image" data-id="1926a19f" data-widget_type="image.default">
-                  <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-3.png" className="attachment-large size-large wp-image-1119" alt="" />
+                  <HomeIcon name="financing" variant="card" />
                 </div>
               </div>
               <div className="elementor-element elementor-element-4be2a585 e-con-full e-flex e-con e-child" data-id="4be2a585">
@@ -94,7 +94,7 @@ export default function Stats() {
             <div className="elementor-element elementor-element-6b041375 e-con-full e-flex e-con e-child" data-id="6b041375" data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateY_effect":"yes","motion_fx_translateY_direction":"negative","motion_fx_translateY_speed":{"unit":"px","size":0.3,"sizes":[]},"motion_fx_range":"page","motion_fx_devices":["desktop","tablet"],"motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}'>
               <div className="elementor-element elementor-element-6b3e5fa6 e-con-full e-flex e-con e-child" data-id="6b3e5fa6">
                 <div className="elementor-element elementor-element-7acd593f elementor-widget elementor-widget-image" data-id="7acd593f" data-widget_type="image.default">
-                  <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-4.png" className="attachment-large size-large wp-image-1120" alt="" />
+                  <HomeIcon name="satisfaction" variant="card" />
                 </div>
               </div>
               <div className="elementor-element elementor-element-7265d412 e-con-full e-flex e-con e-child" data-id="7265d412">

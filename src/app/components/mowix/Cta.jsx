@@ -1,5 +1,5 @@
 // Generated from the Mowix WordPress home page (Elementor page 971, container 5d8eebdc) by mowix-export/convert-html.mjs.
-import Icon from "./Icon";
+import HomeIcon from "./HomeIcon";
 
 export default function Cta() {
   return (
@@ -16,7 +16,7 @@ export default function Cta() {
             <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
               <span className="elementor-button-content-wrapper">
                 <span className="elementor-button-icon">
-                  <Icon name="fas-arrow-circle-right" />
+                  <HomeIcon name="arrowRight" />
                 </span>
                 {" "}
                 <span className="elementor-button-text">Erstgespräch anfragen</span>
@@ -42,7 +42,7 @@ export default function Cta() {
                 <li className="elementor-icon-list-item">
                   <a href="#">
                     <span className="elementor-icon-list-icon">
-                      <Icon name="fab-facebook" />
+                      <HomeIcon name="facebook" />
                     </span>
                     {" "}
                     <span className="elementor-icon-list-text">Facebook</span>
@@ -55,7 +55,7 @@ export default function Cta() {
                 <li className="elementor-icon-list-item">
                   <a href="#">
                     <span className="elementor-icon-list-icon">
-                      <Icon name="fab-instagram" />
+                      <HomeIcon name="instagram" />
                     </span>
                     {" "}
                     <span className="elementor-icon-list-text">Instagram</span>
@@ -68,7 +68,7 @@ export default function Cta() {
                 <li className="elementor-icon-list-item">
                   <a href="#">
                     <span className="elementor-icon-list-icon">
-                      <Icon name="fab-youtube" />
+                      <HomeIcon name="youtube" />
                     </span>
                     {" "}
                     <span className="elementor-icon-list-text">Youtube</span>

@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 177374ed) by mowix-export/convert-html.mjs.
-import Icon from "./Icon";
+import HomeIcon from "./HomeIcon";
 
 export default function Services() {
   return (
@@ -13,7 +13,7 @@ export default function Services() {
                 <li className="elementor-icon-list-item">
                   <a href="#">
                     <span className="elementor-icon-list-icon">
-                      <Icon name="far-dot-circle" />
+                      <HomeIcon name="financing" />
                     </span>
                     {" "}
                     <span className="elementor-icon-list-text">Finanzierungslösungen für Ihr Vorhaben</span>
@@ -31,9 +31,9 @@ export default function Services() {
                 <div className="e-n-tabs-heading" role="tablist">
                   <button id="e-n-tab-title-4356326471" data-tab-title-id="e-n-tab-title-4356326471" className="e-n-tab-title" aria-selected="true" data-tab-index="1" role="tab" tabIndex="0" aria-controls="e-n-tab-content-4356326471" style={{ "--n-tabs-title-order": "1" }}>
                     <span className="e-n-tab-icon">
-                      <Icon name="fas-tree" />
+                      <HomeIcon name="housing" />
                       {" "}
-                      <Icon name="fas-tree" />
+                      <HomeIcon name="housing" />
                     </span>
                     {" "}
                     <span className="e-n-tab-title-text">Immobilienfinanzierung</span>
@@ -41,9 +41,9 @@ export default function Services() {
                   {" "}
                   <button id="e-n-tab-title-4356326472" data-tab-title-id="e-n-tab-title-4356326472" className="e-n-tab-title" aria-selected="false" data-tab-index="2" role="tab" tabIndex="-1" aria-controls="e-n-tab-content-4356326472" style={{ "--n-tabs-title-order": "2" }}>
                     <span className="e-n-tab-icon">
-                      <Icon name="fas-building" />
+                      <HomeIcon name="wallet" />
                       {" "}
-                      <Icon name="fas-building" />
+                      <HomeIcon name="wallet" />
                     </span>
                     {" "}
                     <span className="e-n-tab-title-text">Weitere Finanzierungen</span>
@@ -88,7 +88,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-2831c53c e-con-full e-flex e-con e-child" data-id="2831c53c">
                                         <div className="elementor-element elementor-element-70f85103 e-con-full e-flex e-con e-child" data-id="70f85103">
                                           <div className="elementor-element elementor-element-7d8a35f4 elementor-widget elementor-widget-image" data-id="7d8a35f4" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Residential-1.png" className="attachment-large size-large wp-image-1155" alt="" />
+                                            <HomeIcon name="apartmentPurchase" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-10908173 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="10908173" data-widget_type="heading.default">
@@ -150,7 +150,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-149ac785 e-con-full e-flex e-con e-child" data-id="149ac785">
                                         <div className="elementor-element elementor-element-31e3a66b e-con-full e-flex e-con e-child" data-id="31e3a66b">
                                           <div className="elementor-element elementor-element-32842046 elementor-widget elementor-widget-image" data-id="32842046" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Residential-2.png" className="attachment-large size-large wp-image-1160" alt="" />
+                                            <HomeIcon name="homePurchase" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-7cfce3cf elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="7cfce3cf" data-widget_type="heading.default">
@@ -212,7 +212,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-5135d86e e-con-full e-flex e-con e-child" data-id="5135d86e">
                                         <div className="elementor-element elementor-element-6cd6f930 e-con-full e-flex e-con e-child" data-id="6cd6f930">
                                           <div className="elementor-element elementor-element-68aaa0dd elementor-widget elementor-widget-image" data-id="68aaa0dd" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Residential-3.png" className="attachment-large size-large wp-image-1161" alt="" />
+                                            <HomeIcon name="construction" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-104f4fbd elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="104f4fbd" data-widget_type="heading.default">
@@ -274,7 +274,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-4b2fea35 e-con-full e-flex e-con e-child" data-id="4b2fea35">
                                         <div className="elementor-element elementor-element-b1d43dc e-con-full e-flex e-con e-child" data-id="b1d43dc">
                                           <div className="elementor-element elementor-element-69e8e686 elementor-widget elementor-widget-image" data-id="69e8e686" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Residential-4.png" className="attachment-large size-large wp-image-1162" alt="" />
+                                            <HomeIcon name="renovation" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-7ee7176e elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="7ee7176e" data-widget_type="heading.default">
@@ -336,7 +336,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-41700b5a e-con-full e-flex e-con e-child" data-id="41700b5a">
                                         <div className="elementor-element elementor-element-20c7f2f8 e-con-full e-flex e-con e-child" data-id="20c7f2f8">
                                           <div className="elementor-element elementor-element-361a8913 elementor-widget elementor-widget-image" data-id="361a8913" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Residential-5.png" className="attachment-large size-large wp-image-1163" alt="" />
+                                            <HomeIcon name="scheduledFinancing" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-1a8e11d4 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1a8e11d4" data-widget_type="heading.default">
@@ -398,7 +398,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-766127e e-con-full e-flex e-con e-child" data-id="766127e">
                                         <div className="elementor-element elementor-element-2104a995 e-con-full e-flex e-con e-child" data-id="2104a995">
                                           <div className="elementor-element elementor-element-4fc1ca7e elementor-widget elementor-widget-image" data-id="4fc1ca7e" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Residential-6.png" className="attachment-large size-large wp-image-1164" alt="" />
+                                            <HomeIcon name="refinancing" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-4747c64e elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="4747c64e" data-widget_type="heading.default">
@@ -430,10 +430,10 @@ export default function Services() {
                           </div>
                         </div>
                         <div className="elementor-swiper-button elementor-swiper-button-prev" role="button" tabIndex="0" aria-label="Previous">
-                          <Icon name="eicon-chevron-left" />
+                          <HomeIcon name="chevronLeft" />
                         </div>
                         <div className="elementor-swiper-button elementor-swiper-button-next" role="button" tabIndex="0" aria-label="Next">
-                          <Icon name="eicon-chevron-right" />
+                          <HomeIcon name="chevronRight" />
                         </div>
                         <div className="swiper-pagination" />
                       </div>
@@ -477,7 +477,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-8af553e e-con-full e-flex e-con e-child" data-id="8af553e">
                                         <div className="elementor-element elementor-element-42cf6d15 e-con-full e-flex e-con e-child" data-id="42cf6d15">
                                           <div className="elementor-element elementor-element-4b5da5e2 elementor-widget elementor-widget-image" data-id="4b5da5e2" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Commercial-1.png" className="attachment-large size-large wp-image-1169" alt="" />
+                                            <HomeIcon name="wallet" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-254ff85d elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="254ff85d" data-widget_type="heading.default">
@@ -539,7 +539,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-109cd017 e-con-full e-flex e-con e-child" data-id="109cd017">
                                         <div className="elementor-element elementor-element-44bd959a e-con-full e-flex e-con e-child" data-id="44bd959a">
                                           <div className="elementor-element elementor-element-15a9049d elementor-widget elementor-widget-image" data-id="15a9049d" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Commercial-2.png" className="attachment-large size-large wp-image-1170" alt="" />
+                                            <HomeIcon name="businessFinancing" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-25c636dd elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="25c636dd" data-widget_type="heading.default">
@@ -601,7 +601,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-5cd42edf e-con-full e-flex e-con e-child" data-id="5cd42edf">
                                         <div className="elementor-element elementor-element-57a3cf76 e-con-full e-flex e-con e-child" data-id="57a3cf76">
                                           <div className="elementor-element elementor-element-5410ebe1 elementor-widget elementor-widget-image" data-id="5410ebe1" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Commercial-3.png" className="attachment-large size-large wp-image-1171" alt="" />
+                                            <HomeIcon name="fundingAdvice" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-579c9d18 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="579c9d18" data-widget_type="heading.default">
@@ -663,7 +663,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-549b96d4 e-con-full e-flex e-con e-child" data-id="549b96d4">
                                         <div className="elementor-element elementor-element-4c74cb3e e-con-full e-flex e-con e-child" data-id="4c74cb3e">
                                           <div className="elementor-element elementor-element-2382e2b6 elementor-widget elementor-widget-image" data-id="2382e2b6" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Commercial-4.png" className="attachment-large size-large wp-image-1172" alt="" />
+                                            <HomeIcon name="budgetCheck" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-400f5956 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="400f5956" data-widget_type="heading.default">
@@ -725,7 +725,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-583fe48d e-con-full e-flex e-con e-child" data-id="583fe48d">
                                         <div className="elementor-element elementor-element-4a033d1e e-con-full e-flex e-con e-child" data-id="4a033d1e">
                                           <div className="elementor-element elementor-element-1844e1e elementor-widget elementor-widget-image" data-id="1844e1e" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Commercial-5.png" className="attachment-large size-large wp-image-1173" alt="" />
+                                            <HomeIcon name="rateComparison" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-2478edc5 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2478edc5" data-widget_type="heading.default">
@@ -787,7 +787,7 @@ export default function Services() {
                                       <div className="elementor-element elementor-element-2098e278 e-con-full e-flex e-con e-child" data-id="2098e278">
                                         <div className="elementor-element elementor-element-4ed172ac e-con-full e-flex e-con e-child" data-id="4ed172ac">
                                           <div className="elementor-element elementor-element-4ef761e4 elementor-widget elementor-widget-image" data-id="4ef761e4" data-widget_type="image.default">
-                                            <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/03/Icon-Commercial-6.png" className="attachment-large size-large wp-image-1174" alt="" />
+                                            <HomeIcon name="personalSupport" variant="card" />
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-2a671eb6 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2a671eb6" data-widget_type="heading.default">
@@ -819,10 +819,10 @@ export default function Services() {
                           </div>
                         </div>
                         <div className="elementor-swiper-button elementor-swiper-button-prev" role="button" tabIndex="0" aria-label="Previous">
-                          <Icon name="eicon-chevron-left" />
+                          <HomeIcon name="chevronLeft" />
                         </div>
                         <div className="elementor-swiper-button elementor-swiper-button-next" role="button" tabIndex="0" aria-label="Next">
-                          <Icon name="eicon-chevron-right" />
+                          <HomeIcon name="chevronRight" />
                         </div>
                         <div className="swiper-pagination" />
                       </div>
@@ -845,7 +845,7 @@ export default function Services() {
             <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
               <span className="elementor-button-content-wrapper">
                 <span className="elementor-button-icon">
-                  <Icon name="fas-arrow-circle-right" />
+                  <HomeIcon name="arrowRight" />
                 </span>
                 {" "}
                 <span className="elementor-button-text">Kostenloses Erstgespräch</span>

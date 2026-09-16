@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 433b8abf) by mowix-export/convert-html.mjs.
-import Icon from "./Icon";
+import HomeIcon from "./HomeIcon";
 
 export default function Process() {
   return (
@@ -14,7 +14,7 @@ export default function Process() {
                   <li className="elementor-icon-list-item">
                     <a href="#">
                       <span className="elementor-icon-list-icon">
-                        <Icon name="far-dot-circle" />
+                        <HomeIcon name="process" />
                       </span>
                       {" "}
                       <span className="elementor-icon-list-text">So funktioniert Ihre Finanzierung</span>
@@ -28,7 +28,7 @@ export default function Process() {
             </div>
             <div className="elementor-element elementor-element-597bfd4e e-con-full e-flex e-con e-child" data-id="597bfd4e" data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateY_effect":"yes","motion_fx_translateY_speed":{"unit":"px","size":5,"sizes":[]},"motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":50}},"motion_fx_range":"viewport","motion_fx_devices":["desktop","tablet","mobile"]}'>
               <div className="elementor-element elementor-element-6d909a90 elementor-widget elementor-widget-image" data-id="6d909a90" data-widget_type="image.default">
-                <img loading="lazy" decoding="async" width="729" height="1024" src="/mowix/images/2026/02/Why-choose-us-Iamge-1-729x1024.png" className="attachment-large size-large wp-image-542" alt="" />
+                <img loading="lazy" decoding="async" width="4500" height="3000" src="/mowix/images/related_content_imgs/mortgage advisor reviewing documents with clients.jpg" className="attachment-large size-large wp-image-542" alt="Berater erklärt einem Paar die nächsten Schritte ihrer Finanzierung" />
               </div>
             </div>
             <div className="elementor-element elementor-element-5486c2b1 e-con-full e-flex elementor-invisible e-con e-child" data-id="5486c2b1" data-settings='{"animation":"fadeInRight"}'>
@@ -39,7 +39,7 @@ export default function Process() {
                 <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
                   <span className="elementor-button-content-wrapper">
                     <span className="elementor-button-icon">
-                      <Icon name="fas-arrow-circle-right" />
+                      <HomeIcon name="arrowRight" />
                     </span>
                     {" "}
                     <span className="elementor-button-text">Beratung vereinbaren</span>
@@ -55,7 +55,7 @@ export default function Process() {
                   <div className="elementor-element elementor-element-7e8c875a elementor-view-default elementor-widget elementor-widget-icon" data-id="7e8c875a" data-widget_type="icon.default">
                     <div className="elementor-icon-wrapper">
                       <div className="elementor-icon">
-                        <Icon name="fas-check" />
+                        <HomeIcon name="check" />
                       </div>
                     </div>
                   </div>
@@ -86,7 +86,7 @@ export default function Process() {
                   <div className="elementor-element elementor-element-4a53dbba elementor-view-default elementor-widget elementor-widget-icon" data-id="4a53dbba" data-widget_type="icon.default">
                     <div className="elementor-icon-wrapper">
                       <div className="elementor-icon">
-                        <Icon name="fas-check" />
+                        <HomeIcon name="bankComparison" />
                       </div>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ export default function Process() {
             </div>
             <div className="elementor-element elementor-element-76b47e4e e-con-full e-flex e-con e-child" data-id="76b47e4e">
               <div className="elementor-element elementor-element-67db69f3 elementor-widget elementor-widget-image" data-id="67db69f3" data-widget_type="image.default">
-                <img loading="lazy" decoding="async" width="800" height="800" src="/mowix/images/2026/03/Why-Choose-Us.jpg" className="attachment-large size-large wp-image-1192" alt="" />
+                <img loading="lazy" decoding="async" width="4160" height="2773" src="/mowix/images/related_content_imgs/mortgage application documents calculator.jpg" className="attachment-large size-large wp-image-1192" alt="Finanzierungsunterlagen mit Taschenrechner für den Bankenvergleich" />
               </div>
             </div>
             <div className="elementor-element elementor-element-60bf3a87 e-con-full e-flex e-con e-child" data-id="60bf3a87">
@@ -117,7 +117,7 @@ export default function Process() {
                   <div className="elementor-element elementor-element-8b4e171 elementor-view-default elementor-widget elementor-widget-icon" data-id="8b4e171" data-widget_type="icon.default">
                     <div className="elementor-icon-wrapper">
                       <div className="elementor-icon">
-                        <Icon name="fas-check" />
+                        <HomeIcon name="financing" />
                       </div>
                     </div>
                   </div>
@@ -148,7 +148,7 @@ export default function Process() {
                   <div className="elementor-element elementor-element-427a6488 elementor-view-default elementor-widget elementor-widget-icon" data-id="427a6488" data-widget_type="icon.default">
                     <div className="elementor-icon-wrapper">
                       <div className="elementor-icon">
-                        <Icon name="fas-check" />
+                        <HomeIcon name="check" />
                       </div>
                     </div>
                   </div>

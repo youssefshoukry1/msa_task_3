@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 78696582) by mowix-export/convert-html.mjs.
-import Icon from "./Icon";
+import HomeIcon from "./HomeIcon";
 
 export default function Blog() {
   return (
@@ -13,7 +13,7 @@ export default function Blog() {
                 <li className="elementor-icon-list-item">
                   <a href="#">
                     <span className="elementor-icon-list-icon">
-                      <Icon name="far-dot-circle" />
+                      <HomeIcon name="blog" />
                     </span>
                     {" "}
                     <span className="elementor-icon-list-text">Wissen rund um Finanzierung</span>
@@ -33,7 +33,7 @@ export default function Blog() {
                     <div className="elementor-element elementor-element-060e89c e-flex e-con-boxed e-con e-parent" data-id="060e89c">
                       <div className="e-con-inner">
                         <div className="elementor-element elementor-element-a341deb elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="a341deb" data-widget_type="theme-post-featured-image.default">
-                          <img loading="lazy" decoding="async" width="800" height="534" src="/mowix/images/2026/02/Blog-6-1024x683.jpg" className="attachment-large size-large wp-image-1226" alt="" />
+              <img loading="lazy" decoding="async" width="3317" height="2517" src="/mowix/images/related_content_imgs/couple calculating home buying budget.jpg" className="attachment-large size-large wp-image-1226" alt="Paar berechnet das Budget für den Immobilienkauf" />
                         </div>
                         <div className="elementor-element elementor-element-50bff99 e-con-full e-flex e-con e-child" data-id="50bff99">
                           <div className="elementor-element elementor-element-4ceefca e-con-full e-flex e-con e-child" data-id="4ceefca">
@@ -41,7 +41,7 @@ export default function Blog() {
                               <ul className="elementor-inline-items elementor-icon-list-items elementor-post-info">
                                 <li className="elementor-icon-list-item elementor-repeater-item-693c173 elementor-inline-item" itemProp="about">
                                   <span className="elementor-icon-list-icon">
-                                    <Icon name="fas-tags" />
+                                    <HomeIcon name="tag" />
                                   </span>
                                   {" "}
                                   <span className="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-terms">
@@ -62,7 +62,7 @@ export default function Blog() {
                               <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
                                 <span className="elementor-button-content-wrapper">
                                   <span className="elementor-button-icon">
-                                    <Icon name="fas-chevron-circle-right" />
+                                    <HomeIcon name="arrowRight" />
                                   </span>
                                   {" "}
                                   <span className="elementor-button-text">Mehr erfahren</span>
@@ -78,7 +78,7 @@ export default function Blog() {
                     <div className="elementor-element elementor-element-060e89c e-flex e-con-boxed e-con e-parent" data-id="060e89c">
                       <div className="e-con-inner">
                         <div className="elementor-element elementor-element-a341deb elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="a341deb" data-widget_type="theme-post-featured-image.default">
-                          <img loading="lazy" decoding="async" width="800" height="534" src="/mowix/images/2026/02/Blog-5-1024x683.jpg" className="attachment-large size-large wp-image-1225" alt="" />
+              <img loading="lazy" decoding="async" width="4500" height="3000" src="/mowix/images/related_content_imgs/pexels-rdne-8292895.jpg" className="attachment-large size-large wp-image-1225" alt="Berater erläutert unterschiedliche Hypothekenzinsen" />
                         </div>
                         <div className="elementor-element elementor-element-50bff99 e-con-full e-flex e-con e-child" data-id="50bff99">
                           <div className="elementor-element elementor-element-4ceefca e-con-full e-flex e-con e-child" data-id="4ceefca">
@@ -86,7 +86,7 @@ export default function Blog() {
                               <ul className="elementor-inline-items elementor-icon-list-items elementor-post-info">
                                 <li className="elementor-icon-list-item elementor-repeater-item-693c173 elementor-inline-item" itemProp="about">
                                   <span className="elementor-icon-list-icon">
-                                    <Icon name="fas-tags" />
+                                    <HomeIcon name="tag" />
                                   </span>
                                   {" "}
                                   <span className="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-terms">
@@ -107,7 +107,7 @@ export default function Blog() {
                               <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
                                 <span className="elementor-button-content-wrapper">
                                   <span className="elementor-button-icon">
-                                    <Icon name="fas-chevron-circle-right" />
+                                    <HomeIcon name="arrowRight" />
                                   </span>
                                   {" "}
                                   <span className="elementor-button-text">Mehr erfahren</span>
@@ -123,7 +123,7 @@ export default function Blog() {
                     <div className="elementor-element elementor-element-060e89c e-flex e-con-boxed e-con e-parent" data-id="060e89c">
                       <div className="e-con-inner">
                         <div className="elementor-element elementor-element-a341deb elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="a341deb" data-widget_type="theme-post-featured-image.default">
-                          <img loading="lazy" decoding="async" width="800" height="534" src="/mowix/images/2026/02/Blog-4-1024x683.jpg" className="attachment-large size-large wp-image-1224" alt="" />
+              <img loading="lazy" decoding="async" width="4500" height="3000" src="/mowix/images/related_content_imgs/mortgage refinancing consultation.jpg" className="attachment-large size-large wp-image-1224" alt="Beratungsgespräch über die Umschuldung eines Immobilienkredits" />
                         </div>
                         <div className="elementor-element elementor-element-50bff99 e-con-full e-flex e-con e-child" data-id="50bff99">
                           <div className="elementor-element elementor-element-4ceefca e-con-full e-flex e-con e-child" data-id="4ceefca">
@@ -131,7 +131,7 @@ export default function Blog() {
                               <ul className="elementor-inline-items elementor-icon-list-items elementor-post-info">
                                 <li className="elementor-icon-list-item elementor-repeater-item-693c173 elementor-inline-item" itemProp="about">
                                   <span className="elementor-icon-list-icon">
-                                    <Icon name="fas-tags" />
+                                    <HomeIcon name="tag" />
                                   </span>
                                   {" "}
                                   <span className="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-terms">
@@ -152,7 +152,7 @@ export default function Blog() {
                               <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
                                 <span className="elementor-button-content-wrapper">
                                   <span className="elementor-button-icon">
-                                    <Icon name="fas-chevron-circle-right" />
+                                    <HomeIcon name="arrowRight" />
                                   </span>
                                   {" "}
                                   <span className="elementor-button-text">Mehr erfahren</span>

@@ -7,6 +7,573 @@
 @import "tailwindcss/utilities.css" layer(utilities);
 @import "../styles/mowix/index.css" layer(mowix);
 
+/* Finance palette: deep navy for trust and warm gold for premium accents. */
+.elementor-kit-3 {
+  --e-global-color-bc69b90: #c89b3c;
+  --e-global-color-b7f3b2e: #102a43;
+  --e-global-color-a35ec1d: #102a4300;
+}
+
+/* The exported hero avatars use a hard-coded version of the accent color. */
+.elementor-971 .elementor-element.elementor-element-2fa54ff1 img,
+.elementor-971 .elementor-element.elementor-element-1401cb2d img,
+.elementor-971 .elementor-element.elementor-element-22f9abac img {
+  border-color: #c89b3c;
+}
+
+/* Testimonial quote badges use the navy/gold palette instead of the exported
+   green bitmap treatment. */
+.elementor-971 :is(
+  .elementor-element-577a283d,
+  .elementor-element-30875571,
+  .elementor-element-7ba019c,
+  .elementor-element-716af884
+) {
+  align-items: center;
+  background-color: var(--e-global-color-b7f3b2e) !important;
+  background-image: none !important;
+  justify-content: center;
+}
+
+.elementor-971 .testimonial-quote-icon {
+  color: var(--e-global-color-bc69b90);
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+/* Financing service card photography. Elementor can move backgrounds into a
+   runtime layer, so each image is applied to both the card and that layer. */
+.elementor-971 .elementor-element.elementor-element-4303f253 {
+  --service-card-image: url("/mowix/images/related_content_imgs/couple%20buying%20apartment.jpg");
+}
+
+.elementor-971 .elementor-element.elementor-element-491c2243 {
+  --service-card-image: url("/mowix/images/related_content_imgs/couple%20buying%20house.webp");
+}
+
+.elementor-971 .elementor-element.elementor-element-6bb1ea81 {
+  --service-card-image: url("/mowix/images/related_content_imgs/modern%20house%20construction.webp");
+}
+
+.elementor-971 .elementor-element.elementor-element-1ad2502c {
+  --service-card-image: url("/mowix/images/related_content_imgs/home%20renovation%20couple.webp");
+}
+
+.elementor-971 .elementor-element.elementor-element-73bfb998 {
+  --service-card-image: url("/mowix/images/related_content_imgs/financial%20advisor%20meeting%20couple.webp");
+}
+
+.elementor-971 .elementor-element.elementor-element-522e4b1d {
+  --service-card-image: url("/mowix/images/related_content_imgs/loan%20consultation.webp");
+}
+
+.elementor-971 .elementor-element.elementor-element-78070704 {
+  --service-card-image: url("/mowix/images/related_content_imgs/personal%20finance%20consultation.webp");
+}
+
+.elementor-971 .elementor-element.elementor-element-2d9a2803 {
+  --service-card-image: url("/mowix/images/related_content_imgs/business%20financial%20meeting.webp");
+}
+
+.elementor-971 .elementor-element.elementor-element-65bcdf1c {
+  --service-card-image: url("/mowix/images/related_content_imgs/financial%20advisor%20documents.webp");
+}
+
+.elementor-971 .elementor-element.elementor-element-3f05f6be {
+  --service-card-image: url("/mowix/images/related_content_imgs/couple%20financial%20planning.webp");
+}
+
+.elementor-971 .elementor-element.elementor-element-17b79ccb {
+  --service-card-image: url("/mowix/images/related_content_imgs/mortgage%20comparison.webp");
+}
+
+.elementor-971 .elementor-element.elementor-element-58f74161 {
+  --service-card-image: url("/mowix/images/related_content_imgs/financial%20advisor%20client.webp");
+}
+
+.elementor-971 :is(
+  .elementor-element-4303f253,
+  .elementor-element-491c2243,
+  .elementor-element-6bb1ea81,
+  .elementor-element-1ad2502c,
+  .elementor-element-73bfb998,
+  .elementor-element-522e4b1d,
+  .elementor-element-78070704,
+  .elementor-element-2d9a2803,
+  .elementor-element-65bcdf1c,
+  .elementor-element-3f05f6be,
+  .elementor-element-17b79ccb,
+  .elementor-element-58f74161
+) {
+  background-image: var(--service-card-image) !important;
+}
+
+.elementor-971 :is(
+  .elementor-element-4303f253,
+  .elementor-element-491c2243,
+  .elementor-element-6bb1ea81,
+  .elementor-element-1ad2502c,
+  .elementor-element-73bfb998,
+  .elementor-element-522e4b1d,
+  .elementor-element-78070704,
+  .elementor-element-2d9a2803,
+  .elementor-element-65bcdf1c,
+  .elementor-element-3f05f6be,
+  .elementor-element-17b79ccb,
+  .elementor-element-58f74161
+) > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+  background-image: var(--service-card-image) !important;
+}
+
+/* Responsive service cards: keep the information panel inside the photo,
+   remove the exported decorative cut-outs, and let content determine height. */
+.elementor-971 :is(
+  .elementor-element-4303f253,
+  .elementor-element-491c2243,
+  .elementor-element-6bb1ea81,
+  .elementor-element-1ad2502c,
+  .elementor-element-73bfb998,
+  .elementor-element-522e4b1d,
+  .elementor-element-78070704,
+  .elementor-element-2d9a2803,
+  .elementor-element-65bcdf1c,
+  .elementor-element-3f05f6be,
+  .elementor-element-17b79ccb,
+  .elementor-element-58f74161
+) {
+  isolation: isolate;
+  min-height: clamp(500px, 38vw, 610px) !important;
+  overflow: hidden;
+  position: relative;
+}
+
+.elementor-971 :is(
+  .elementor-element-6991eea0,
+  .elementor-element-7ea78d79,
+  .elementor-element-e543fdc,
+  .elementor-element-6a0a476d,
+  .elementor-element-2bfaf115,
+  .elementor-element-6d5a8b6a,
+  .elementor-element-3474c484,
+  .elementor-element-655ed1fa,
+  .elementor-element-46e5e632,
+  .elementor-element-18f7a5d8,
+  .elementor-element-770743d4,
+  .elementor-element-19edff72
+) {
+  bottom: 16px;
+  left: 16px;
+  max-width: none !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  position: absolute;
+  right: 16px;
+  width: auto !important;
+  z-index: 3;
+}
+
+.elementor-971 :is(
+  .elementor-element-6991eea0,
+  .elementor-element-7ea78d79,
+  .elementor-element-e543fdc,
+  .elementor-element-6a0a476d,
+  .elementor-element-2bfaf115,
+  .elementor-element-6d5a8b6a,
+  .elementor-element-3474c484,
+  .elementor-element-655ed1fa,
+  .elementor-element-46e5e632,
+  .elementor-element-18f7a5d8,
+  .elementor-element-770743d4,
+  .elementor-element-19edff72
+) > :not(:is(
+  .elementor-element-2831c53c,
+  .elementor-element-149ac785,
+  .elementor-element-5135d86e,
+  .elementor-element-4b2fea35,
+  .elementor-element-41700b5a,
+  .elementor-element-766127e,
+  .elementor-element-8af553e,
+  .elementor-element-109cd017,
+  .elementor-element-5cd42edf,
+  .elementor-element-549b96d4,
+  .elementor-element-583fe48d,
+  .elementor-element-2098e278
+)) {
+  display: none !important;
+}
+
+.elementor-971 :is(
+  .elementor-element-2831c53c,
+  .elementor-element-149ac785,
+  .elementor-element-5135d86e,
+  .elementor-element-4b2fea35,
+  .elementor-element-41700b5a,
+  .elementor-element-766127e,
+  .elementor-element-8af553e,
+  .elementor-element-109cd017,
+  .elementor-element-5cd42edf,
+  .elementor-element-549b96d4,
+  .elementor-element-583fe48d,
+  .elementor-element-2098e278
+) {
+  backdrop-filter: blur(12px);
+  background: rgb(248 249 245 / 94%) !important;
+  border: 1px solid rgb(255 255 255 / 65%);
+  border-radius: 24px !important;
+  box-shadow: 0 18px 45px rgb(16 42 67 / 18%);
+  display: grid !important;
+  gap: 12px 18px !important;
+  grid-template-columns: 58px minmax(0, 1fr);
+  min-height: 0 !important;
+  padding: clamp(20px, 2vw, 28px) !important;
+  width: 100% !important;
+}
+
+.elementor-971 :is(
+  .elementor-element-2831c53c,
+  .elementor-element-149ac785,
+  .elementor-element-5135d86e,
+  .elementor-element-4b2fea35,
+  .elementor-element-41700b5a,
+  .elementor-element-766127e,
+  .elementor-element-8af553e,
+  .elementor-element-109cd017,
+  .elementor-element-5cd42edf,
+  .elementor-element-549b96d4,
+  .elementor-element-583fe48d,
+  .elementor-element-2098e278
+) > * {
+  margin: 0 !important;
+  max-width: none !important;
+  width: auto !important;
+}
+
+.elementor-971 :is(
+  .elementor-element-2831c53c,
+  .elementor-element-149ac785,
+  .elementor-element-5135d86e,
+  .elementor-element-4b2fea35,
+  .elementor-element-41700b5a,
+  .elementor-element-766127e,
+  .elementor-element-8af553e,
+  .elementor-element-109cd017,
+  .elementor-element-5cd42edf,
+  .elementor-element-549b96d4,
+  .elementor-element-583fe48d,
+  .elementor-element-2098e278
+) > :first-child {
+  align-self: center;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.elementor-971 :is(
+  .elementor-element-2831c53c,
+  .elementor-element-149ac785,
+  .elementor-element-5135d86e,
+  .elementor-element-4b2fea35,
+  .elementor-element-41700b5a,
+  .elementor-element-766127e,
+  .elementor-element-8af553e,
+  .elementor-element-109cd017,
+  .elementor-element-5cd42edf,
+  .elementor-element-549b96d4,
+  .elementor-element-583fe48d,
+  .elementor-element-2098e278
+) > :nth-child(2) {
+  align-self: center;
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+}
+
+.elementor-971 :is(
+  .elementor-element-2831c53c,
+  .elementor-element-149ac785,
+  .elementor-element-5135d86e,
+  .elementor-element-4b2fea35,
+  .elementor-element-41700b5a,
+  .elementor-element-766127e,
+  .elementor-element-8af553e,
+  .elementor-element-109cd017,
+  .elementor-element-5cd42edf,
+  .elementor-element-549b96d4,
+  .elementor-element-583fe48d,
+  .elementor-element-2098e278
+) > :nth-child(3) {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+
+.elementor-971 :is(
+  .elementor-element-2831c53c,
+  .elementor-element-149ac785,
+  .elementor-element-5135d86e,
+  .elementor-element-4b2fea35,
+  .elementor-element-41700b5a,
+  .elementor-element-766127e,
+  .elementor-element-8af553e,
+  .elementor-element-109cd017,
+  .elementor-element-5cd42edf,
+  .elementor-element-549b96d4,
+  .elementor-element-583fe48d,
+  .elementor-element-2098e278
+) .elementor-heading-title {
+  font-size: clamp(1.2rem, 1.6vw, 1.75rem) !important;
+  line-height: 1.15 !important;
+  overflow-wrap: anywhere;
+}
+
+.elementor-971 :is(
+  .elementor-element-2831c53c,
+  .elementor-element-149ac785,
+  .elementor-element-5135d86e,
+  .elementor-element-4b2fea35,
+  .elementor-element-41700b5a,
+  .elementor-element-766127e,
+  .elementor-element-8af553e,
+  .elementor-element-109cd017,
+  .elementor-element-5cd42edf,
+  .elementor-element-549b96d4,
+  .elementor-element-583fe48d,
+  .elementor-element-2098e278
+) p {
+  font-size: clamp(0.92rem, 1.05vw, 1.05rem) !important;
+  line-height: 1.55 !important;
+  margin: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .elementor-971 :is(
+    .elementor-element-4303f253,
+    .elementor-element-491c2243,
+    .elementor-element-6bb1ea81,
+    .elementor-element-1ad2502c,
+    .elementor-element-73bfb998,
+    .elementor-element-522e4b1d,
+    .elementor-element-78070704,
+    .elementor-element-2d9a2803,
+    .elementor-element-65bcdf1c,
+    .elementor-element-3f05f6be,
+    .elementor-element-17b79ccb,
+    .elementor-element-58f74161
+  ) {
+    min-height: 520px !important;
+  }
+
+  .elementor-971 :is(
+    .elementor-element-6991eea0,
+    .elementor-element-7ea78d79,
+    .elementor-element-e543fdc,
+    .elementor-element-6a0a476d,
+    .elementor-element-2bfaf115,
+    .elementor-element-6d5a8b6a,
+    .elementor-element-3474c484,
+    .elementor-element-655ed1fa,
+    .elementor-element-46e5e632,
+    .elementor-element-18f7a5d8,
+    .elementor-element-770743d4,
+    .elementor-element-19edff72
+  ) {
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+  }
+
+  .elementor-971 :is(
+    .elementor-element-2831c53c,
+    .elementor-element-149ac785,
+    .elementor-element-5135d86e,
+    .elementor-element-4b2fea35,
+    .elementor-element-41700b5a,
+    .elementor-element-766127e,
+    .elementor-element-8af553e,
+    .elementor-element-109cd017,
+    .elementor-element-5cd42edf,
+    .elementor-element-549b96d4,
+    .elementor-element-583fe48d,
+    .elementor-element-2098e278
+  ) {
+    border-radius: 20px !important;
+    gap: 10px 14px !important;
+    grid-template-columns: 46px minmax(0, 1fr);
+    padding: 18px !important;
+  }
+
+  .elementor-971 :is(
+    .elementor-element-2831c53c,
+    .elementor-element-149ac785,
+    .elementor-element-5135d86e,
+    .elementor-element-4b2fea35,
+    .elementor-element-41700b5a,
+    .elementor-element-766127e,
+    .elementor-element-8af553e,
+    .elementor-element-109cd017,
+    .elementor-element-5cd42edf,
+    .elementor-element-549b96d4,
+    .elementor-element-583fe48d,
+    .elementor-element-2098e278
+  ) svg {
+    height: 44px !important;
+    width: 44px !important;
+  }
+}
+
+/* Financing call-to-action photography. Apply it to the runtime motion layer
+   as well, because Elementor moves scrolling backgrounds into that layer. */
+.elementor-971 .elementor-element.elementor-element-fd9fdb9,
+.elementor-971 .elementor-element.elementor-element-fd9fdb9
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("/mowix/images/related_content_imgs/couple%20standing%20outside%20new%20house.jpg") !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Keep the new portrait-oriented testimonial photos inside the original
+   circular 70px avatar treatment. */
+.elementor-971 :is(
+  .elementor-element-1798c426,
+  .elementor-element-1f98e4a0,
+  .elementor-element-5ebe17b4,
+  .elementor-element-39d739b
+) img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Keep the Google rating as its own companion card instead of overlaying the
+   testimonial photo. The compact horizontal layout stacks gracefully. */
+.elementor-971 .elementor-element.elementor-element-17974187 {
+  align-content: stretch;
+  gap: 20px !important;
+  position: relative;
+}
+
+.elementor-971 .elementor-element.elementor-element-318eaafd {
+  line-height: 0;
+  text-align: initial !important;
+  width: 100%;
+}
+
+.elementor-971 .elementor-element.elementor-element-318eaafd img {
+  border-radius: 140px 30px 140px 30px;
+  display: block;
+  height: clamp(400px, 38vw, 550px) !important;
+  object-fit: cover;
+  object-position: center right;
+  width: 100% !important;
+}
+
+.elementor-971 .elementor-element.elementor-element-97300fe {
+  --position: relative;
+  align-items: center;
+  border: 1px solid rgb(255 255 255 / 45%);
+  border-radius: 24px !important;
+  box-shadow: 0 16px 38px rgb(16 42 67 / 14%);
+  display: grid;
+  gap: 18px !important;
+  grid-template-columns: 58px minmax(0, 1fr);
+  left: auto !important;
+  max-width: none !important;
+  padding: 20px 24px !important;
+  position: relative !important;
+  right: auto !important;
+  top: auto !important;
+  width: 100% !important;
+}
+
+.elementor-971 .elementor-element.elementor-element-61b9be67 {
+  margin: 0 !important;
+  max-width: 58px !important;
+  width: 58px !important;
+}
+
+.elementor-971 .elementor-element.elementor-element-61b9be67 img {
+  display: block;
+  height: 52px;
+  object-fit: contain;
+  width: 52px;
+}
+
+.elementor-971 .elementor-element.elementor-element-696f5774 {
+  align-items: center;
+  display: grid !important;
+  gap: 5px 10px !important;
+  grid-template-columns: auto minmax(0, 1fr);
+  justify-content: start;
+  min-width: 0;
+  width: 100% !important;
+}
+
+.elementor-971 .elementor-element.elementor-element-11250b39 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.elementor-971 .elementor-element.elementor-element-11250b39 .elementor-heading-title {
+  font-size: 1.15rem !important;
+  font-weight: 700;
+}
+
+.elementor-971 .elementor-element.elementor-element-764d655a {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+}
+
+.elementor-971 .elementor-element.elementor-element-27d5041f {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  max-width: none !important;
+  text-align: left !important;
+  width: 100% !important;
+}
+
+.elementor-971 .elementor-element.elementor-element-27d5041f .elementor-heading-title {
+  font-size: 1.1rem !important;
+  line-height: 1.25 !important;
+}
+
+@media (max-width: 1024px) {
+  .elementor-971 .elementor-element.elementor-element-318eaafd img {
+    border-radius: 100px 26px 100px 26px;
+    height: clamp(340px, 55vw, 500px) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor-971 .elementor-element.elementor-element-17974187 {
+    gap: 14px !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-318eaafd img {
+    border-radius: 70px 22px 70px 22px;
+    height: clamp(290px, 88vw, 410px) !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-97300fe {
+    border-radius: 20px !important;
+    gap: 14px !important;
+    grid-template-columns: 48px minmax(0, 1fr);
+    padding: 16px 18px !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-61b9be67 {
+    max-width: 48px !important;
+    width: 48px !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-61b9be67 img {
+    height: 44px;
+    width: 44px;
+  }
+}
+
 /* Raw WordPress export (HTML/CSS/scripts) is reference material, not app source. */
 @source not "../../mowix-export";
 
