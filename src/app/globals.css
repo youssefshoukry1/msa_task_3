@@ -1183,3 +1183,9 @@ html {
     overflow-wrap: normal;
   }
 }
+
+@media (max-width: 359px) {
+  .elementor-971 .elementor-element.elementor-element-22f9abac {
+    display: none !important;
+  }
+}
