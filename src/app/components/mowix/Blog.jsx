@@ -4,7 +4,7 @@ import HomeIcon from "./HomeIcon";
 
 export default function Blog() {
   return (
-    <div className="elementor-element elementor-element-78696582 e-flex e-con-boxed e-con e-parent" data-id="78696582">
+    <div id="ratgeber" className="elementor-element elementor-element-78696582 e-flex e-con-boxed e-con e-parent" data-id="78696582">
       <div className="e-con-inner">
         <div className="elementor-element elementor-element-6036c416 e-con-full e-flex e-con e-child" data-id="6036c416">
           <div className="elementor-element elementor-element-4e13b10f e-con-full e-flex elementor-invisible e-con e-child" data-id="4e13b10f" data-settings='{"animation":"fadeInRight"}'>

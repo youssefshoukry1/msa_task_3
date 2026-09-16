@@ -678,3 +678,485 @@ html {
   -webkit-mask-size: contain;
   mask-size: contain;
 }
+
+/* Service tabs: stack the two tab buttons on phones. */
+@media (max-width: 767px) {
+  .elementor-971 .elementor-element-19f73a07 > .e-n-tabs > .e-n-tabs-heading {
+    align-items: stretch !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    gap: 10px !important;
+    margin-inline: auto;
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .elementor-971 .elementor-element-19f73a07 > .e-n-tabs > .e-n-tabs-heading > .e-n-tab-title {
+    flex: 0 0 auto !important;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+}
+
+/* Navbar anchors: smooth-scroll to home page sections. */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.elementor-971 > [id] {
+  scroll-margin-top: 24px;
+}
+
+/* Keep all seven section links on one row of the desktop menu. */
+.elementor-335 .elementor-element-87b56ed .elementor-nav-menu--main .elementor-item {
+  padding-inline: 10px !important;
+  white-space: nowrap;
+}
+
+@media (max-width: 1279px) {
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--main .elementor-item {
+    padding-inline: 6px !important;
+  }
+}
+
+@media (max-width: 1099px) {
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--main .elementor-item {
+    padding-inline: 4px !important;
+  }
+}
+
+/* Contact form in the call-to-action section. */
+.elementor-971 .cta-form-widget {
+  width: 100%;
+}
+
+.elementor-971 .cta-form {
+  display: grid;
+  gap: 14px;
+  width: 100%;
+}
+
+.elementor-971 .cta-form__row {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.elementor-971 .cta-form__field {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.elementor-971 .cta-form label {
+  color: var(--e-global-color-b7f3b2e);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.elementor-971 .cta-form :is(input, textarea) {
+  background: #fff;
+  border: 1px solid rgb(16 42 67 / 16%);
+  border-radius: 14px;
+  color: var(--e-global-color-b7f3b2e);
+  font: inherit;
+  font-size: 15px;
+  padding: 12px 16px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  width: 100%;
+}
+
+.elementor-971 .cta-form textarea {
+  min-height: 116px;
+  resize: vertical;
+}
+
+.elementor-971 .cta-form :is(input, textarea)::placeholder {
+  color: rgb(16 42 67 / 45%);
+}
+
+.elementor-971 .cta-form :is(input, textarea):focus {
+  border-color: var(--e-global-color-bc69b90);
+  box-shadow: 0 0 0 3px rgb(200 155 60 / 22%);
+  outline: none;
+}
+
+.elementor-971 .cta-form [aria-invalid="true"] {
+  border-color: #c0392b;
+}
+
+.elementor-971 .cta-form__error {
+  color: #c0392b;
+  font-size: 13px;
+  margin: 0;
+}
+
+.elementor-971 .cta-form .elementor-widget-button {
+  margin-top: 6px;
+}
+
+.elementor-971 .cta-form button.elementor-button {
+  border: 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.elementor-971 .cta-form button.elementor-button:disabled {
+  cursor: progress;
+  opacity: 0.7;
+}
+
+.elementor-971 .cta-form__status {
+  color: var(--e-global-color-b7f3b2e);
+  font-size: 14px;
+  margin: 0;
+}
+
+.elementor-971 .cta-form__status:empty {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .elementor-971 .cta-form__row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Give the call-to-action text column room for the contact form. */
+@media (min-width: 1025px) {
+  .elementor-971 .elementor-element.elementor-element-30abae33 {
+    --width: 42%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {
+  .elementor-971 .elementor-element.elementor-element-4e32baf0 {
+    --padding-left: 60px;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-30abae33 {
+    --width: 44%;
+  }
+}
+
+/* Compact call-to-action section on desktop. */
+@media (min-width: 1025px) {
+  .elementor-971 .elementor-element.elementor-element-4e32baf0 {
+    --padding-top: 64px;
+    --padding-bottom: 64px;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-30abae33 {
+    --gap: 16px;
+    --row-gap: 16px;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-1af2c6bd {
+    --spacer-size: 8px;
+  }
+
+  .elementor-971 .elementor-element-1af2c6bd .elementor-spacer-inner {
+    height: 8px !important;
+  }
+
+  .elementor-971 .cta-form,
+  .elementor-971 .cta-form__row {
+    gap: 10px;
+  }
+
+  .elementor-971 .cta-form :is(input, textarea) {
+    padding: 10px 14px;
+  }
+
+  .elementor-971 .cta-form textarea {
+    min-height: 88px;
+  }
+
+  .elementor-971 .cta-form .elementor-widget-button {
+    margin-top: 2px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .elementor-971 .elementor-element.elementor-element-4e32baf0 {
+    --padding-top: 48px;
+    --padding-bottom: 48px;
+  }
+
+  .elementor-971 .cta-form textarea {
+    height: 84px;
+    min-height: 84px;
+  }
+}
+
+/* Fixed-height message box: resizing it would stretch the section and its photo. */
+.elementor-971 .cta-form textarea {
+  overflow-y: auto;
+  resize: none;
+}
+
+/* House logo mark (roughly 1.19:1): size by height instead of the old wide wordmark. */
+.elementor-335 .elementor-element-fa06027 img.site-logo-mark {
+  height: 58px !important;
+  max-width: none;
+  width: auto !important;
+}
+
+.elementor-1002 .elementor-element-9453c1e img.site-logo-mark {
+  height: 80px !important;
+  max-width: none;
+  width: auto !important;
+}
+
+@media (max-width: 767px) {
+  .elementor-335 .elementor-element-fa06027 img.site-logo-mark {
+    height: 42px !important;
+  }
+
+  .elementor-1002 .elementor-element-9453c1e img.site-logo-mark {
+    height: 64px !important;
+  }
+}
+
+/* ===== Hero: fit the whole section into one screen =====
+   The background stays a CoverImage (to be swapped for a video later). */
+.elementor-971 .elementor-element.elementor-element-613fb167 {
+  min-height: calc(100svh - 20px) !important;
+}
+
+.elementor-971 .elementor-element.elementor-element-9b68d0b {
+  flex: 1 1 auto;
+  min-height: 0 !important;
+}
+
+.elementor-971 .elementor-element-341fc598 .elementor-heading-title {
+  font-size: clamp(52px, 5.4vw, 80px) !important;
+  line-height: 1.05 !important;
+}
+
+/* Tablet and phone: compact text and a one-row rating card. */
+@media (max-width: 1024px) {
+  .elementor-971 .elementor-element-9b68d0b > .e-con-inner {
+    gap: 24px !important;
+    justify-content: space-between !important;
+    min-height: calc(100svh - 20px);
+    padding: 120px 0 28px !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-1f8b3af0 {
+    gap: 16px !important;
+  }
+
+  .elementor-971 .elementor-element-341fc598 .elementor-heading-title {
+    font-size: clamp(32px, 6.6vw, 52px) !important;
+    line-height: 1.08 !important;
+  }
+
+  .elementor-971 .elementor-element-ba1d3ed p {
+    font-size: 15px !important;
+    line-height: 1.55 !important;
+    margin: 0;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-18d4aedd {
+    align-items: center !important;
+    flex-direction: row !important;
+    gap: 16px !important;
+    justify-content: space-between !important;
+    padding: 14px 18px !important;
+    width: 100% !important;
+  }
+
+  .elementor-971 :is(.elementor-element-1838b068, .elementor-element-2d8b8f27) {
+    display: none !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-4aadc77d,
+  .elementor-971 .elementor-element.elementor-element-2592e80b {
+    align-items: center !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 10px !important;
+    justify-content: flex-start !important;
+    width: auto !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-58e11d85 {
+    flex: 0 0 auto;
+    width: auto !important;
+  }
+
+  .elementor-971 :is(.elementor-element-2fa54ff1, .elementor-element-1401cb2d, .elementor-element-22f9abac) {
+    width: 40px !important;
+  }
+
+  .elementor-971 :is(.elementor-element-2fa54ff1, .elementor-element-1401cb2d, .elementor-element-22f9abac) img {
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  .elementor-971 :is(.elementor-element-1401cb2d, .elementor-element-22f9abac) {
+    margin-left: -10px !important;
+  }
+
+  .elementor-971 .elementor-element-2781729a .elementor-heading-title,
+  .elementor-971 .elementor-element-57bb1f2b .elementor-heading-title {
+    font-size: 13px !important;
+    line-height: 1.25 !important;
+    text-align: left !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-2781729a,
+  .elementor-971 .elementor-element.elementor-element-57bb1f2b {
+    max-width: 110px;
+    width: auto !important;
+  }
+
+  .elementor-971 .elementor-element-6a92a725 {
+    align-items: center !important;
+    flex-direction: row !important;
+    gap: 4px !important;
+    width: auto !important;
+  }
+
+  .elementor-971 .elementor-element-1f96a16b .elementor-counter-number-wrapper {
+    font-size: 34px !important;
+    line-height: 1 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor-971 .elementor-element-9b68d0b > .e-con-inner {
+    gap: 18px !important;
+    padding: 92px 0 20px !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-1f8b3af0 {
+    gap: 12px !important;
+  }
+
+  .elementor-971 .elementor-element-341fc598 .elementor-heading-title {
+    font-size: clamp(30px, 9vw, 38px) !important;
+  }
+
+  .elementor-971 .elementor-element-ba1d3ed p {
+    font-size: 13.5px !important;
+  }
+
+  .elementor-971 .elementor-element-295e47e3 .elementor-button {
+    padding-block: 12px !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-18d4aedd {
+    border-radius: 20px !important;
+    gap: 10px !important;
+    padding: 12px 14px !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-2781729a {
+    display: none !important;
+  }
+
+  .elementor-971 .elementor-element-1f96a16b .elementor-counter-number-wrapper {
+    font-size: 28px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  /* The hero starts 15px lower from tablet up. */
+  .elementor-971 .elementor-element.elementor-element-613fb167 {
+    min-height: calc(100svh - 35px) !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .elementor-971 .elementor-element-9b68d0b > .e-con-inner {
+    padding-inline: clamp(24px, 3.5vw, 64px) !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .elementor-971 .elementor-element-9b68d0b > .e-con-inner {
+    min-height: calc(100svh - 35px);
+    padding: 110px 24px 128px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .elementor-971 .elementor-element.elementor-element-18d4aedd {
+    flex-wrap: nowrap !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-2592e80b {
+    flex-shrink: 1;
+    min-width: 0;
+  }
+
+  .elementor-971 .elementor-element-1f96a16b {
+    padding-left: 2px;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor-971 .elementor-element.elementor-element-57bb1f2b {
+    max-width: 92px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .elementor-971 .elementor-element.elementor-element-57bb1f2b {
+    max-width: none !important;
+    width: auto !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor-971 :is(.elementor-element-2fa54ff1, .elementor-element-1401cb2d, .elementor-element-22f9abac) {
+    width: 34px !important;
+  }
+
+  .elementor-971 :is(.elementor-element-2fa54ff1, .elementor-element-1401cb2d, .elementor-element-22f9abac) img {
+    height: 34px !important;
+    width: 34px !important;
+  }
+
+  .elementor-971 .elementor-element-57bb1f2b .elementor-heading-title {
+    font-size: 12px !important;
+  }
+}
+
+/* Hero background video: fill the rounded hero box like the old photo did. */
+.elementor-971 .cover-video {
+  display: block;
+  height: 100%;
+  inset: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.elementor-971 .elementor-element.elementor-element-613fb167 {
+  background-color: var(--e-global-color-b7f3b2e);
+}
+
+/* Legibility scrim over the hero video, strongest behind the text. */
+.elementor-971 .elementor-element.elementor-element-613fb167::after {
+  background: linear-gradient(90deg, rgb(16 42 67 / 62%) 0%, rgb(16 42 67 / 32%) 45%, rgb(16 42 67 / 0%) 75%);
+  border-radius: inherit;
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (max-width: 767px) {
+  .elementor-971 .elementor-element.elementor-element-613fb167::after {
+    background: linear-gradient(180deg, rgb(16 42 67 / 20%) 0%, rgb(16 42 67 / 55%) 40%, rgb(16 42 67 / 15%) 75%);
+  }
+}

@@ -1,10 +1,11 @@
 // Generated from the Mowix WordPress home page (Elementor page 971, container 5d8eebdc) by mowix-export/convert-html.mjs.
 import CoverImage from "./CoverImage";
+import CtaContactForm from "./CtaContactForm";
 import HomeIcon from "./HomeIcon";
 
 export default function Cta() {
   return (
-    <div className="elementor-element elementor-element-5d8eebdc e-con-full e-flex e-con e-parent" data-id="5d8eebdc">
+    <div id="kontakt" className="elementor-element elementor-element-5d8eebdc e-con-full e-flex e-con e-parent" data-id="5d8eebdc">
       <div className="elementor-element elementor-element-4e32baf0 e-con-full e-flex e-con e-child" data-id="4e32baf0">
         <div className="elementor-element elementor-element-30abae33 e-con-full e-flex elementor-invisible e-con e-child" data-id="30abae33" data-settings='{"animation":"fadeInLeft"}'>
           <div className="elementor-element elementor-element-570e9770 elementor-widget elementor-widget-heading" data-id="570e9770" data-widget_type="heading.default">
@@ -13,16 +14,8 @@ export default function Cta() {
           <div className="elementor-element elementor-element-535e484a elementor-widget elementor-widget-text-editor" data-id="535e484a" data-widget_type="text-editor.default">
             <p>Erzählen Sie uns von Ihrem Vorhaben. Wir zeigen Ihnen unverbindlich, welche Finanzierungsmöglichkeiten zu Ihrer Situation passen.</p>
           </div>
-          <div className="elementor-element elementor-element-4c019e29 elementor-align-justify elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="4c019e29" data-widget_type="button.default">
-            <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
-              <span className="elementor-button-content-wrapper">
-                <span className="elementor-button-icon">
-                  <HomeIcon name="arrowRight" />
-                </span>
-                {" "}
-                <span className="elementor-button-text">Erstgespräch anfragen</span>
-              </span>
-            </a>
+          <div className="elementor-element elementor-widget cta-form-widget">
+            <CtaContactForm />
           </div>
           <div className="elementor-element elementor-element-1af2c6bd elementor-widget elementor-widget-spacer" data-id="1af2c6bd" data-widget_type="spacer.default">
             <div className="elementor-spacer">

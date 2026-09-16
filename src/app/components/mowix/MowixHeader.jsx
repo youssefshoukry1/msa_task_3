@@ -9,8 +9,8 @@ export default function MowixHeader() {
         <div className="elementor-element elementor-element-8431714 e-con-full e-flex e-con e-child" data-id="8431714">
           <div className="elementor-element elementor-element-cb0fe9c e-con-full e-flex e-con e-child" data-id="cb0fe9c">
             <div className="elementor-element elementor-element-fa06027 elementor-widget__width-initial elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="fa06027" data-widget_type="theme-site-logo.default">
-              <a href="/">
-                <Image width="512" height="143" src="/mowix/images/2026/02/Mowix-Logo.png" className="attachment-full size-full wp-image-1099" alt="" sizes="(max-width: 767px) 115px, 183px" priority />
+              <a href="#start">
+                <Image width="608" height="512" src="/mowix/images/brand/logo-mark.png" className="site-logo-mark" alt="Startseite" sizes="(max-width: 767px) 48px, 68px" priority />
               </a>
             </div>
             <div className="elementor-element elementor-element-e439ee2 e-con-full e-flex e-con e-child" data-id="e439ee2">
@@ -40,57 +40,26 @@ export default function MowixHeader() {
               <div className="elementor-element elementor-element-87b56ed elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="87b56ed" data-settings='{"full_width":"stretch","layout":"horizontal","submenu_icon":{"value":"<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-caret-down\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\"></path></svg>","library":"fa-solid"},"toggle":"burger"}' data-widget_type="nav-menu.default">
                 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
                   <ul id="menu-1-87b56ed" className="elementor-nav-menu">
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-971 current_page_item menu-item-1042">
-                      <a href="/" aria-current="page" className="elementor-item elementor-item-active">Startseite</a>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#leistungen" className="elementor-item elementor-item-anchor">Leistungen</a>
                     </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1038">
-                      <a href="#" className="elementor-item">Über uns</a>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#ueber-uns" className="elementor-item elementor-item-anchor">Über uns</a>
                     </li>
-                    <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1049">
-                      <a href="#" className="elementor-item elementor-item-anchor has-submenu" id="sm-main-1" aria-haspopup="true" aria-controls="sm-main-2" aria-expanded="false">
-                        Leistungen
-                        <span className="sub-arrow"><Icon name="fas-caret-down" /></span>
-                      </a>
-                      <ul className="sub-menu elementor-nav-menu--dropdown" id="sm-main-2" role="group" aria-hidden="true" aria-labelledby="sm-main-1" aria-expanded="false">
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1047">
-                          <a href="#" className="elementor-sub-item">Alle Leistungen</a>
-                        </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1055">
-                          <a href="#" className="elementor-sub-item">Immobilienfinanzierung</a>
-                        </li>
-                      </ul>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#ablauf" className="elementor-item elementor-item-anchor">Ablauf</a>
                     </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1799">
-                      <a href="#" className="elementor-item">Ablauf</a>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#loesungen" className="elementor-item elementor-item-anchor">Lösungen</a>
                     </li>
-                    <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1058">
-                      <a href="#" className="elementor-item elementor-item-anchor has-submenu" id="sm-main-3" aria-haspopup="true" aria-controls="sm-main-4" aria-expanded="false">
-                        Wissen
-                        <span className="sub-arrow"><Icon name="fas-caret-down" /></span>
-                      </a>
-                      <ul className="sub-menu elementor-nav-menu--dropdown" id="sm-main-4" role="group" aria-hidden="true" aria-labelledby="sm-main-3" aria-expanded="false">
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1044">
-                          <a href="#" className="elementor-sub-item">Kreditvergleich</a>
-                        </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1048">
-                          <a href="#" className="elementor-sub-item">Team</a>
-                        </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1039">
-                          <a href="#" className="elementor-sub-item">Blog</a>
-                        </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-post menu-item-1059">
-                          <a href="#" className="elementor-sub-item">Ratgeber</a>
-                        </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1041">
-                          <a href="#" className="elementor-sub-item">FAQ</a>
-                        </li>
-                        <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1060">
-                          <a href="#" className="elementor-sub-item">404</a>
-                        </li>
-                      </ul>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#bewertungen" className="elementor-item elementor-item-anchor">Bewertungen</a>
                     </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1040">
-                      <a href="#" className="elementor-item">Kontakt</a>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#kontakt" className="elementor-item elementor-item-anchor">Kontakt</a>
+                    </li>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#ratgeber" className="elementor-item elementor-item-anchor">Ratgeber</a>
                     </li>
                   </ul>
                 </nav>
@@ -104,63 +73,32 @@ export default function MowixHeader() {
                 </div>
                 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
                   <ul id="menu-2-87b56ed" className="elementor-nav-menu">
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-971 current_page_item menu-item-1042">
-                      <a href="/" aria-current="page" className="elementor-item elementor-item-active" tabIndex="-1">Startseite</a>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#leistungen" className="elementor-item elementor-item-anchor" tabIndex="-1">Leistungen</a>
                     </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1038">
-                      <a href="#" className="elementor-item" tabIndex="-1">Über uns</a>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#ueber-uns" className="elementor-item elementor-item-anchor" tabIndex="-1">Über uns</a>
                     </li>
-                    <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1049">
-                      <a href="#" className="elementor-item elementor-item-anchor has-submenu" tabIndex="-1" id="sm-dropdown-1" aria-haspopup="true" aria-controls="sm-dropdown-2" aria-expanded="false">
-                        Leistungen
-                        <span className="sub-arrow"><Icon name="fas-caret-down" /></span>
-                      </a>
-                      <ul className="sub-menu elementor-nav-menu--dropdown" id="sm-dropdown-2" role="group" aria-hidden="true" aria-labelledby="sm-dropdown-1" aria-expanded="false">
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1047">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">Alle Leistungen</a>
-                        </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1055">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">Immobilienfinanzierung</a>
-                        </li>
-                      </ul>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#ablauf" className="elementor-item elementor-item-anchor" tabIndex="-1">Ablauf</a>
                     </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1799">
-                      <a href="#" className="elementor-item" tabIndex="-1">Ablauf</a>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#loesungen" className="elementor-item elementor-item-anchor" tabIndex="-1">Lösungen</a>
                     </li>
-                    <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1058">
-                      <a href="#" className="elementor-item elementor-item-anchor has-submenu" tabIndex="-1" id="sm-dropdown-3" aria-haspopup="true" aria-controls="sm-dropdown-4" aria-expanded="false">
-                        Wissen
-                        <span className="sub-arrow"><Icon name="fas-caret-down" /></span>
-                      </a>
-                      <ul className="sub-menu elementor-nav-menu--dropdown" id="sm-dropdown-4" role="group" aria-hidden="true" aria-labelledby="sm-dropdown-3" aria-expanded="false">
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1044">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">Kreditvergleich</a>
-                        </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1048">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">Team</a>
-                        </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1039">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">Blog</a>
-                        </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-post menu-item-1059">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">Ratgeber</a>
-                        </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1041">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">FAQ</a>
-                        </li>
-                        <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1060">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">404</a>
-                        </li>
-                      </ul>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#bewertungen" className="elementor-item elementor-item-anchor" tabIndex="-1">Bewertungen</a>
                     </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1040">
-                      <a href="#" className="elementor-item" tabIndex="-1">Kontakt</a>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#kontakt" className="elementor-item elementor-item-anchor" tabIndex="-1">Kontakt</a>
+                    </li>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                      <a href="#ratgeber" className="elementor-item elementor-item-anchor" tabIndex="-1">Ratgeber</a>
                     </li>
                   </ul>
                 </nav>
               </div>
               <div className="elementor-element elementor-element-318d7f5 elementor-align-justify elementor-widget__width-initial elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="318d7f5" data-widget_type="button.default">
-                <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
+                <a className="elementor-button elementor-button-link elementor-size-sm" href="#kontakt">
                   <span className="elementor-button-content-wrapper">
                     <span className="elementor-button-icon">
                       <Icon name="fas-arrow-circle-right" />

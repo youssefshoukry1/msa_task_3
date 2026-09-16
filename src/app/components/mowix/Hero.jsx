@@ -1,30 +1,30 @@
 // Generated from the Mowix WordPress home page (Elementor page 971, container 7fb7d3ba) by mowix-export/convert-html.mjs.
 import Image from "next/image";
-import CoverImage from "./CoverImage";
+import CoverVideo from "./CoverVideo";
 import HomeIcon from "./HomeIcon";
 
 export default function Hero() {
   return (
-    <div className="elementor-element elementor-element-7fb7d3ba e-con-full e-flex e-con e-parent" data-id="7fb7d3ba">
+    <div id="start" className="elementor-element elementor-element-7fb7d3ba e-con-full e-flex e-con e-parent" data-id="7fb7d3ba">
       <div className="elementor-element elementor-element-613fb167 e-con-full e-flex e-con e-child" data-id="613fb167">
-        <CoverImage src="/mowix/images/2026/02/Hero-Background-New.jpg" sizes="96vw" position="bottom center" priority />
+        <CoverVideo src="/mowix/images/bg_dreaming.mp4" />
         <div className="elementor-element elementor-element-9b68d0b e-flex e-con-boxed e-con e-child" data-id="9b68d0b">
           <div className="e-con-inner">
             <div className="elementor-element elementor-element-1f8b3af0 e-con-full e-flex elementor-invisible e-con e-child" data-id="1f8b3af0" data-settings='{"animation":"fadeInLeft"}'>
               <div className="elementor-element elementor-element-341fc598 elementor-widget elementor-widget-heading" data-id="341fc598" data-widget_type="heading.default">
-                <h1 className="elementor-heading-title elementor-size-default">Ihre Finanzierung. Persönlich geplant.</h1>
+                <h1 className="elementor-heading-title elementor-size-default">Finanzierung, persönlich geplant.</h1>
               </div>
               <div className="elementor-element elementor-element-ba1d3ed elementor-widget-tablet__width-initial elementor-widget elementor-widget-text-editor" data-id="ba1d3ed" data-widget_type="text-editor.default">
-                <p className="p1">Wir begleiten Sie unabhängig und persönlich auf dem Weg zur passenden Immobilienfinanzierung – von der ersten Beratung bis zur erfolgreichen Auszahlung.</p>
+                <p className="p1">Unabhängige Beratung für Ihre Immobilienfinanzierung – vom Erstgespräch bis zur Auszahlung.</p>
               </div>
               <div className="elementor-element elementor-element-295e47e3 elementor-align-justify elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="295e47e3" data-widget_type="button.default">
-                <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
+                <a className="elementor-button elementor-button-link elementor-size-sm" href="#kontakt">
                   <span className="elementor-button-content-wrapper">
                     <span className="elementor-button-icon">
                       <HomeIcon name="arrowRight" />
                     </span>
                     {" "}
-                    <span className="elementor-button-text">Finanzierung anfragen</span>
+                    <span className="elementor-button-text">Beratung anfragen</span>
                   </span>
                 </a>
               </div>
@@ -49,11 +49,11 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-2781729a elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2781729a" data-widget_type="heading.default">
-                  <p className="elementor-heading-title elementor-size-default">Vertrauen durch persönliche Beratung</p>
+                  <p className="elementor-heading-title elementor-size-default">Persönlich beraten</p>
                 </div>
               </div>
               <div className="elementor-element elementor-element-1838b068 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="1838b068" data-widget_type="heading.default">
-                <h6 className="elementor-heading-title elementor-size-default">Kompetent, transparent und verlässlich vom Erstgespräch bis zum Kreditabschluss.</h6>
+                <h6 className="elementor-heading-title elementor-size-default">Kompetent, transparent und verlässlich.</h6>
               </div>
               <div className="elementor-element elementor-element-2d8b8f27 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="2d8b8f27" data-widget_type="divider.default">
                 <div className="elementor-divider">
@@ -89,7 +89,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-57bb1f2b elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="57bb1f2b" data-widget_type="heading.default">
-                  <h5 className="elementor-heading-title elementor-size-default">Durchschnittliche Bewertung</h5>
+                  <h5 className="elementor-heading-title elementor-size-default">Kundenbewertung</h5>
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function Hero() {
               <div className="elementor-element elementor-element-3b35012c elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3b35012c" data-widget_type="icon-list.default">
                 <ul className="elementor-icon-list-items">
                   <li className="elementor-icon-list-item">
-                    <a href="#">
+                    <a href="#leistungen">
                       <span className="elementor-icon-list-icon">
                         <HomeIcon name="housing" />
                       </span>
@@ -124,7 +124,7 @@ export default function Hero() {
               <div className="elementor-element elementor-element-133e114 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="133e114" data-widget_type="icon-list.default">
                 <ul className="elementor-icon-list-items">
                   <li className="elementor-icon-list-item">
-                    <a href="#">
+                    <a href="#leistungen">
                       <span className="elementor-icon-list-icon">
                         <HomeIcon name="bankComparison" />
                       </span>
@@ -137,7 +137,7 @@ export default function Hero() {
               <div className="elementor-element elementor-element-79fa6ee5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="79fa6ee5" data-widget_type="icon-list.default">
                 <ul className="elementor-icon-list-items">
                   <li className="elementor-icon-list-item">
-                    <a href="#">
+                    <a href="#leistungen">
                       <span className="elementor-icon-list-icon">
                         <HomeIcon name="refinancing" />
                       </span>

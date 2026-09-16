@@ -16,8 +16,11 @@ export const metadata = {
   title: "Mowix – Unabhängige Immobilienfinanzierung in Österreich",
   description: "Persönliche Beratung, unabhängiger Bankenvergleich und maßgeschneiderte Finanzierungslösungen für Ihre Immobilie in Österreich.",
   icons: {
-    icon: "/mowix/images/2026/02/Mowix-Favicon-150x150.png",
-    apple: "/mowix/images/2026/02/Mowix-Favicon-300x300.png",
+    icon: [
+      { url: "/mowix/images/brand/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/mowix/images/brand/icon-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: "/mowix/images/brand/apple-touch-icon.png",
   },
 };
 

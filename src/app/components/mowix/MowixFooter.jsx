@@ -11,8 +11,8 @@ export default function MowixFooter() {
             <div className="elementor-element elementor-element-2cbdb90 e-con-full e-flex e-con e-child" data-id="2cbdb90">
               <div className="elementor-element elementor-element-0ac8d7e e-con-full e-flex e-con e-child" data-id="0ac8d7e">
                 <div className="elementor-element elementor-element-9453c1e elementor-widget elementor-widget-image" data-id="9453c1e" data-widget_type="image.default">
-                  <a href="/">
-                    <Image width="512" height="143" src="/mowix/images/2026/02/Mowix-Logo-light.png" className="attachment-large size-large wp-image-1113" alt="" sizes="215px" loading="eager" />
+                  <a href="#start">
+                    <Image width="608" height="512" src="/mowix/images/brand/logo-mark-light.png" className="site-logo-mark" alt="Startseite" sizes="96px" loading="eager" />
                   </a>
                 </div>
                 <div className="elementor-element elementor-element-74471e2 elementor-widget elementor-widget-heading" data-id="74471e2" data-widget_type="heading.default">
@@ -29,16 +29,7 @@ export default function MowixFooter() {
                 <div className="elementor-element elementor-element-2811745 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="2811745" data-widget_type="icon-list.default">
                   <ul className="elementor-icon-list-items">
                     <li className="elementor-icon-list-item">
-                      <a href="#">
-                        <span className="elementor-icon-list-icon">
-                          <Icon name="fas-chevron-circle-right" />
-                        </span>
-                        {" "}
-                        <span className="elementor-icon-list-text">Wohnbaufinanzierung</span>
-                      </a>
-                    </li>
-                    <li className="elementor-icon-list-item">
-                      <a href="#">
+                      <a href="#leistungen">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
@@ -47,25 +38,34 @@ export default function MowixFooter() {
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
-                      <a href="#">
+                      <a href="#leistungen">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Hausbau</span>
+                        <span className="elementor-icon-list-text">Hauskauf</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
-                      <a href="#">
+                      <a href="#leistungen">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Sanierung</span>
+                        <span className="elementor-icon-list-text">Neubaufinanzierung</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
-                      <a href="#">
+                      <a href="#leistungen">
+                        <span className="elementor-icon-list-icon">
+                          <Icon name="fas-chevron-circle-right" />
+                        </span>
+                        {" "}
+                        <span className="elementor-icon-list-text">Sanierung &amp; Modernisierung</span>
+                      </a>
+                    </li>
+                    <li className="elementor-icon-list-item">
+                      <a href="#leistungen">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
@@ -74,12 +74,12 @@ export default function MowixFooter() {
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
-                      <a href="#">
+                      <a href="#leistungen">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Bankenvergleich</span>
+                        <span className="elementor-icon-list-text">Konditionenvergleich</span>
                       </a>
                     </li>
                   </ul>
@@ -92,7 +92,7 @@ export default function MowixFooter() {
                 <div className="elementor-element elementor-element-ad18382 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="ad18382" data-widget_type="icon-list.default">
                   <ul className="elementor-icon-list-items">
                     <li className="elementor-icon-list-item">
-                      <a href="#">
+                      <a href="#ueber-uns">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
@@ -101,7 +101,7 @@ export default function MowixFooter() {
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
-                      <a href="#">
+                      <a href="#ablauf">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
@@ -110,34 +110,34 @@ export default function MowixFooter() {
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
-                      <a href="#">
+                      <a href="#loesungen">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Kreditvergleich</span>
+                        <span className="elementor-icon-list-text">Lösungen</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
-                      <a href="#">
+                      <a href="#bewertungen">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">FAQ</span>
+                        <span className="elementor-icon-list-text">Bewertungen</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
-                      <a href="#">
+                      <a href="#ratgeber">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Blog</span>
+                        <span className="elementor-icon-list-text">Ratgeber</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
-                      <a href="#">
+                      <a href="#kontakt">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
