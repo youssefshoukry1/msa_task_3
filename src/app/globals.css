@@ -12,6 +12,44 @@
   --e-global-color-bc69b90: #c89b3c;
   --e-global-color-b7f3b2e: #102a43;
   --e-global-color-a35ec1d: #102a4300;
+  /* Preserve the exported CSS variable name while upgrading its typeface. */
+  --font-montserrat: var(--font-manrope);
+  --e-global-typography-primary-font-family: var(--font-playfair);
+  --e-global-typography-secondary-font-family: var(--font-playfair);
+  --e-global-typography-text-font-family: var(--font-manrope);
+  --e-global-typography-accent-font-family: var(--font-manrope);
+  font-family: var(--font-manrope), "Segoe UI", sans-serif;
+}
+
+/* Premium editorial hierarchy: expressive serif headlines paired with a
+   precise sans-serif for all reading and interface content. */
+.elementor-kit-3 .elementor-widget-heading
+  :is(h1, h2, h3, h4).elementor-heading-title {
+  font-family: var(--font-playfair), Georgia, serif !important;
+  font-kerning: normal;
+  letter-spacing: -0.028em;
+  text-wrap: balance;
+}
+
+.elementor-kit-3 :is(
+  p,
+  a,
+  button,
+  input,
+  textarea,
+  select,
+  li,
+  h5,
+  h6,
+  .elementor-button,
+  .elementor-icon-list-text
+) {
+  font-family: var(--font-manrope), "Segoe UI", sans-serif;
+}
+
+.elementor-kit-3 p {
+  font-feature-settings: "kern" 1, "liga" 1;
+  letter-spacing: -0.008em;
 }
 
 /* The exported hero avatars use a hard-coded version of the accent color. */

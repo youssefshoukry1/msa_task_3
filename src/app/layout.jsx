@@ -1,11 +1,16 @@
-import { Montserrat } from "next/font/google";
+import { Manrope, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 
-// The only font the Mowix CSS uses; referenced there as var(--font-montserrat).
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
+const manrope = Manrope({
+  variable: "--font-manrope",
+  subsets: ["latin"],
+  style: "normal",
+});
+
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
   subsets: ["latin"],
   style: ["normal", "italic"],
 });
@@ -17,7 +22,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="de" className={montserrat.variable}>
+    <html lang="de" className={`${manrope.variable} ${playfair.variable}`}>
       <body>
         <Navbar />
         {children}
