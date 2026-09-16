@@ -17,18 +17,18 @@ export default function Stats() {
                         <Icon name="far-dot-circle" />
                       </span>
                       {" "}
-                      <span className="elementor-icon-list-text">Company Stats</span>
+                      <span className="elementor-icon-list-text">Erfahrung, die Vertrauen schafft</span>
                     </a>
                   </li>
                 </ul>
               </div>
               <div className="elementor-element elementor-element-ae5abd3 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="ae5abd3" data-widget_type="heading.default">
-                <h2 className="elementor-heading-title elementor-size-default">Performance You Can Trust.</h2>
+                <h2 className="elementor-heading-title elementor-size-default">Finanzierung mit Überblick.</h2>
               </div>
             </div>
             <div className="elementor-element elementor-element-38977f09 e-con-full e-flex elementor-invisible e-con e-child" data-id="38977f09" data-settings='{"animation":"fadeInRight"}'>
               <div className="elementor-element elementor-element-6f307289 elementor-widget elementor-widget-text-editor" data-id="6f307289" data-widget_type="text-editor.default">
-                <p className="p1">” We don’t just design landscapes we build long-term outdoor environments that grow better every season. From private gardens to large commercial properties, our work speaks through numbers and lasting relationships. “</p>
+                <p className="p1">„Wir vermitteln nicht einfach einen Kredit. Wir entwickeln eine Finanzierung, die langfristig zu Ihren Zielen und finanziellen Möglichkeiten passt.“</p>
               </div>
             </div>
           </div>
@@ -55,11 +55,11 @@ export default function Stats() {
                   <h5 className="elementor-heading-title elementor-size-default">+</h5>
                 </div>
                 <div className="elementor-element elementor-element-19f72ec3 elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="19f72ec3" data-widget_type="heading.default">
-                  <h5 className="elementor-heading-title elementor-size-default">Years Experience</h5>
+                  <h5 className="elementor-heading-title elementor-size-default">Jahre Erfahrung</h5>
                 </div>
               </div>
               <div className="elementor-element elementor-element-38539486 elementor-widget elementor-widget-heading" data-id="38539486" data-widget_type="heading.default">
-                <h6 className="elementor-heading-title elementor-size-default">Delivering professional landscaping and garden care services with consistent quality and attention to detail.</h6>
+                <h6 className="elementor-heading-title elementor-size-default">Fundierte Beratung und persönliche Begleitung für tragfähige Finanzierungsentscheidungen.</h6>
               </div>
             </div>
             <div className="elementor-element elementor-element-6c748ea1 e-con-full e-flex e-con e-child" data-id="6c748ea1" data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateY_effect":"yes","motion_fx_translateY_speed":{"unit":"px","size":0.3,"sizes":[]},"motion_fx_devices":["desktop","tablet"],"motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}'>
@@ -84,11 +84,11 @@ export default function Stats() {
                   <h2 className="elementor-heading-title elementor-size-default">+</h2>
                 </div>
                 <div className="elementor-element elementor-element-3cd3eecd elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="3cd3eecd" data-widget_type="heading.default">
-                  <h5 className="elementor-heading-title elementor-size-default">Projects Completed</h5>
+                  <h5 className="elementor-heading-title elementor-size-default">Finanzierungen begleitet</h5>
                 </div>
               </div>
               <div className="elementor-element elementor-element-2e63a9db elementor-widget elementor-widget-heading" data-id="2e63a9db" data-widget_type="heading.default">
-                <h6 className="elementor-heading-title elementor-size-default">Residential yards, commercial spaces, and public landscapes designed and maintained with precision.</h6>
+                <h6 className="elementor-heading-title elementor-size-default">Individuelle Lösungen für Kauf, Neubau, Sanierung und bestehende Kredite.</h6>
               </div>
             </div>
             <div className="elementor-element elementor-element-6b041375 e-con-full e-flex e-con e-child" data-id="6b041375" data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateY_effect":"yes","motion_fx_translateY_direction":"negative","motion_fx_translateY_speed":{"unit":"px","size":0.3,"sizes":[]},"motion_fx_range":"page","motion_fx_devices":["desktop","tablet"],"motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}'>
@@ -113,11 +113,11 @@ export default function Stats() {
                   <h2 className="elementor-heading-title elementor-size-default">%</h2>
                 </div>
                 <div className="elementor-element elementor-element-74c05036 elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="74c05036" data-widget_type="heading.default">
-                  <h5 className="elementor-heading-title elementor-size-default">Client Satisfaction</h5>
+                  <h5 className="elementor-heading-title elementor-size-default">Kundenzufriedenheit</h5>
                 </div>
               </div>
               <div className="elementor-element elementor-element-684ae488 elementor-widget elementor-widget-heading" data-id="684ae488" data-widget_type="heading.default">
-                <h6 className="elementor-heading-title elementor-size-default">Clients stay with us because we show up on time, communicate clearly, and deliver exactly what we promise.</h6>
+                <h6 className="elementor-heading-title elementor-size-default">Klare Kommunikation, transparente Vergleiche und Betreuung auf Augenhöhe.</h6>
               </div>
             </div>
           </div>

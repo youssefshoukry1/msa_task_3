@@ -16,13 +16,13 @@ export default function Services() {
                       <Icon name="far-dot-circle" />
                     </span>
                     {" "}
-                    <span className="elementor-icon-list-text">Complete Landscaping Solutions for Every Property</span>
+                    <span className="elementor-icon-list-text">Finanzierungslösungen für Ihr Vorhaben</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className="elementor-element elementor-element-21783bee elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="21783bee" data-widget_type="heading.default">
-              <h2 className="elementor-heading-title elementor-size-default">Professional Services for Homes &amp; Businesses.</h2>
+              <h2 className="elementor-heading-title elementor-size-default">Unsere Leistungen rund um Ihre Finanzierung.</h2>
             </div>
           </div>
           <div className="elementor-element elementor-element-479665e0 e-con-full e-flex e-con e-child" data-id="479665e0">
@@ -36,7 +36,7 @@ export default function Services() {
                       <Icon name="fas-tree" />
                     </span>
                     {" "}
-                    <span className="e-n-tab-title-text">Residential Services</span>
+                    <span className="e-n-tab-title-text">Immobilienfinanzierung</span>
                   </button>
                   {" "}
                   <button id="e-n-tab-title-4356326472" data-tab-title-id="e-n-tab-title-4356326472" className="e-n-tab-title" aria-selected="false" data-tab-index="2" role="tab" tabIndex="-1" aria-controls="e-n-tab-content-4356326472" style={{ "--n-tabs-title-order": "2" }}>
@@ -46,7 +46,7 @@ export default function Services() {
                       <Icon name="fas-building" />
                     </span>
                     {" "}
-                    <span className="e-n-tab-title-text">Commercial Services</span>
+                    <span className="e-n-tab-title-text">Weitere Finanzierungen</span>
                   </button>
                 </div>
                 <div className="e-n-tabs-content">
@@ -92,10 +92,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-10908173 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="10908173" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Lawn Care Services</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Wohnungskauf</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-56462439 elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="56462439" data-widget_type="text-editor.default">
-                                          <p className="p1">Healthy, green lawns maintained with proper mowing, edging, fertilizing, and seasonal treatments to keep your yard looking its best.</p>
+                                          <p className="p1">Eine durchdachte Finanzierung für Ihre Eigentumswohnung – abgestimmt auf Kaufpreis, Eigenmittel und gewünschte Monatsrate.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-1e7e3136 e-con-full e-flex e-con e-child" data-id="1e7e3136">
@@ -154,10 +154,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-7cfce3cf elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="7cfce3cf" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Custom Garden Design</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Hauskauf</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-296069f4 elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="296069f4" data-widget_type="text-editor.default">
-                                          <p>Thoughtfully planned garden layouts that combine plants, pathways, and features into a balanced outdoor space.</p>
+                                          <p>Wir vergleichen Angebote und entwickeln ein langfristig tragfähiges Finanzierungskonzept für Ihr Eigenheim.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-3a99268 e-con-full e-flex e-con e-child" data-id="3a99268">
@@ -216,10 +216,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-104f4fbd elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="104f4fbd" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Tree &amp; Shrub Care</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Neubaufinanzierung</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-152e297f elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="152e297f" data-widget_type="text-editor.default">
-                                          <p>Professional pruning, trimming, and plant health services to ensure safe growth and long-term landscape structure.</p>
+                                          <p>Planungssicherheit für Grundstück, Baukosten und Reserven – mit einer Finanzierung, die zu Ihrem Bauprojekt passt.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-34836094 e-con-full e-flex e-con e-child" data-id="34836094">
@@ -278,10 +278,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-7ee7176e elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="7ee7176e" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Irrigation Installation</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Sanierung &amp; Modernisierung</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-17bc70d0 elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="17bc70d0" data-widget_type="text-editor.default">
-                                          <p>Efficient irrigation system setup and maintenance to support plant health and water conservation.</p>
+                                          <p>Passende Kreditlösungen für Renovierung, thermische Sanierung, Umbau oder energetische Verbesserungen.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-f01317e e-con-full e-flex e-con e-child" data-id="f01317e">
@@ -340,10 +340,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-1a8e11d4 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1a8e11d4" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Patio &amp; Hardscaping</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Anschlussfinanzierung</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-6c48f26b elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="6c48f26b" data-widget_type="text-editor.default">
-                                          <p>Durable patios, walkways, and stone elements that improve usability and elevate outdoor design.</p>
+                                          <p>Rechtzeitig vergleichen und eine passende Lösung für die nächste Zinsperiode Ihres Kredits sichern.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-18f6f978 e-con-full e-flex e-con e-child" data-id="18f6f978">
@@ -402,10 +402,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-4747c64e elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="4747c64e" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Seasonal Yard Cleanup</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Umschuldung</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-21fd67c elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="21fd67c" data-widget_type="text-editor.default">
-                                          <p>Spring and fall cleanups, mulching, and property refresh services to keep your home looking neat year-round.</p>
+                                          <p>Bestehende Finanzierung prüfen, Konditionen vergleichen und mögliche Einsparungen transparent bewerten.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-2631390f e-con-full e-flex e-con e-child" data-id="2631390f">
@@ -481,10 +481,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-254ff85d elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="254ff85d" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Property Maintenance</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Privatkredit</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-7651e8b4 elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="7651e8b4" data-widget_type="text-editor.default">
-                                          <p className="p1">Scheduled landscaping programs designed to keep commercial properties consistently clean and professional.</p>
+                                          <p className="p1">Flexible Finanzierung für persönliche Anschaffungen mit klarer Rate und überschaubarer Laufzeit.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-5c561b68 e-con-full e-flex e-con e-child" data-id="5c561b68">
@@ -543,10 +543,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-25c636dd elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="25c636dd" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Landscape Design</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Unternehmensfinanzierung</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-4bf6d099 elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="4bf6d099" data-widget_type="text-editor.default">
-                                          <p>Strategic outdoor planning that enhances curb appeal while maintaining functionality for business environments.</p>
+                                          <p>Individuelle Lösungen für Investitionen, Betriebsmittel und die Weiterentwicklung Ihres Unternehmens.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-3c6564ce e-con-full e-flex e-con e-child" data-id="3c6564ce">
@@ -605,10 +605,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-579c9d18 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="579c9d18" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Grounds Management</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Förderungsberatung</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-6cf4df elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="6cf4df" data-widget_type="text-editor.default">
-                                          <p>Comprehensive turf care, plant maintenance, and site monitoring for large commercial properties.</p>
+                                          <p>Wir berücksichtigen relevante Wohnbau- und Sanierungsförderungen in Ihrem Finanzierungskonzept.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-13a0d0d4 e-con-full e-flex e-con e-child" data-id="13a0d0d4">
@@ -667,10 +667,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-400f5956 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="400f5956" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Land Clearing Services</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Budget-Check</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-3a3885e elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="3a3885e" data-widget_type="text-editor.default">
-                                          <p>Professional land preparation, grading, and clearing for new developments or property upgrades.</p>
+                                          <p>Eine realistische Einschätzung von Finanzierungsrahmen, Eigenmittelbedarf und monatlicher Belastung.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-6006f4e8 e-con-full e-flex e-con e-child" data-id="6006f4e8">
@@ -729,10 +729,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-2478edc5 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2478edc5" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Commercial Irrigation Systems</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Konditionenvergleich</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-3cc61236 elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="3cc61236" data-widget_type="text-editor.default">
-                                          <p>High-performance irrigation solutions designed for efficiency and long-term reliability.</p>
+                                          <p>Objektiver Vergleich von Zinsen, Gebühren, Laufzeiten und Sondertilgungsmöglichkeiten.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-1b13b2d3 e-con-full e-flex e-con e-child" data-id="1b13b2d3">
@@ -791,10 +791,10 @@ export default function Services() {
                                           </div>
                                         </div>
                                         <div className="elementor-element elementor-element-2a671eb6 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2a671eb6" data-widget_type="heading.default">
-                                          <h4 className="elementor-heading-title elementor-size-default">Snow Removal Services</h4>
+                                          <h4 className="elementor-heading-title elementor-size-default">Persönliche Begleitung</h4>
                                         </div>
                                         <div className="elementor-element elementor-element-7f82f32f elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="7f82f32f" data-widget_type="text-editor.default">
-                                          <p>Seasonal snow and debris removal to maintain safety and accessibility for businesses.</p>
+                                          <p>Ein fester Ansprechpartner koordiniert den Ablauf und begleitet Sie verlässlich bis zum Abschluss.</p>
                                         </div>
                                       </div>
                                       <div className="elementor-element elementor-element-357629f3 e-con-full e-flex e-con e-child" data-id="357629f3">
@@ -848,7 +848,7 @@ export default function Services() {
                   <Icon name="fas-arrow-circle-right" />
                 </span>
                 {" "}
-                <span className="elementor-button-text">Get a Free Consultation</span>
+                <span className="elementor-button-text">Kostenloses Erstgespräch</span>
               </span>
             </a>
           </div>

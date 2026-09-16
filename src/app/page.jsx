@@ -13,7 +13,8 @@ import MowixFooter from "./components/mowix/MowixFooter";
 import ElementorFrontend from "./components/mowix/frontend/ElementorFrontend";
 
 export const metadata = {
-  title: "Mowix – Landscape & Gardening",
+  title: "Mowix – Unabhängige Immobilienfinanzierung in Österreich",
+  description: "Persönliche Beratung, unabhängiger Bankenvergleich und maßgeschneiderte Finanzierungslösungen für Ihre Immobilie in Österreich.",
   icons: {
     icon: "/mowix/images/2026/02/Mowix-Favicon-150x150.png",
     apple: "/mowix/images/2026/02/Mowix-Favicon-300x300.png",
@@ -24,7 +25,7 @@ export default function Home() {
   return (
     // elementor-kit-3 scopes the site's global colors, typography and element styles to this page
     <div className="elementor-kit-3">
-      <a className="skip-link screen-reader-text" href="#content">Skip to content</a>
+      <a className="skip-link screen-reader-text" href="#content">Zum Inhalt springen</a>
       <MowixHeader />
       <div id="content" data-elementor-type="wp-page" data-elementor-id="971" className="elementor elementor-971">
         <Hero />

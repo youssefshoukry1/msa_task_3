@@ -16,13 +16,13 @@ export default function Blog() {
                       <Icon name="far-dot-circle" />
                     </span>
                     {" "}
-                    <span className="elementor-icon-list-text">Insights &amp; Expert Advice</span>
+                    <span className="elementor-icon-list-text">Wissen rund um Finanzierung</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className="elementor-element elementor-element-13efb485 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="13efb485" data-widget_type="heading.default">
-              <h2 className="elementor-heading-title elementor-size-default">Landscaping Tips, Property Care &amp; Outdoor Inspiration</h2>
+              <h2 className="elementor-heading-title elementor-size-default">Gut informiert zur richtigen Entscheidung.</h2>
             </div>
           </div>
           <div className="elementor-element elementor-element-2c804e2b e-con-full e-flex e-con e-child" data-id="2c804e2b">
@@ -39,17 +39,6 @@ export default function Blog() {
                           <div className="elementor-element elementor-element-4ceefca e-con-full e-flex e-con e-child" data-id="4ceefca">
                             <div className="elementor-element elementor-element-7e77ed1 elementor-widget elementor-widget-post-info" data-id="7e77ed1" data-widget_type="post-info.default">
                               <ul className="elementor-inline-items elementor-icon-list-items elementor-post-info">
-                                <li className="elementor-icon-list-item elementor-repeater-item-a1dcac4 elementor-inline-item" itemProp="datePublished">
-                                  <a href="#">
-                                    <span className="elementor-icon-list-icon">
-                                      <Icon name="fas-calendar-check" />
-                                    </span>
-                                    {" "}
-                                    <span className="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
-                                      <time>February 28, 2026</time>
-                                    </span>
-                                  </a>
-                                </li>
                                 <li className="elementor-icon-list-item elementor-repeater-item-693c173 elementor-inline-item" itemProp="about">
                                   <span className="elementor-icon-list-icon">
                                     <Icon name="fas-tags" />
@@ -57,17 +46,17 @@ export default function Blog() {
                                   {" "}
                                   <span className="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-terms">
                                     <span className="elementor-post-info__terms-list">
-                                      <a href="#" className="elementor-post-info__terms-list-item">Commercial Care</a>
+                                      <a href="#" className="elementor-post-info__terms-list-item">Wohnfinanzierung</a>
                                     </span>
                                   </span>
                                 </li>
                               </ul>
                             </div>
                             <div className="elementor-element elementor-element-0885f79 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="0885f79" data-widget_type="theme-post-title.default">
-                              <h4 className="elementor-heading-title elementor-size-default">Commercial Landscape Maintenance Strategies That Reduce Costs</h4>
+                              <h4 className="elementor-heading-title elementor-size-default">Wie viel Immobilie kann ich mir leisten?</h4>
                             </div>
                             <div className="elementor-element elementor-element-cdcbcdc elementor-widget elementor-widget-theme-post-excerpt" data-id="cdcbcdc" data-widget_type="theme-post-excerpt.default">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nam iaculis lectus</p>
+                              <p>Budget, Eigenmittel und Nebenkosten realistisch einschätzen, bevor die Immobiliensuche beginnt.</p>
                             </div>
                             <div className="elementor-element elementor-element-016478e elementor-widget elementor-widget-button" data-id="016478e" data-widget_type="button.default">
                               <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
@@ -76,7 +65,7 @@ export default function Blog() {
                                     <Icon name="fas-chevron-circle-right" />
                                   </span>
                                   {" "}
-                                  <span className="elementor-button-text">Read More</span>
+                                  <span className="elementor-button-text">Mehr erfahren</span>
                                 </span>
                               </a>
                             </div>
@@ -95,17 +84,6 @@ export default function Blog() {
                           <div className="elementor-element elementor-element-4ceefca e-con-full e-flex e-con e-child" data-id="4ceefca">
                             <div className="elementor-element elementor-element-7e77ed1 elementor-widget elementor-widget-post-info" data-id="7e77ed1" data-widget_type="post-info.default">
                               <ul className="elementor-inline-items elementor-icon-list-items elementor-post-info">
-                                <li className="elementor-icon-list-item elementor-repeater-item-a1dcac4 elementor-inline-item" itemProp="datePublished">
-                                  <a href="#">
-                                    <span className="elementor-icon-list-icon">
-                                      <Icon name="fas-calendar-check" />
-                                    </span>
-                                    {" "}
-                                    <span className="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
-                                      <time>February 28, 2026</time>
-                                    </span>
-                                  </a>
-                                </li>
                                 <li className="elementor-icon-list-item elementor-repeater-item-693c173 elementor-inline-item" itemProp="about">
                                   <span className="elementor-icon-list-icon">
                                     <Icon name="fas-tags" />
@@ -113,17 +91,17 @@ export default function Blog() {
                                   {" "}
                                   <span className="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-terms">
                                     <span className="elementor-post-info__terms-list">
-                                      <a href="#" className="elementor-post-info__terms-list-item">Garden Design</a>
+                                      <a href="#" className="elementor-post-info__terms-list-item">Kreditvergleich</a>
                                     </span>
                                   </span>
                                 </li>
                               </ul>
                             </div>
                             <div className="elementor-element elementor-element-0885f79 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="0885f79" data-widget_type="theme-post-title.default">
-                              <h4 className="elementor-heading-title elementor-size-default">Professional Pruning Techniques for Healthier Trees</h4>
+                              <h4 className="elementor-heading-title elementor-size-default">Fix oder variabel finanzieren?</h4>
                             </div>
                             <div className="elementor-element elementor-element-cdcbcdc elementor-widget elementor-widget-theme-post-excerpt" data-id="cdcbcdc" data-widget_type="theme-post-excerpt.default">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nam iaculis lectus</p>
+                              <p>Welche Zinsform zu Ihren Plänen passt und worauf Sie bei Angeboten achten sollten.</p>
                             </div>
                             <div className="elementor-element elementor-element-016478e elementor-widget elementor-widget-button" data-id="016478e" data-widget_type="button.default">
                               <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
@@ -132,7 +110,7 @@ export default function Blog() {
                                     <Icon name="fas-chevron-circle-right" />
                                   </span>
                                   {" "}
-                                  <span className="elementor-button-text">Read More</span>
+                                  <span className="elementor-button-text">Mehr erfahren</span>
                                 </span>
                               </a>
                             </div>
@@ -151,17 +129,6 @@ export default function Blog() {
                           <div className="elementor-element elementor-element-4ceefca e-con-full e-flex e-con e-child" data-id="4ceefca">
                             <div className="elementor-element elementor-element-7e77ed1 elementor-widget elementor-widget-post-info" data-id="7e77ed1" data-widget_type="post-info.default">
                               <ul className="elementor-inline-items elementor-icon-list-items elementor-post-info">
-                                <li className="elementor-icon-list-item elementor-repeater-item-a1dcac4 elementor-inline-item" itemProp="datePublished">
-                                  <a href="#">
-                                    <span className="elementor-icon-list-icon">
-                                      <Icon name="fas-calendar-check" />
-                                    </span>
-                                    {" "}
-                                    <span className="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
-                                      <time>February 28, 2026</time>
-                                    </span>
-                                  </a>
-                                </li>
                                 <li className="elementor-icon-list-item elementor-repeater-item-693c173 elementor-inline-item" itemProp="about">
                                   <span className="elementor-icon-list-icon">
                                     <Icon name="fas-tags" />
@@ -169,17 +136,17 @@ export default function Blog() {
                                   {" "}
                                   <span className="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-terms">
                                     <span className="elementor-post-info__terms-list">
-                                      <a href="#" className="elementor-post-info__terms-list-item">Lawn Care</a>
+                                      <a href="#" className="elementor-post-info__terms-list-item">Umschuldung</a>
                                     </span>
                                   </span>
                                 </li>
                               </ul>
                             </div>
                             <div className="elementor-element elementor-element-0885f79 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="0885f79" data-widget_type="theme-post-title.default">
-                              <h4 className="elementor-heading-title elementor-size-default">Seasonal Lawn Care Checklist for Property Owners</h4>
+                              <h4 className="elementor-heading-title elementor-size-default">Wann lohnt sich eine Umschuldung?</h4>
                             </div>
                             <div className="elementor-element elementor-element-cdcbcdc elementor-widget elementor-widget-theme-post-excerpt" data-id="cdcbcdc" data-widget_type="theme-post-excerpt.default">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nam iaculis lectus</p>
+                              <p>Zinsen, Gebühren und Restlaufzeit vergleichen und Einsparpotenziale richtig bewerten.</p>
                             </div>
                             <div className="elementor-element elementor-element-016478e elementor-widget elementor-widget-button" data-id="016478e" data-widget_type="button.default">
                               <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
@@ -188,7 +155,7 @@ export default function Blog() {
                                     <Icon name="fas-chevron-circle-right" />
                                   </span>
                                   {" "}
-                                  <span className="elementor-button-text">Read More</span>
+                                  <span className="elementor-button-text">Mehr erfahren</span>
                                 </span>
                               </a>
                             </div>

@@ -21,7 +21,7 @@ export default function About() {
                   <svg xmlns="http://www.w3.org/2000/svg" width="250.5" height="250.5" viewBox="0 0 250.5 250.5">
                     <path id="e-path-304e26d7" d="M.25,125.25a125,125,0,1,1,125,125,125,125,0,0,1-125-125" />
                     <text>
-                      <textPath id="e-text-path-304e26d7" href="#e-path-304e26d7" startOffset="0%">Precision • Expertise • Reliability • Innovation • Excellence •</textPath>
+                      <textPath id="e-text-path-304e26d7" href="#e-path-304e26d7" startOffset="0%">Unabhängig • Persönlich • Transparent • Verlässlich •</textPath>
                     </text>
                   </svg>
                 </div>
@@ -37,23 +37,23 @@ export default function About() {
                       <Icon name="far-dot-circle" />
                     </span>
                     {" "}
-                    <span className="elementor-icon-list-text">Who We Are</span>
+                    <span className="elementor-icon-list-text">Über uns</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className="elementor-element elementor-element-4340b7c0 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="4340b7c0" data-widget_type="heading.default">
-              <h2 className="elementor-heading-title elementor-size-default">Landscaping Built on Experience &amp; Care.</h2>
+              <h2 className="elementor-heading-title elementor-size-default">Finanzberatung, die Ihre Ziele versteht.</h2>
             </div>
             <div className="elementor-element elementor-element-65d00c76 elementor-widget elementor-widget-text-editor" data-id="65d00c76" data-widget_type="text-editor.default">
-              <p className="p1">A well-maintained landscape doesn’t happen by accident. It takes planning, consistency, and a team that understands how outdoor spaces grow and change over time.</p>
+              <p className="p1">Wir sind unabhängige Finanzierungsexperten und vergleichen Angebote österreichischer Banken und Bausparkassen. Gemeinsam entwickeln wir eine Lösung, die zu Ihren Plänen, Ihrem Budget und Ihrem Leben passt.</p>
             </div>
             <div className="elementor-element elementor-element-22c2de7e elementor-widget elementor-widget-n-accordion" data-id="22c2de7e" data-settings='{"default_state":"expanded","max_items_expended":"one","n_accordion_animation_duration":{"unit":"ms","size":400,"sizes":[]}}' data-widget_type="nested-accordion.default">
               <div className="e-n-accordion" aria-label="Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys">
                 <details id="e-n-accordion-item-5830" className="e-n-accordion-item" open>
                   <summary className="e-n-accordion-item-title" data-accordion-index="1" tabIndex="0" aria-expanded="true" aria-controls="e-n-accordion-item-5830">
                     <span className="e-n-accordion-item-title-header">
-                      <h5 className="e-n-accordion-item-title-text">Experienced Team</h5>
+                      <h5 className="e-n-accordion-item-title-text">Erfahrene Beratung</h5>
                     </span>
                     {" "}
                     <span className="e-n-accordion-item-title-icon">
@@ -70,7 +70,7 @@ export default function About() {
                     <div role="region" aria-labelledby="e-n-accordion-item-5830" className="elementor-element elementor-element-3b33f84a e-flex e-con-boxed e-con e-child" data-id="3b33f84a">
                       <div className="e-con-inner">
                         <div className="elementor-element elementor-element-624ad22f elementor-widget elementor-widget-text-editor" data-id="624ad22f" data-widget_type="text-editor.default">
-                          <p>Skilled professionals who understand plant health, soil conditions, and long-term landscape planning.</p>
+                          <p>Persönliche Ansprechpartner mit fundierter Erfahrung im österreichischen Finanzierungsmarkt.</p>
                         </div>
                       </div>
                     </div>
@@ -79,7 +79,7 @@ export default function About() {
                 <details id="e-n-accordion-item-5831" className="e-n-accordion-item">
                   <summary className="e-n-accordion-item-title" data-accordion-index="2" tabIndex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-5831">
                     <span className="e-n-accordion-item-title-header">
-                      <h5 className="e-n-accordion-item-title-text">Reliable Scheduling</h5>
+                      <h5 className="e-n-accordion-item-title-text">Unabhängiger Vergleich</h5>
                     </span>
                     {" "}
                     <span className="e-n-accordion-item-title-icon">
@@ -96,7 +96,7 @@ export default function About() {
                     <div role="region" aria-labelledby="e-n-accordion-item-5831" className="elementor-element elementor-element-1cca2b4c e-flex e-con-boxed e-con e-child" data-id="1cca2b4c">
                       <div className="e-con-inner">
                         <div className="elementor-element elementor-element-c8c36b4 elementor-widget elementor-widget-text-editor" data-id="c8c36b4" data-widget_type="text-editor.default">
-                          <p>Consistent maintenance plans that keep properties looking professional year-round.</p>
+                          <p>Wir prüfen Konditionen verschiedener Banken und finden passende Angebote für Ihr Vorhaben.</p>
                         </div>
                       </div>
                     </div>
@@ -105,7 +105,7 @@ export default function About() {
                 <details id="e-n-accordion-item-5832" className="e-n-accordion-item">
                   <summary className="e-n-accordion-item-title" data-accordion-index="3" tabIndex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-5832">
                     <span className="e-n-accordion-item-title-header">
-                      <h5 className="e-n-accordion-item-title-text">Detail-Oriented Work</h5>
+                      <h5 className="e-n-accordion-item-title-text">Individuelles Konzept</h5>
                     </span>
                     {" "}
                     <span className="e-n-accordion-item-title-icon">
@@ -122,7 +122,7 @@ export default function About() {
                     <div role="region" aria-labelledby="e-n-accordion-item-5832" className="elementor-element elementor-element-7f75b256 e-flex e-con-boxed e-con e-child" data-id="7f75b256">
                       <div className="e-con-inner">
                         <div className="elementor-element elementor-element-4c7f298 elementor-widget elementor-widget-text-editor" data-id="4c7f298" data-widget_type="text-editor.default">
-                          <p>Clean edges, structured layouts, and thoughtful finishing touches that make a visible difference.</p>
+                          <p>Rate, Laufzeit und Flexibilität werden auf Ihre persönliche Lebensplanung abgestimmt.</p>
                         </div>
                       </div>
                     </div>
@@ -131,7 +131,7 @@ export default function About() {
                 <details id="e-n-accordion-item-5833" className="e-n-accordion-item">
                   <summary className="e-n-accordion-item-title" data-accordion-index="4" tabIndex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-5833">
                     <span className="e-n-accordion-item-title-header">
-                      <h5 className="e-n-accordion-item-title-text">Residential &amp; Commercial Expertise</h5>
+                      <h5 className="e-n-accordion-item-title-text">Begleitung bis zum Abschluss</h5>
                     </span>
                     {" "}
                     <span className="e-n-accordion-item-title-icon">
@@ -148,7 +148,7 @@ export default function About() {
                     <div role="region" aria-labelledby="e-n-accordion-item-5833" className="elementor-element elementor-element-385603f1 e-flex e-con-boxed e-con e-child" data-id="385603f1">
                       <div className="e-con-inner">
                         <div className="elementor-element elementor-element-2aee9ecb elementor-widget elementor-widget-text-editor" data-id="2aee9ecb" data-widget_type="text-editor.default">
-                          <p>Flexible solutions tailored for private homes, offices, retail spaces, and larger developments.</p>
+                          <p>Wir koordinieren Unterlagen und Banktermine und begleiten Sie bis zur Auszahlung.</p>
                         </div>
                       </div>
                     </div>

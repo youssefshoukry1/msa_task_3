@@ -41,36 +41,36 @@ export default function MowixHeader() {
                 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
                   <ul id="menu-1-87b56ed" className="elementor-nav-menu">
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-971 current_page_item menu-item-1042">
-                      <a href="/" aria-current="page" className="elementor-item elementor-item-active">Home</a>
+                      <a href="/" aria-current="page" className="elementor-item elementor-item-active">Startseite</a>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1038">
-                      <a href="#" className="elementor-item">About</a>
+                      <a href="#" className="elementor-item">Über uns</a>
                     </li>
                     <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1049">
                       <a href="#" className="elementor-item elementor-item-anchor has-submenu" id="sm-main-1" aria-haspopup="true" aria-controls="sm-main-2" aria-expanded="false">
-                        Services
+                        Leistungen
                         <span className="sub-arrow"><Icon name="fas-caret-down" /></span>
                       </a>
                       <ul className="sub-menu elementor-nav-menu--dropdown" id="sm-main-2" role="group" aria-hidden="true" aria-labelledby="sm-main-1" aria-expanded="false">
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1047">
-                          <a href="#" className="elementor-sub-item">All Services</a>
+                          <a href="#" className="elementor-sub-item">Alle Leistungen</a>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1055">
-                          <a href="#" className="elementor-sub-item">Service Detail</a>
+                          <a href="#" className="elementor-sub-item">Immobilienfinanzierung</a>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1799">
-                      <a href="#" className="elementor-item">Project</a>
+                      <a href="#" className="elementor-item">Ablauf</a>
                     </li>
                     <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1058">
                       <a href="#" className="elementor-item elementor-item-anchor has-submenu" id="sm-main-3" aria-haspopup="true" aria-controls="sm-main-4" aria-expanded="false">
-                        Resources
+                        Wissen
                         <span className="sub-arrow"><Icon name="fas-caret-down" /></span>
                       </a>
                       <ul className="sub-menu elementor-nav-menu--dropdown" id="sm-main-4" role="group" aria-hidden="true" aria-labelledby="sm-main-3" aria-expanded="false">
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1044">
-                          <a href="#" className="elementor-sub-item">Pricing Plans</a>
+                          <a href="#" className="elementor-sub-item">Kreditvergleich</a>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1048">
                           <a href="#" className="elementor-sub-item">Team</a>
@@ -79,7 +79,7 @@ export default function MowixHeader() {
                           <a href="#" className="elementor-sub-item">Blog</a>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-post menu-item-1059">
-                          <a href="#" className="elementor-sub-item">Single Post</a>
+                          <a href="#" className="elementor-sub-item">Ratgeber</a>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1041">
                           <a href="#" className="elementor-sub-item">FAQ</a>
@@ -90,7 +90,7 @@ export default function MowixHeader() {
                       </ul>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1040">
-                      <a href="#" className="elementor-item">Contact</a>
+                      <a href="#" className="elementor-item">Kontakt</a>
                     </li>
                   </ul>
                 </nav>
@@ -105,36 +105,36 @@ export default function MowixHeader() {
                 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
                   <ul id="menu-2-87b56ed" className="elementor-nav-menu">
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-971 current_page_item menu-item-1042">
-                      <a href="/" aria-current="page" className="elementor-item elementor-item-active" tabIndex="-1">Home</a>
+                      <a href="/" aria-current="page" className="elementor-item elementor-item-active" tabIndex="-1">Startseite</a>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1038">
-                      <a href="#" className="elementor-item" tabIndex="-1">About</a>
+                      <a href="#" className="elementor-item" tabIndex="-1">Über uns</a>
                     </li>
                     <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1049">
                       <a href="#" className="elementor-item elementor-item-anchor has-submenu" tabIndex="-1" id="sm-dropdown-1" aria-haspopup="true" aria-controls="sm-dropdown-2" aria-expanded="false">
-                        Services
+                        Leistungen
                         <span className="sub-arrow"><Icon name="fas-caret-down" /></span>
                       </a>
                       <ul className="sub-menu elementor-nav-menu--dropdown" id="sm-dropdown-2" role="group" aria-hidden="true" aria-labelledby="sm-dropdown-1" aria-expanded="false">
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1047">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">All Services</a>
+                          <a href="#" className="elementor-sub-item" tabIndex="-1">Alle Leistungen</a>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1055">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">Service Detail</a>
+                          <a href="#" className="elementor-sub-item" tabIndex="-1">Immobilienfinanzierung</a>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1799">
-                      <a href="#" className="elementor-item" tabIndex="-1">Project</a>
+                      <a href="#" className="elementor-item" tabIndex="-1">Ablauf</a>
                     </li>
                     <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1058">
                       <a href="#" className="elementor-item elementor-item-anchor has-submenu" tabIndex="-1" id="sm-dropdown-3" aria-haspopup="true" aria-controls="sm-dropdown-4" aria-expanded="false">
-                        Resources
+                        Wissen
                         <span className="sub-arrow"><Icon name="fas-caret-down" /></span>
                       </a>
                       <ul className="sub-menu elementor-nav-menu--dropdown" id="sm-dropdown-4" role="group" aria-hidden="true" aria-labelledby="sm-dropdown-3" aria-expanded="false">
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1044">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">Pricing Plans</a>
+                          <a href="#" className="elementor-sub-item" tabIndex="-1">Kreditvergleich</a>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1048">
                           <a href="#" className="elementor-sub-item" tabIndex="-1">Team</a>
@@ -143,7 +143,7 @@ export default function MowixHeader() {
                           <a href="#" className="elementor-sub-item" tabIndex="-1">Blog</a>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-post menu-item-1059">
-                          <a href="#" className="elementor-sub-item" tabIndex="-1">Single Post</a>
+                          <a href="#" className="elementor-sub-item" tabIndex="-1">Ratgeber</a>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1041">
                           <a href="#" className="elementor-sub-item" tabIndex="-1">FAQ</a>
@@ -154,7 +154,7 @@ export default function MowixHeader() {
                       </ul>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1040">
-                      <a href="#" className="elementor-item" tabIndex="-1">Contact</a>
+                      <a href="#" className="elementor-item" tabIndex="-1">Kontakt</a>
                     </li>
                   </ul>
                 </nav>
@@ -166,7 +166,7 @@ export default function MowixHeader() {
                       <Icon name="fas-arrow-circle-right" />
                     </span>
                     {" "}
-                    <span className="elementor-button-text">Request a Quote</span>
+                    <span className="elementor-button-text">Beratung anfragen</span>
                   </span>
                 </a>
               </div>

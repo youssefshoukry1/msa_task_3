@@ -66,7 +66,7 @@ export default function Testimonials() {
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-27d5041f elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="27d5041f" data-widget_type="heading.default">
-                  <h5 className="elementor-heading-title elementor-size-default">Google reviews</h5>
+                  <h5 className="elementor-heading-title elementor-size-default">Google Bewertungen</h5>
                 </div>
               </div>
             </div>
@@ -80,16 +80,16 @@ export default function Testimonials() {
                       <Icon name="far-dot-circle" />
                     </span>
                     {" "}
-                    <span className="elementor-icon-list-text">Client Feedback</span>
+                    <span className="elementor-icon-list-text">Stimmen unserer Kundinnen und Kunden</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className="elementor-element elementor-element-7800bace elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="7800bace" data-widget_type="heading.default">
-              <h2 className="elementor-heading-title elementor-size-default">Trusted by Homeowners &amp; Property Managers</h2>
+              <h2 className="elementor-heading-title elementor-size-default">Persönlich beraten. Verlässlich begleitet.</h2>
             </div>
             <div className="elementor-element elementor-element-2346b29d elementor-widget elementor-widget-text-editor" data-id="2346b29d" data-widget_type="text-editor.default">
-              <p>From private residences to large commercial properties, we’re proud to build long-term partnerships based on reliability, communication, and consistent results.</p>
+              <p>Ob Wohnungskauf, Hausbau oder Umschuldung: Unsere Kundinnen und Kunden schätzen klare Kommunikation, transparente Angebote und persönliche Betreuung.</p>
             </div>
             <div className="elementor-element elementor-element-72d1246d elementor-widget elementor-widget-n-carousel" data-id="72d1246d" data-settings='{"carousel_items":[{"slide_title":"Slide #1","_id":"0fc0ae1"},{"slide_title":"Slide #1","_id":"8c50d87"},{"slide_title":"Slide #1","_id":"00fb167"},{"slide_title":"Slide #1","_id":"5c5478e"}],"slides_to_show":"1","slides_to_scroll":"1","autoplay_speed":3000,"image_spacing_custom_tablet":{"unit":"px","size":20,"sizes":[]},"slides_to_show_tablet":"2","slides_to_show_mobile":"1","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","infinite":"yes","speed":500,"offset_sides":"none","image_spacing_custom":{"unit":"px","size":10,"sizes":[]},"image_spacing_custom_mobile":{"unit":"px","size":"","sizes":[]}}' data-widget_type="nested-carousel.default">
               <div className="e-n-carousel swiper" role="region" aria-roledescription="carousel" aria-label="Carousel" dir="ltr">
@@ -107,7 +107,7 @@ export default function Testimonials() {
                                       <Icon name="fas-leaf" />
                                     </span>
                                     {" "}
-                                    <span className="elementor-icon-list-text">Residential Client</span>
+                                    <span className="elementor-icon-list-text">Wohnungskauf</span>
                                   </a>
                                 </li>
                               </ul>
@@ -160,7 +160,7 @@ export default function Testimonials() {
                             </div>
                           </div>
                           <div className="elementor-element elementor-element-4389e192 elementor-widget elementor-widget-text-editor" data-id="4389e192" data-widget_type="text-editor.default">
-                            <p className="p1">“We wanted a garden that looked clean and organized without needing constant attention. The team delivered exactly that. They were punctual, professional, and the results exceeded.</p>
+                            <p className="p1">„Wir wurden verständlich beraten und hatten jederzeit einen klaren Überblick über Rate, Laufzeit und alle nächsten Schritte.“</p>
                           </div>
                           <div className="elementor-element elementor-element-2913404d e-con-full e-flex e-con e-child" data-id="2913404d">
                             <div className="elementor-element elementor-element-1798c426 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="1798c426" data-widget_type="image.default">
@@ -171,7 +171,7 @@ export default function Testimonials() {
                                 <h5 className="elementor-heading-title elementor-size-default">Olivia Bennett</h5>
                               </div>
                               <div className="elementor-element elementor-element-65062d5d elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="65062d5d" data-widget_type="heading.default">
-                                <h6 className="elementor-heading-title elementor-size-default">Homeowner</h6>
+                                <h6 className="elementor-heading-title elementor-size-default">Wohnungskäuferin</h6>
                               </div>
                             </div>
                           </div>
@@ -217,7 +217,7 @@ export default function Testimonials() {
                                       <Icon name="fas-building" />
                                     </span>
                                     {" "}
-                                    <span className="elementor-icon-list-text">Commercial Property Manager</span>
+                                    <span className="elementor-icon-list-text">Neubaufinanzierung</span>
                                   </a>
                                 </li>
                               </ul>
@@ -270,7 +270,7 @@ export default function Testimonials() {
                             </div>
                           </div>
                           <div className="elementor-element elementor-element-52bbde40 elementor-widget elementor-widget-text-editor" data-id="52bbde40" data-widget_type="text-editor.default">
-                            <p>“Maintaining a commercial property requires consistency. What stands out most is their reliability. The grounds always look sharp, and we never have to follow up twice.”</p>
+                            <p>„Der Vergleich der Banken war transparent und nachvollziehbar. Am Ende hatten wir ein Angebot, das wirklich zu unserem Bauvorhaben passt.“</p>
                           </div>
                           <div className="elementor-element elementor-element-322896f0 e-con-full e-flex e-con e-child" data-id="322896f0">
                             <div className="elementor-element elementor-element-1f98e4a0 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="1f98e4a0" data-widget_type="image.default">
@@ -281,7 +281,7 @@ export default function Testimonials() {
                                 <h5 className="elementor-heading-title elementor-size-default">Daniel Carter</h5>
                               </div>
                               <div className="elementor-element elementor-element-533c2d2a elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="533c2d2a" data-widget_type="heading.default">
-                                <h6 className="elementor-heading-title elementor-size-default">Property Manager</h6>
+                                <h6 className="elementor-heading-title elementor-size-default">Bauherr</h6>
                               </div>
                             </div>
                           </div>
@@ -327,7 +327,7 @@ export default function Testimonials() {
                                       <Icon name="fas-snowflake" />
                                     </span>
                                     {" "}
-                                    <span className="elementor-icon-list-text">Private Villa Owner</span>
+                                    <span className="elementor-icon-list-text">Hauskauf</span>
                                   </a>
                                 </li>
                               </ul>
@@ -380,7 +380,7 @@ export default function Testimonials() {
                             </div>
                           </div>
                           <div className="elementor-element elementor-element-3067068d elementor-widget elementor-widget-text-editor" data-id="3067068d" data-widget_type="text-editor.default">
-                            <p>“Our outdoor space feels completely transformed. The layout is structured, the plants are healthy, and everything feels intentionally designed. It’s exactly the professional look we were hoping for.”</p>
+                            <p>„Von der ersten Einschätzung bis zur Zusage wurden wir persönlich begleitet. Besonders hilfreich war die schnelle Abstimmung mit der Bank.“</p>
                           </div>
                           <div className="elementor-element elementor-element-5af8e0c3 e-con-full e-flex e-con e-child" data-id="5af8e0c3">
                             <div className="elementor-element elementor-element-5ebe17b4 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="5ebe17b4" data-widget_type="image.default">
@@ -391,7 +391,7 @@ export default function Testimonials() {
                                 <h5 className="elementor-heading-title elementor-size-default">Sophia Martinez</h5>
                               </div>
                               <div className="elementor-element elementor-element-6a41a7bd elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="6a41a7bd" data-widget_type="heading.default">
-                                <h6 className="elementor-heading-title elementor-size-default">Sophia Martinez</h6>
+                                <h6 className="elementor-heading-title elementor-size-default">Hauskäuferin</h6>
                               </div>
                             </div>
                           </div>
@@ -437,7 +437,7 @@ export default function Testimonials() {
                                       <Icon name="fas-tree" />
                                     </span>
                                     {" "}
-                                    <span className="elementor-icon-list-text">Retail Facility Manager</span>
+                                    <span className="elementor-icon-list-text">Umschuldung</span>
                                   </a>
                                 </li>
                               </ul>
@@ -490,7 +490,7 @@ export default function Testimonials() {
                             </div>
                           </div>
                           <div className="elementor-element elementor-element-58d45579 elementor-widget elementor-widget-text-editor" data-id="58d45579" data-widget_type="text-editor.default">
-                            <p>“They understand commercial standards. Clean edges, healthy turf, and proactive maintenance. It makes a real difference in how our property is perceived.”</p>
+                            <p>„Unsere bestehende Finanzierung wurde sorgfältig geprüft. Wir konnten die Möglichkeiten in Ruhe vergleichen und eine gute Entscheidung treffen.“</p>
                           </div>
                           <div className="elementor-element elementor-element-58848481 e-con-full e-flex e-con e-child" data-id="58848481">
                             <div className="elementor-element elementor-element-39d739b elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="39d739b" data-widget_type="image.default">
@@ -501,7 +501,7 @@ export default function Testimonials() {
                                 <h5 className="elementor-heading-title elementor-size-default">Michael Thompson</h5>
                               </div>
                               <div className="elementor-element elementor-element-12ea98da elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="12ea98da" data-widget_type="heading.default">
-                                <h6 className="elementor-heading-title elementor-size-default">Homeowner</h6>
+                                <h6 className="elementor-heading-title elementor-size-default">Kreditnehmer</h6>
                               </div>
                             </div>
                           </div>

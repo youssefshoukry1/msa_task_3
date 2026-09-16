@@ -16,13 +16,13 @@ export default function Projects() {
                       <Icon name="far-dot-circle" />
                     </span>
                     {" "}
-                    <span className="elementor-icon-list-text">Selected Work</span>
+                    <span className="elementor-icon-list-text">Finanzierung nach Maß</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className="elementor-element elementor-element-7a578e78 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="7a578e78" data-widget_type="heading.default">
-              <h2 className="elementor-heading-title elementor-size-default">Landscapes Designed to Perform &amp; Impress</h2>
+              <h2 className="elementor-heading-title elementor-size-default">Lösungen für unterschiedliche Lebenspläne.</h2>
             </div>
           </div>
           <div className="elementor-element elementor-element-d0bf977 e-con-full e-flex e-con e-child" data-id="d0bf977">
@@ -33,7 +33,7 @@ export default function Projects() {
                     <h2 className="elementor-heading-title elementor-size-default">01</h2>
                   </div>
                   <div className="elementor-element elementor-element-27d0ce7a elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="27d0ce7a" data-widget_type="heading.default">
-                    <h6 className="elementor-heading-title elementor-size-default">Residential Landscaping</h6>
+                    <h6 className="elementor-heading-title elementor-size-default">Eigentum erwerben</h6>
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-3aee76d0 e-con-full e-flex e-con e-child" data-id="3aee76d0">
@@ -48,10 +48,10 @@ export default function Projects() {
                     </div>
                   </div>
                   <div className="elementor-element elementor-element-38473f4d elementor-widget elementor-widget-heading" data-id="38473f4d" data-widget_type="heading.default">
-                    <h2 className="elementor-heading-title elementor-size-default">Modern Residential Garden</h2>
+                    <h2 className="elementor-heading-title elementor-size-default">Die erste eigene Wohnung</h2>
                   </div>
                   <div className="elementor-element elementor-element-3cac9fa5 elementor-widget elementor-widget-text-editor" data-id="3cac9fa5" data-widget_type="text-editor.default">
-                    <p className="p1">Balanced planting, defined walkways, and efficient irrigation create a space that feels organized and welcoming.</p>
+                    <p className="p1">Ein realistischer Finanzierungsrahmen, eine passende Monatsrate und genügend Flexibilität für Ihre Zukunft.</p>
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-4d9782a5 e-con-full e-flex e-con e-child" data-id="4d9782a5">
@@ -95,7 +95,7 @@ export default function Projects() {
                     <h2 className="elementor-heading-title elementor-size-default">02</h2>
                   </div>
                   <div className="elementor-element elementor-element-c7a72e9 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="c7a72e9" data-widget_type="heading.default">
-                    <h6 className="elementor-heading-title elementor-size-default">Commercial Landscaping</h6>
+                    <h6 className="elementor-heading-title elementor-size-default">Haus bauen</h6>
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-2762a242 e-con-full e-flex e-con e-child" data-id="2762a242">
@@ -110,10 +110,10 @@ export default function Projects() {
                     </div>
                   </div>
                   <div className="elementor-element elementor-element-23f91f34 elementor-widget elementor-widget-heading" data-id="23f91f34" data-widget_type="heading.default">
-                    <h2 className="elementor-heading-title elementor-size-default">Corporate Office Landscape</h2>
+                    <h2 className="elementor-heading-title elementor-size-default">Neubau sicher finanzieren</h2>
                   </div>
                   <div className="elementor-element elementor-element-1c179377 elementor-widget elementor-widget-text-editor" data-id="1c179377" data-widget_type="text-editor.default">
-                    <p>A professional outdoor layout tailored to enhance curb appeal and maintain a polished first impression.</p>
+                    <p>Eine vorausschauende Planung von Grundstück, Baukosten, Reserven und Auszahlungsschritten.</p>
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-6e619d1b e-con-full e-flex e-con e-child" data-id="6e619d1b">
@@ -157,7 +157,7 @@ export default function Projects() {
                     <h2 className="elementor-heading-title elementor-size-default">03</h2>
                   </div>
                   <div className="elementor-element elementor-element-60952d86 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="60952d86" data-widget_type="heading.default">
-                    <h6 className="elementor-heading-title elementor-size-default">Residential Design</h6>
+                    <h6 className="elementor-heading-title elementor-size-default">Wohnraum verbessern</h6>
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-4d617115 e-con-full e-flex e-con e-child" data-id="4d617115">
@@ -172,10 +172,10 @@ export default function Projects() {
                     </div>
                   </div>
                   <div className="elementor-element elementor-element-7416d11e elementor-widget elementor-widget-heading" data-id="7416d11e" data-widget_type="heading.default">
-                    <h2 className="elementor-heading-title elementor-size-default">Private Villa Outdoor Design</h2>
+                    <h2 className="elementor-heading-title elementor-size-default">Sanieren &amp; modernisieren</h2>
                   </div>
                   <div className="elementor-element elementor-element-742e00b1 elementor-widget elementor-widget-text-editor" data-id="742e00b1" data-widget_type="text-editor.default">
-                    <p>A custom-designed outdoor environment featuring layered plant selections, hardscape elements, and integrated lighting.</p>
+                    <p>Finanzierung und mögliche Förderungen für Umbau, Renovierung oder energetische Sanierung sinnvoll kombinieren.</p>
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-47e526f6 e-con-full e-flex e-con e-child" data-id="47e526f6">
@@ -219,7 +219,7 @@ export default function Projects() {
                     <h2 className="elementor-heading-title elementor-size-default">04</h2>
                   </div>
                   <div className="elementor-element elementor-element-4bd352f1 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="4bd352f1" data-widget_type="heading.default">
-                    <h6 className="elementor-heading-title elementor-size-default">Commercial Grounds Care</h6>
+                    <h6 className="elementor-heading-title elementor-size-default">Bestehenden Kredit optimieren</h6>
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-25bd57ab e-con-full e-flex e-con e-child" data-id="25bd57ab">
@@ -234,10 +234,10 @@ export default function Projects() {
                     </div>
                   </div>
                   <div className="elementor-element elementor-element-3f104f36 elementor-widget elementor-widget-heading" data-id="3f104f36" data-widget_type="heading.default">
-                    <h2 className="elementor-heading-title elementor-size-default">Multi-Building Property Care</h2>
+                    <h2 className="elementor-heading-title elementor-size-default">Umschuldung mit Überblick</h2>
                   </div>
                   <div className="elementor-element elementor-element-52ed962a elementor-widget elementor-widget-text-editor" data-id="52ed962a" data-widget_type="text-editor.default">
-                    <p className="p1">Full-service landscape management for a large-scale property, including turf care, irrigation monitoring.</p>
+                    <p className="p1">Aktuelle Konditionen prüfen und transparent feststellen, ob sich ein Wechsel für Sie rechnet.</p>
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-60d4c27b e-con-full e-flex e-con e-child" data-id="60d4c27b">

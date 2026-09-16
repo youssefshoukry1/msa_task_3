@@ -17,13 +17,13 @@ export default function Process() {
                         <Icon name="far-dot-circle" />
                       </span>
                       {" "}
-                      <span className="elementor-icon-list-text">A Higher Standard of Landscaping</span>
+                      <span className="elementor-icon-list-text">So funktioniert Ihre Finanzierung</span>
                     </a>
                   </li>
                 </ul>
               </div>
               <div className="elementor-element elementor-element-49128c41 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="49128c41" data-widget_type="heading.default">
-                <h2 className="elementor-heading-title elementor-size-default">Where Precision Meets Long Term Performance</h2>
+                <h2 className="elementor-heading-title elementor-size-default">In klaren Schritten zum passenden Angebot.</h2>
               </div>
             </div>
             <div className="elementor-element elementor-element-597bfd4e e-con-full e-flex e-con e-child" data-id="597bfd4e" data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateY_effect":"yes","motion_fx_translateY_speed":{"unit":"px","size":5,"sizes":[]},"motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":50}},"motion_fx_range":"viewport","motion_fx_devices":["desktop","tablet","mobile"]}'>
@@ -33,7 +33,7 @@ export default function Process() {
             </div>
             <div className="elementor-element elementor-element-5486c2b1 e-con-full e-flex elementor-invisible e-con e-child" data-id="5486c2b1" data-settings='{"animation":"fadeInRight"}'>
               <div className="elementor-element elementor-element-38689137 elementor-widget elementor-widget-text-editor" data-id="38689137" data-widget_type="text-editor.default">
-                <p>We focus on structure, discipline, and refined workmanship ensuring your outdoor space reflects professionalism at every level.</p>
+                <p>Wir nehmen uns Zeit für Ihre Ziele, vergleichen den österreichischen Bankenmarkt und begleiten Sie sicher durch den gesamten Prozess.</p>
               </div>
               <div className="elementor-element elementor-element-38050068 elementor-align-justify elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="38050068" data-widget_type="button.default">
                 <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
@@ -42,7 +42,7 @@ export default function Process() {
                       <Icon name="fas-arrow-circle-right" />
                     </span>
                     {" "}
-                    <span className="elementor-button-text">View Our Projects</span>
+                    <span className="elementor-button-text">Beratung vereinbaren</span>
                   </span>
                 </a>
               </div>
@@ -67,10 +67,10 @@ export default function Process() {
                 </div>
                 <div className="elementor-element elementor-element-55ca4a5d e-con-full e-flex e-con e-child" data-id="55ca4a5d">
                   <div className="elementor-element elementor-element-6a2d5f87 elementor-widget elementor-widget-heading" data-id="6a2d5f87" data-widget_type="heading.default">
-                    <h4 className="elementor-heading-title elementor-size-default">Strategic Planning</h4>
+                    <h4 className="elementor-heading-title elementor-size-default">01 Persönliche Beratung</h4>
                   </div>
                   <div className="elementor-element elementor-element-616ed14c elementor-widget elementor-widget-text-editor" data-id="616ed14c" data-widget_type="text-editor.default">
-                    <p>Every project begins with a clear, well-structured plan, We assess site conditions.</p>
+                    <p>Wir besprechen Ihr Vorhaben, Ihre finanzielle Situation und Ihre Wünsche an Rate, Laufzeit und Flexibilität.</p>
                   </div>
                 </div>
               </div>
@@ -98,10 +98,10 @@ export default function Process() {
                 </div>
                 <div className="elementor-element elementor-element-7f8bf563 e-con-full e-flex e-con e-child" data-id="7f8bf563">
                   <div className="elementor-element elementor-element-5de3c49a elementor-widget elementor-widget-heading" data-id="5de3c49a" data-widget_type="heading.default">
-                    <h4 className="elementor-heading-title elementor-size-default">Precision Execution</h4>
+                    <h4 className="elementor-heading-title elementor-size-default">02 Bankenvergleich</h4>
                   </div>
                   <div className="elementor-element elementor-element-5e2d74dd elementor-widget elementor-widget-text-editor" data-id="5e2d74dd" data-widget_type="text-editor.default">
-                    <p>Clean lines, balanced layouts, &amp; carefully maintained greenery define our work.</p>
+                    <p>Wir vergleichen Konditionen ausgewählter Banken und Bausparkassen und prüfen die passenden Möglichkeiten.</p>
                   </div>
                 </div>
               </div>
@@ -129,10 +129,10 @@ export default function Process() {
                 </div>
                 <div className="elementor-element elementor-element-239bdc58 e-con-full e-flex e-con e-child" data-id="239bdc58">
                   <div className="elementor-element elementor-element-5551ca31 elementor-widget elementor-widget-heading" data-id="5551ca31" data-widget_type="heading.default">
-                    <h4 className="elementor-heading-title elementor-size-default">Reliable Scheduling</h4>
+                    <h4 className="elementor-heading-title elementor-size-default">03 Ihr Angebot</h4>
                   </div>
                   <div className="elementor-element elementor-element-5731d7b6 elementor-widget elementor-widget-text-editor" data-id="5731d7b6" data-widget_type="text-editor.default">
-                    <p>Our organized maintenance programs ensure your property remains polished.</p>
+                    <p>Sie erhalten ein verständliches, auf Ihre Situation zugeschnittenes Finanzierungskonzept.</p>
                   </div>
                 </div>
               </div>
@@ -160,10 +160,10 @@ export default function Process() {
                 </div>
                 <div className="elementor-element elementor-element-774ac38e e-con-full e-flex e-con e-child" data-id="774ac38e">
                   <div className="elementor-element elementor-element-112a8d4 elementor-widget elementor-widget-heading" data-id="112a8d4" data-widget_type="heading.default">
-                    <h4 className="elementor-heading-title elementor-size-default">Scalable Expertise</h4>
+                    <h4 className="elementor-heading-title elementor-size-default">04 Begleitung zum Abschluss</h4>
                   </div>
                   <div className="elementor-element elementor-element-77eb9308 elementor-widget elementor-widget-text-editor" data-id="77eb9308" data-widget_type="text-editor.default">
-                    <p>From private estates to commercial developments, our team adapts seamlessly.</p>
+                    <p>Wir unterstützen bei Unterlagen, Abstimmung mit der Bank und Abwicklung bis zur Auszahlung.</p>
                   </div>
                 </div>
               </div>

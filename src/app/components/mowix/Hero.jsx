@@ -10,10 +10,10 @@ export default function Hero() {
           <div className="e-con-inner">
             <div className="elementor-element elementor-element-1f8b3af0 e-con-full e-flex elementor-invisible e-con e-child" data-id="1f8b3af0" data-settings='{"animation":"fadeInLeft"}'>
               <div className="elementor-element elementor-element-341fc598 elementor-widget elementor-widget-heading" data-id="341fc598" data-widget_type="heading.default">
-                <h1 className="elementor-heading-title elementor-size-default">Professional Landscaping Solutions</h1>
+                <h1 className="elementor-heading-title elementor-size-default">Ihre Finanzierung. Persönlich geplant.</h1>
               </div>
               <div className="elementor-element elementor-element-ba1d3ed elementor-widget-tablet__width-initial elementor-widget elementor-widget-text-editor" data-id="ba1d3ed" data-widget_type="text-editor.default">
-                <p className="p1">We provide end-to-end landscaping services for homeowners, businesses, and large-scale properties — combining expert design, efficient execution, and long-term maintenance solutions.</p>
+                <p className="p1">Wir begleiten Sie unabhängig und persönlich auf dem Weg zur passenden Immobilienfinanzierung – von der ersten Beratung bis zur erfolgreichen Auszahlung.</p>
               </div>
               <div className="elementor-element elementor-element-295e47e3 elementor-align-justify elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="295e47e3" data-widget_type="button.default">
                 <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
@@ -22,7 +22,7 @@ export default function Hero() {
                       <Icon name="fas-arrow-circle-right" />
                     </span>
                     {" "}
-                    <span className="elementor-button-text">View Our Projects</span>
+                    <span className="elementor-button-text">Finanzierung anfragen</span>
                   </span>
                 </a>
               </div>
@@ -47,11 +47,11 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-2781729a elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2781729a" data-widget_type="heading.default">
-                  <p className="elementor-heading-title elementor-size-default">Based on Verified Client Reviews</p>
+                  <p className="elementor-heading-title elementor-size-default">Vertrauen durch persönliche Beratung</p>
                 </div>
               </div>
               <div className="elementor-element elementor-element-1838b068 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="1838b068" data-widget_type="heading.default">
-                <h6 className="elementor-heading-title elementor-size-default">Our landscape has never looked better professional and always on time.</h6>
+                <h6 className="elementor-heading-title elementor-size-default">Kompetent, transparent und verlässlich vom Erstgespräch bis zum Kreditabschluss.</h6>
               </div>
               <div className="elementor-element elementor-element-2d8b8f27 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="2d8b8f27" data-widget_type="divider.default">
                 <div className="elementor-divider">
@@ -87,7 +87,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-57bb1f2b elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="57bb1f2b" data-widget_type="heading.default">
-                  <h5 className="elementor-heading-title elementor-size-default">Average Client Rating</h5>
+                  <h5 className="elementor-heading-title elementor-size-default">Durchschnittliche Bewertung</h5>
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function Hero() {
           </div>
           <div className="elementor-element elementor-element-354f89e8 e-con-full e-flex e-con e-child" data-id="354f89e8">
             <div className="elementor-element elementor-element-3a72beae elementor-widget elementor-widget-heading" data-id="3a72beae" data-widget_type="heading.default">
-              <h6 className="elementor-heading-title elementor-size-default">Popular Tags</h6>
+              <h6 className="elementor-heading-title elementor-size-default">Unsere Schwerpunkte</h6>
             </div>
             <div className="elementor-element elementor-element-5dcdf95b e-con-full e-flex e-con e-child" data-id="5dcdf95b">
               <div className="elementor-element elementor-element-3b35012c elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3b35012c" data-widget_type="icon-list.default">
@@ -114,7 +114,7 @@ export default function Hero() {
                         <Icon name="far-dot-circle" />
                       </span>
                       {" "}
-                      <span className="elementor-icon-list-text">Garden Planning</span>
+                      <span className="elementor-icon-list-text">Wohnbaufinanzierung</span>
                     </a>
                   </li>
                 </ul>
@@ -127,7 +127,7 @@ export default function Hero() {
                         <Icon name="far-dot-circle" />
                       </span>
                       {" "}
-                      <span className="elementor-icon-list-text">Property Maintenance</span>
+                      <span className="elementor-icon-list-text">Bankenvergleich</span>
                     </a>
                   </li>
                 </ul>
@@ -140,7 +140,7 @@ export default function Hero() {
                         <Icon name="far-dot-circle" />
                       </span>
                       {" "}
-                      <span className="elementor-icon-list-text">Outdoor Solutions</span>
+                      <span className="elementor-icon-list-text">Umschuldung</span>
                     </a>
                   </li>
                 </ul>

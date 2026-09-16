@@ -7,10 +7,10 @@ export default function Cta() {
       <div className="elementor-element elementor-element-4e32baf0 e-con-full e-flex e-con e-child" data-id="4e32baf0">
         <div className="elementor-element elementor-element-30abae33 e-con-full e-flex elementor-invisible e-con e-child" data-id="30abae33" data-settings='{"animation":"fadeInLeft"}'>
           <div className="elementor-element elementor-element-570e9770 elementor-widget elementor-widget-heading" data-id="570e9770" data-widget_type="heading.default">
-            <h2 className="elementor-heading-title elementor-size-default">Ready to Elevate Your Landscape?</h2>
+            <h2 className="elementor-heading-title elementor-size-default">Bereit für Ihre passende Finanzierung?</h2>
           </div>
           <div className="elementor-element elementor-element-535e484a elementor-widget elementor-widget-text-editor" data-id="535e484a" data-widget_type="text-editor.default">
-            <p>Whether you manage a commercial site or want to enhance your home’s outdoor space, we’re ready to build a landscape that looks professional and performs year-round.</p>
+            <p>Erzählen Sie uns von Ihrem Vorhaben. Wir zeigen Ihnen unverbindlich, welche Finanzierungsmöglichkeiten zu Ihrer Situation passen.</p>
           </div>
           <div className="elementor-element elementor-element-4c019e29 elementor-align-justify elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="4c019e29" data-widget_type="button.default">
             <a className="elementor-button elementor-button-link elementor-size-sm" href="#">
@@ -19,7 +19,7 @@ export default function Cta() {
                   <Icon name="fas-arrow-circle-right" />
                 </span>
                 {" "}
-                <span className="elementor-button-text">Request a Consultation</span>
+                <span className="elementor-button-text">Erstgespräch anfragen</span>
               </span>
             </a>
           </div>
@@ -34,7 +34,7 @@ export default function Cta() {
             </div>
           </div>
           <div className="elementor-element elementor-element-a44563d elementor-widget elementor-widget-heading" data-id="a44563d" data-widget_type="heading.default">
-            <h5 className="elementor-heading-title elementor-size-default">Follow us on :</h5>
+            <h5 className="elementor-heading-title elementor-size-default">Folgen Sie uns:</h5>
           </div>
           <div className="elementor-element elementor-element-723e6bf6 e-con-full e-flex e-con e-child" data-id="723e6bf6">
             <div className="elementor-element elementor-element-308c6149 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="308c6149" data-widget_type="icon-list.default">

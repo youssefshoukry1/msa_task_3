@@ -16,15 +16,15 @@ export default function MowixFooter() {
                   </a>
                 </div>
                 <div className="elementor-element elementor-element-74471e2 elementor-widget elementor-widget-heading" data-id="74471e2" data-widget_type="heading.default">
-                  <h4 className="elementor-heading-title elementor-size-default">Professional Landscaping Solutions</h4>
+                  <h4 className="elementor-heading-title elementor-size-default">Unabhängige Finanzierungsberatung</h4>
                 </div>
                 <div className="elementor-element elementor-element-8c0ab14 elementor-widget elementor-widget-text-editor" data-id="8c0ab14" data-widget_type="text-editor.default">
-                  <p>From design and installation to long-term maintenance, our team delivers reliable service with precision and care.</p>
+                  <p>Persönliche Beratung, unabhängiger Bankenvergleich und eine Finanzierung, die zu Ihrem Leben passt.</p>
                 </div>
               </div>
               <div className="elementor-element elementor-element-10a4cfe e-con-full e-flex e-con e-child" data-id="10a4cfe">
                 <div className="elementor-element elementor-element-7741312 elementor-widget elementor-widget-heading" data-id="7741312" data-widget_type="heading.default">
-                  <h4 className="elementor-heading-title elementor-size-default">Core Services</h4>
+                  <h4 className="elementor-heading-title elementor-size-default">Unsere Leistungen</h4>
                 </div>
                 <div className="elementor-element elementor-element-2811745 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="2811745" data-widget_type="icon-list.default">
                   <ul className="elementor-icon-list-items">
@@ -34,7 +34,7 @@ export default function MowixFooter() {
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Residential Landscaping</span>
+                        <span className="elementor-icon-list-text">Wohnbaufinanzierung</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
@@ -43,7 +43,7 @@ export default function MowixFooter() {
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Commercial Landscaping</span>
+                        <span className="elementor-icon-list-text">Wohnungskauf</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
@@ -52,7 +52,7 @@ export default function MowixFooter() {
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Landscape Design</span>
+                        <span className="elementor-icon-list-text">Hausbau</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
@@ -61,7 +61,7 @@ export default function MowixFooter() {
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Lawn Maintenance</span>
+                        <span className="elementor-icon-list-text">Sanierung</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
@@ -70,7 +70,7 @@ export default function MowixFooter() {
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Irrigation Systems</span>
+                        <span className="elementor-icon-list-text">Umschuldung</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
@@ -79,7 +79,7 @@ export default function MowixFooter() {
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Hardscape Installation</span>
+                        <span className="elementor-icon-list-text">Bankenvergleich</span>
                       </a>
                     </li>
                   </ul>
@@ -87,7 +87,7 @@ export default function MowixFooter() {
               </div>
               <div className="elementor-element elementor-element-dc2aa19 e-con-full e-flex e-con e-child" data-id="dc2aa19">
                 <div className="elementor-element elementor-element-582b36d elementor-widget elementor-widget-heading" data-id="582b36d" data-widget_type="heading.default">
-                  <h4 className="elementor-heading-title elementor-size-default">Company</h4>
+                  <h4 className="elementor-heading-title elementor-size-default">Unternehmen</h4>
                 </div>
                 <div className="elementor-element elementor-element-ad18382 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="ad18382" data-widget_type="icon-list.default">
                   <ul className="elementor-icon-list-items">
@@ -97,7 +97,7 @@ export default function MowixFooter() {
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">About Us</span>
+                        <span className="elementor-icon-list-text">Über uns</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
@@ -106,7 +106,7 @@ export default function MowixFooter() {
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Project</span>
+                        <span className="elementor-icon-list-text">Ablauf</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
@@ -115,7 +115,7 @@ export default function MowixFooter() {
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Pricing Plans</span>
+                        <span className="elementor-icon-list-text">Kreditvergleich</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
@@ -142,7 +142,7 @@ export default function MowixFooter() {
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Contact Us</span>
+                        <span className="elementor-icon-list-text">Kontakt</span>
                       </a>
                     </li>
                   </ul>
@@ -150,17 +150,17 @@ export default function MowixFooter() {
               </div>
               <div className="elementor-element elementor-element-129e8c6 e-con-full e-flex e-con e-child" data-id="129e8c6">
                 <div className="elementor-element elementor-element-a77f45d elementor-widget elementor-widget-heading" data-id="a77f45d" data-widget_type="heading.default">
-                  <h4 className="elementor-heading-title elementor-size-default">Get In Touch</h4>
+                  <h4 className="elementor-heading-title elementor-size-default">Kontakt</h4>
                 </div>
                 <div className="elementor-element elementor-element-6a7ee24 e-con-full e-flex e-con e-child" data-id="6a7ee24">
                   <div className="elementor-element elementor-element-d5fe8db elementor-widget elementor-widget-heading" data-id="d5fe8db" data-widget_type="heading.default">
                     <h6 className="elementor-heading-title elementor-size-default">(000) 123-4567</h6>
                   </div>
                   <div className="elementor-element elementor-element-f818543 elementor-widget elementor-widget-heading" data-id="f818543" data-widget_type="heading.default">
-                    <h6 className="elementor-heading-title elementor-size-default">info@yourcompany.com</h6>
+                    <h6 className="elementor-heading-title elementor-size-default">office@mowix.at</h6>
                   </div>
                   <div className="elementor-element elementor-element-1b3c74f elementor-widget elementor-widget-heading" data-id="1b3c74f" data-widget_type="heading.default">
-                    <h6 className="elementor-heading-title elementor-size-default">123 Business Street City, State</h6>
+                    <h6 className="elementor-heading-title elementor-size-default">Persönliche Beratung in ganz Österreich</h6>
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-a09fa5e e-con-full e-flex e-con e-child" data-id="a09fa5e">
@@ -207,18 +207,18 @@ export default function MowixFooter() {
             </div>
             <div className="elementor-element elementor-element-2036712 e-con-full e-flex e-con e-child" data-id="2036712">
               <div className="elementor-element elementor-element-126d6ac elementor-widget elementor-widget-heading" data-id="126d6ac" data-widget_type="heading.default">
-                <p className="elementor-heading-title elementor-size-default">© 2026 Your Mowix By Fox Creations. All Rights Reserved.</p>
+                <p className="elementor-heading-title elementor-size-default">© 2026 Mowix. Alle Rechte vorbehalten.</p>
               </div>
               <div className="elementor-element elementor-element-8999928 elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="8999928" data-widget_type="icon-list.default">
                 <ul className="elementor-icon-list-items elementor-inline-items">
                   <li className="elementor-icon-list-item elementor-inline-item">
                     <a href="#">
-                      <span className="elementor-icon-list-text">Privacy Policy</span>
+                      <span className="elementor-icon-list-text">Datenschutz</span>
                     </a>
                   </li>
                   <li className="elementor-icon-list-item elementor-inline-item">
                     <a href="#">
-                      <span className="elementor-icon-list-text">Terms &amp; Conditions</span>
+                      <span className="elementor-icon-list-text">Impressum</span>
                     </a>
                   </li>
                 </ul>
