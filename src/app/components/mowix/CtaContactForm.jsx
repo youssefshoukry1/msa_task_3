@@ -4,7 +4,7 @@ import { useState } from "react";
 import HomeIcon from "./HomeIcon";
 import { CONTACT_LIMITS, validateContact } from "./contactValidation";
 
-const EMPTY = { name: "", phone: "", message: "" };
+const EMPTY = { name: "", email: "", phone: "", message: "", privacy: false };
 
 export default function CtaContactForm() {
   const [values, setValues] = useState(EMPTY);
@@ -12,8 +12,8 @@ export default function CtaContactForm() {
   const [status, setStatus] = useState("idle"); // idle | sending | success | error
 
   const onChange = (event) => {
-    const { name, value } = event.target;
-    setValues((current) => ({ ...current, [name]: value }));
+    const { name, value, type, checked } = event.target;
+    setValues((current) => ({ ...current, [name]: type === "checkbox" ? checked : value }));
     if (errors[name]) setErrors((current) => ({ ...current, [name]: undefined }));
     if (status === "success" || status === "error") setStatus("idle");
   };
@@ -70,7 +70,7 @@ export default function CtaContactForm() {
       <div className="cta-form__row">
         <div className="cta-form__field">
           <label htmlFor="cta-name">Name</label>
-          <input type="text" autoComplete="name" placeholder="Ihr vollständiger Name" {...field("name")} />
+          <input type="text" autoComplete="name" placeholder="Ihr Name" {...field("name")} />
           {error("name")}
         </div>
         <div className="cta-form__field">
@@ -78,11 +78,38 @@ export default function CtaContactForm() {
           <input type="tel" autoComplete="tel" inputMode="tel" placeholder="+43 660 1234567" {...field("phone")} />
           {error("phone")}
         </div>
+        <div className="cta-form__field cta-form__field--email">
+          <label htmlFor="cta-email">E-Mail</label>
+          <input type="email" autoComplete="email" inputMode="email" placeholder="name@beispiel.at" {...field("email")} />
+          {error("email")}
+        </div>
       </div>
       <div className="cta-form__field">
         <label htmlFor="cta-message">Ihre Nachricht</label>
         <textarea rows={3} placeholder="Erzählen Sie uns kurz von Ihrem Vorhaben …" {...field("message")} />
         {error("message")}
+      </div>
+      <div className="cta-form__field">
+        <label className="cta-form__consent" htmlFor="cta-privacy">
+          <input
+            type="checkbox"
+            id="cta-privacy"
+            name="privacy"
+            checked={values.privacy}
+            onChange={onChange}
+            aria-invalid={errors.privacy ? "true" : undefined}
+            aria-describedby={errors.privacy ? "cta-privacy-error" : undefined}
+            disabled={status === "sending"}
+          />
+          <span>
+            Ich habe die{" "}
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              Datenschutzerklärung
+            </a>{" "}
+            gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu.
+          </span>
+        </label>
+        {error("privacy")}
       </div>
 
       <div className="elementor-element elementor-element-4c019e29 elementor-align-justify elementor-widget__width-initial elementor-widget elementor-widget-button">

@@ -1,7 +1,7 @@
 // Generated from the Mowix WordPress home page (Elementor page 971, container 5d8eebdc) by mowix-export/convert-html.mjs.
 import CoverImage from "./CoverImage";
 import CtaContactForm from "./CtaContactForm";
-import HomeIcon from "./HomeIcon";
+import Icon from "./Icon";
 
 export default function Cta() {
   return (
@@ -36,7 +36,7 @@ export default function Cta() {
                 <li className="elementor-icon-list-item">
                   <a href="#">
                     <span className="elementor-icon-list-icon">
-                      <HomeIcon name="facebook" />
+                      <Icon name="fab-facebook" />
                     </span>
                     {" "}
                     <span className="elementor-icon-list-text">Facebook</span>
@@ -49,7 +49,7 @@ export default function Cta() {
                 <li className="elementor-icon-list-item">
                   <a href="#">
                     <span className="elementor-icon-list-icon">
-                      <HomeIcon name="instagram" />
+                      <Icon name="fab-instagram" />
                     </span>
                     {" "}
                     <span className="elementor-icon-list-text">Instagram</span>
@@ -62,7 +62,7 @@ export default function Cta() {
                 <li className="elementor-icon-list-item">
                   <a href="#">
                     <span className="elementor-icon-list-icon">
-                      <HomeIcon name="youtube" />
+                      <Icon name="fab-youtube" />
                     </span>
                     {" "}
                     <span className="elementor-icon-list-text">Youtube</span>

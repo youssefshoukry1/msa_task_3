@@ -1,6 +1,6 @@
 // Generated from the Mowix WordPress home page (Elementor header template 335) by mowix-export/convert-html.mjs.
 import Image from "next/image";
-import Icon from "./Icon";
+import HomeIcon from "./HomeIcon";
 
 export default function MowixHeader() {
   return (
@@ -47,19 +47,10 @@ export default function MowixHeader() {
                       <a href="#ueber-uns" className="elementor-item elementor-item-anchor">Über uns</a>
                     </li>
                     <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                      <a href="#ablauf" className="elementor-item elementor-item-anchor">Ablauf</a>
-                    </li>
-                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                      <a href="#loesungen" className="elementor-item elementor-item-anchor">Lösungen</a>
-                    </li>
-                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                      <a href="#bewertungen" className="elementor-item elementor-item-anchor">Bewertungen</a>
-                    </li>
-                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
                       <a href="#kontakt" className="elementor-item elementor-item-anchor">Kontakt</a>
                     </li>
                     <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                      <a href="#ratgeber" className="elementor-item elementor-item-anchor">Ratgeber</a>
+                      <a href="#ratgeber" className="elementor-item elementor-item-anchor">FAQ</a>
                     </li>
                   </ul>
                 </nav>
@@ -80,32 +71,26 @@ export default function MowixHeader() {
                       <a href="#ueber-uns" className="elementor-item elementor-item-anchor" tabIndex="-1">Über uns</a>
                     </li>
                     <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                      <a href="#ablauf" className="elementor-item elementor-item-anchor" tabIndex="-1">Ablauf</a>
-                    </li>
-                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                      <a href="#loesungen" className="elementor-item elementor-item-anchor" tabIndex="-1">Lösungen</a>
-                    </li>
-                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                      <a href="#bewertungen" className="elementor-item elementor-item-anchor" tabIndex="-1">Bewertungen</a>
-                    </li>
-                    <li className="menu-item menu-item-type-custom menu-item-object-custom">
                       <a href="#kontakt" className="elementor-item elementor-item-anchor" tabIndex="-1">Kontakt</a>
                     </li>
                     <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                      <a href="#ratgeber" className="elementor-item elementor-item-anchor" tabIndex="-1">Ratgeber</a>
+                      <a href="#ratgeber" className="elementor-item elementor-item-anchor" tabIndex="-1">FAQ</a>
+                    </li>
+                    <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-phone">
+                      <a href="tel:010000000" className="elementor-item" tabIndex="-1">
+                        <HomeIcon name="phone" />
+                        <span>Jetzt anrufen: 010000000</span>
+                      </a>
                     </li>
                   </ul>
                 </nav>
               </div>
-              <div className="elementor-element elementor-element-318d7f5 elementor-align-justify elementor-widget__width-initial elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="318d7f5" data-widget_type="button.default">
-                <a className="elementor-button elementor-button-link elementor-size-sm" href="#kontakt">
-                  <span className="elementor-button-content-wrapper">
-                    <span className="elementor-button-icon">
-                      <Icon name="fas-arrow-circle-right" />
-                    </span>
-                    {" "}
-                    <span className="elementor-button-text">Beratung anfragen</span>
+              <div className="elementor-element elementor-element-318d7f5 elementor-align-justify elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="318d7f5" data-widget_type="button.default">
+                <a className="elementor-button elementor-button-link elementor-size-sm header-phone" href="tel:010000000" aria-label="Anrufen: 010000000">
+                  <span className="header-phone__icon">
+                    <HomeIcon name="phone" />
                   </span>
+                  <span className="header-phone__number">010000000</span>
                 </a>
               </div>
             </div>

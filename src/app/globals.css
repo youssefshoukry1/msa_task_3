@@ -1189,3 +1189,871 @@ html {
     display: none !important;
   }
 }
+
+/* ===== Hero: plain rounded card, no notches =====
+   The header no longer overlaps the hero, so the white cut-outs and their
+   inverted-corner spacers go away. */
+.elementor-335 .elementor-element.elementor-element-e18f356 {
+  --margin-bottom: 0px;
+}
+
+.elementor-335 :is(
+  .elementor-element-e439ee2,
+  .elementor-element-a43ecea,
+  .elementor-element-8714a57,
+  .elementor-element-d103320
+) {
+  display: none !important;
+}
+
+.elementor-971 .elementor-element.elementor-element-613fb167 {
+  --border-radius: 12px !important;
+  border-radius: 12px !important;
+  min-height: calc(100svh - 140px) !important;
+}
+
+.elementor-971 .elementor-element.elementor-element-9b68d0b {
+  --margin-top: 40px;
+}
+
+@media (max-width: 1024px) {
+  .elementor-971 .elementor-element.elementor-element-9b68d0b {
+    --margin-top: 0px;
+    --padding-top: 60px;
+  }
+}
+
+/* Bottom tags strip: floating glass panel inside the hero instead of a white notch. */
+.elementor-971 :is(
+  .elementor-element-62c768aa,
+  .elementor-element-24749500,
+  .elementor-element-3d402d68
+) {
+  display: none !important;
+}
+
+.elementor-971 .elementor-element.elementor-element-c269fc9 {
+  bottom: 24px;
+  left: clamp(24px, 3.5vw, 64px);
+}
+
+.elementor-971 .elementor-element.elementor-element-354f89e8 {
+  --border-radius: 10px;
+  --padding-top: 14px;
+  --padding-bottom: 14px;
+  --padding-left: 20px;
+  --padding-right: 20px;
+  backdrop-filter: blur(8px);
+}
+
+.elementor-971 .elementor-element.elementor-element-354f89e8:not(.elementor-motion-effects-element-type-background) {
+  background-color: rgb(16 42 67 / 45%);
+}
+
+.elementor-971 .elementor-element-3a72beae .elementor-heading-title {
+  color: #fff !important;
+}
+
+/* Tag pill icons: always navy, not just on hover (lucide strokes use currentColor). */
+.elementor-971 :is(
+  .elementor-element-3b35012c,
+  .elementor-element-133e114,
+  .elementor-element-79fa6ee5
+) .elementor-icon-list-icon {
+  color: var(--e-global-color-b7f3b2e, #102a43) !important;
+}
+
+/* Tags panel: breathing room and wrapping on smaller screens. */
+.elementor-971 .elementor-element.elementor-element-c269fc9 {
+  max-width: calc(100% - 2 * clamp(24px, 3.5vw, 64px));
+}
+
+.elementor-971 .elementor-element.elementor-element-354f89e8 {
+  --width: auto;
+  --flex-wrap: wrap;
+  --gap: 10px 16px;
+  --row-gap: 10px;
+  --column-gap: 16px;
+  --padding-top: 16px;
+  --padding-bottom: 16px;
+}
+
+.elementor-971 .elementor-element.elementor-element-5dcdf95b {
+  --width: auto;
+  --flex-wrap: wrap;
+  --justify-content: flex-start;
+  --gap: 8px;
+  --row-gap: 8px;
+  --column-gap: 8px;
+}
+
+/* Keep the hero content clear of the floating tags panel. */
+@media (min-width: 768px) {
+  .elementor-971 .elementor-element.elementor-element-9b68d0b {
+    padding-bottom: 130px !important;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .elementor-971 .elementor-element.elementor-element-c269fc9 {
+    bottom: 20px;
+    left: 20px;
+    max-width: calc(100% - 40px);
+  }
+
+  .elementor-971 .elementor-element.elementor-element-354f89e8 {
+    --flex-direction: column;
+    --align-items: flex-start;
+  }
+}
+
+/* About band video: local clip clipped to the framed, rounded box. */
+.elementor-971 .elementor-element.elementor-element-5ab44066 {
+  isolation: isolate;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Ratgeber FAQ cards: question toggles a short answer, no CTA. */
+.elementor-1065 .faq-item {
+  width: 100%;
+}
+
+.elementor-1065 .faq-question {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.elementor-1065 .faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.elementor-1065 .faq-question .elementor-heading-title {
+  color: var(--e-global-color-b7f3b2e);
+  font-family: var(--font-playfair), Georgia, serif;
+  font-size: clamp(20px, 1.6vw, 24px);
+  line-height: 1.25;
+  margin: 0;
+}
+
+.elementor-1065 .faq-toggle {
+  align-items: center;
+  background-color: var(--e-global-color-bc69b90);
+  border-radius: 50%;
+  color: var(--e-global-color-b7f3b2e);
+  display: inline-flex;
+  flex-shrink: 0;
+  height: 34px;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  width: 34px;
+}
+
+.elementor-1065 .faq-toggle svg {
+  height: 18px;
+  width: 18px;
+}
+
+.elementor-1065 .faq-item[open] .faq-toggle {
+  transform: rotate(90deg);
+}
+
+.elementor-1065 .faq-question:focus-visible {
+  border-radius: 8px;
+  outline: 2px solid var(--e-global-color-bc69b90);
+  outline-offset: 4px;
+}
+
+.elementor-1065 .faq-answer {
+  color: var(--e-global-color-b7f3b2e);
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 14px 0 0;
+}
+
+/* Google rating: solid gold stars; the unrated part of a star is solid white
+   (the fifth star is half gold, half white for 4.5). */
+.elementor-971 .elementor-element-764d655a .e-icon {
+  filter: drop-shadow(1px 2px 1px rgb(0 0 0 / 30%));
+}
+
+.elementor-971 .elementor-element-764d655a .e-icon-marked svg {
+  color: var(--e-global-color-bc69b90);
+  fill: var(--e-global-color-bc69b90) !important;
+  stroke-linejoin: miter;
+}
+
+.elementor-971 .elementor-element-764d655a .e-icon-unmarked svg {
+  color: #fff;
+  fill: #fff !important;
+  stroke-linejoin: miter;
+}
+
+/* Google rating card: navy card with light text so the gold stars stand out. */
+.elementor-971 .elementor-element.elementor-element-97300fe:not(.elementor-motion-effects-element-type-background) {
+  background-color: #102a43;
+  border-color: rgb(255 255 255 / 12%);
+}
+
+.elementor-971 .elementor-element.elementor-element-97300fe :is(
+  .elementor-element-11250b39,
+  .elementor-element-27d5041f
+) .elementor-heading-title {
+  color: #fff !important;
+}
+
+/* Google rating card: overlapping customer avatars, matching the hero rating card. */
+.elementor-971 .elementor-element.elementor-element-97300fe {
+  grid-template-columns: 58px minmax(0, 1fr) auto;
+}
+
+.elementor-971 .rating-avatars {
+  align-items: center;
+  display: flex;
+}
+
+.elementor-971 .rating-avatars img {
+  aspect-ratio: 1;
+  border: 4px solid var(--e-global-color-bc69b90);
+  border-radius: 50%;
+  height: 48px;
+  object-fit: cover;
+  width: 48px;
+}
+
+.elementor-971 .rating-avatars img + img {
+  margin-left: -16px;
+}
+
+@media (max-width: 767px) {
+  .elementor-971 .elementor-element.elementor-element-97300fe {
+    grid-template-columns: 48px minmax(0, 1fr) auto;
+  }
+
+  .elementor-971 .rating-avatars img {
+    border-width: 3px;
+    height: 36px;
+    width: 36px;
+  }
+
+  .elementor-971 .rating-avatars img + img {
+    margin-left: -12px;
+  }
+}
+
+/* Contact form privacy consent checkbox. */
+.elementor-971 .cta-form label.cta-form__consent {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  font-size: 13px;
+  font-weight: 400;
+  gap: 10px;
+  line-height: 1.45;
+}
+
+.elementor-971 .cta-form .cta-form__consent input[type="checkbox"] {
+  accent-color: var(--e-global-color-bc69b90);
+  flex-shrink: 0;
+  height: 18px;
+  margin: 1px 0 0;
+  padding: 0;
+  width: 18px;
+}
+
+.elementor-971 .cta-form .cta-form__consent input[type="checkbox"][aria-invalid="true"] {
+  outline: 2px solid #c0392b;
+  outline-offset: 2px;
+}
+
+.elementor-971 .cta-form .cta-form__consent a {
+  color: var(--e-global-color-b7f3b2e);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.elementor-971 .cta-form .cta-form__consent a:hover {
+  color: var(--e-global-color-bc69b90);
+}
+
+/* Contact form: email sits in the field row (full width below name/phone,
+   or as a third column on wide screens). */
+.elementor-971 .cta-form__field--email {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 767px) {
+  .elementor-971 .cta-form__field--email {
+    grid-column: auto;
+  }
+}
+
+/* Contact section on desktop: fit the whole card inside one screen height. */
+@media (min-width: 1025px) {
+  .elementor-971 .elementor-element.elementor-element-4e32baf0 {
+    --padding-top: clamp(28px, 4vh, 44px);
+    --padding-bottom: clamp(28px, 4vh, 44px);
+    max-height: none;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-30abae33 {
+    --gap: 12px;
+    --row-gap: 12px;
+  }
+
+  .elementor-971 .elementor-element-570e9770 .elementor-heading-title {
+    font-size: clamp(30px, 2.5vw, 42px) !important;
+    line-height: 1.1 !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-535e484a p {
+    margin-block-end: 4px;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-1af2c6bd {
+    display: none;
+  }
+
+  .elementor-971 .cta-form {
+    gap: 8px;
+  }
+
+  .elementor-971 .cta-form__row {
+    gap: 8px 10px;
+  }
+
+  .elementor-971 .cta-form__field {
+    gap: 4px;
+  }
+
+  .elementor-971 .cta-form label {
+    font-size: 13px;
+  }
+
+  .elementor-971 .cta-form :is(input, textarea) {
+    border-radius: 12px;
+    padding: 9px 14px;
+  }
+
+  .elementor-971 .cta-form textarea {
+    height: 64px;
+    min-height: 64px;
+  }
+
+  .elementor-971 .cta-form .elementor-widget-button {
+    margin-top: 0;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-723e6bf6 {
+    --gap: 8px 32px;
+    --row-gap: 8px;
+    --column-gap: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .elementor-971 .cta-form__row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .elementor-971 .cta-form__field--email {
+    grid-column: auto;
+  }
+}
+
+/* ===== Hero: Google rating card (replaces the old gold rating card) ===== */
+.elementor-971 .elementor-element.elementor-element-18d4aedd {
+  background: transparent !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+.elementor-971 .elementor-element.elementor-element-18d4aedd:not(.elementor-motion-effects-element-type-background) {
+  background-color: transparent;
+}
+
+@media (min-width: 1025px) {
+  .elementor-971 .elementor-element.elementor-element-18d4aedd {
+    --width: auto;
+    align-self: flex-end !important;
+    width: auto !important;
+  }
+}
+
+.google-rating {
+  align-items: center;
+  background-color: #102a43;
+  border: 1px solid rgb(255 255 255 / 12%);
+  border-radius: 24px;
+  box-shadow: 0 16px 38px rgb(16 42 67 / 24%);
+  color: #fff;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 52px minmax(0, 1fr) auto;
+  padding: 20px 24px;
+  width: 100%;
+}
+
+.google-rating__logo {
+  display: block;
+  height: 52px;
+  object-fit: contain;
+  width: 52px;
+}
+
+.google-rating__info {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.google-rating__score {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.google-rating__value {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.google-rating__stars {
+  display: inline-flex;
+  filter: drop-shadow(1px 2px 1px rgb(0 0 0 / 30%));
+  gap: 3px;
+}
+
+.google-rating__star {
+  display: inline-block;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.google-rating__star svg {
+  display: block;
+  height: 16px;
+  stroke-linejoin: miter;
+  width: 16px;
+}
+
+.google-rating__star > svg {
+  color: #fff;
+  fill: #fff !important;
+}
+
+.google-rating__star-fill {
+  inset: 0 auto 0 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.google-rating__star-fill svg {
+  color: var(--e-global-color-bc69b90, #c89b3c);
+  fill: var(--e-global-color-bc69b90, #c89b3c) !important;
+}
+
+.elementor-kit-3 .google-rating__label {
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.google-rating__avatars {
+  align-items: center;
+  display: flex;
+}
+
+.google-rating__avatars img {
+  aspect-ratio: 1;
+  border: 4px solid var(--e-global-color-bc69b90, #c89b3c);
+  border-radius: 50%;
+  height: 48px;
+  object-fit: cover;
+  width: 48px;
+}
+
+.google-rating__avatars img + img {
+  margin-left: -16px;
+}
+
+@media (max-width: 767px) {
+  .google-rating {
+    border-radius: 20px;
+    gap: 12px;
+    grid-template-columns: 40px minmax(0, 1fr) auto;
+    padding: 14px 16px;
+  }
+
+  .google-rating__logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .google-rating__avatars img {
+    border-width: 3px;
+    height: 34px;
+    width: 34px;
+  }
+
+  .google-rating__avatars img + img {
+    margin-left: -12px;
+  }
+
+  .elementor-kit-3 .google-rating__label {
+    font-size: 0.95rem;
+  }
+}
+
+/* Hero Google card: pinned to the bottom-right corner, level with the tags panel. */
+@media (min-width: 1025px) {
+  .elementor-971 .elementor-element.elementor-element-9b68d0b,
+  .elementor-971 .elementor-element-9b68d0b > .e-con-inner {
+    position: static !important;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-18d4aedd {
+    bottom: 24px;
+    position: absolute !important;
+    right: clamp(24px, 3.5vw, 64px);
+    z-index: 2;
+  }
+}
+
+/* ===== Header: refined menu + phone CTA ===== */
+@media (min-width: 1025px) {
+  .elementor-335 .elementor-element.elementor-element-add4bac {
+    gap: 20px !important;
+    justify-content: flex-end !important;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--main .elementor-nav-menu {
+    background: #f4f6f0;
+    border: 1px solid rgb(16 42 67 / 8%);
+    border-radius: 999px;
+    gap: 2px;
+    padding: 5px;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--main .elementor-item {
+    border-radius: 999px;
+    color: var(--e-global-color-b7f3b2e) !important;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 10px 20px !important;
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--main .elementor-item:is(:hover, :focus-visible) {
+    background: #fff;
+    box-shadow: 0 2px 8px rgb(16 42 67 / 10%);
+    color: var(--e-global-color-bc69b90) !important;
+  }
+}
+
+.elementor-335 .elementor-element.elementor-element-318d7f5 {
+  --container-widget-width: auto;
+  max-width: none !important;
+  width: auto !important;
+}
+
+.elementor-335 .elementor-element-318d7f5 a.header-phone {
+  align-items: center;
+  background-color: var(--e-global-color-b7f3b2e);
+  border-radius: 999px;
+  color: #fff !important;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 700;
+  gap: 12px;
+  letter-spacing: 0.02em;
+  padding: 7px 22px 7px 7px;
+  transition: background-color 0.2s, transform 0.2s;
+  white-space: nowrap;
+}
+
+.elementor-335 .elementor-element-318d7f5 a.header-phone:is(:hover, :focus-visible) {
+  background-color: #1b3d5e;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+.elementor-335 .header-phone__icon {
+  align-items: center;
+  background-color: var(--e-global-color-bc69b90);
+  border-radius: 50%;
+  color: var(--e-global-color-b7f3b2e);
+  display: inline-flex;
+  height: 38px;
+  justify-content: center;
+  width: 38px;
+}
+
+.elementor-335 .header-phone__icon svg {
+  fill: none !important;
+  height: 18px;
+  width: 18px;
+}
+
+/* Mobile dropdown: phone number as a highlighted last item. */
+.elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown .menu-item-phone a {
+  color: var(--e-global-color-bc69b90) !important;
+}
+
+@media (min-width: 768px) {
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown .menu-item-phone {
+    display: none;
+  }
+}
+
+/* ===== Header on tablet & phone: compact sticky bar + floating menu card ===== */
+@media (max-width: 1024px) {
+  header.elementor-335 {
+    backdrop-filter: saturate(160%) blur(12px);
+    background: rgb(255 255 255 / 88%);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  /* Let the dropdown position itself against the header bar. */
+  .elementor-335 :is(
+    .elementor-element-e18f356,
+    .elementor-element-8431714,
+    .elementor-element-f3ad67f,
+    .elementor-element-add4bac,
+    .elementor-element-87b56ed
+  ) {
+    --position: static;
+    position: static !important;
+  }
+
+  .elementor-335 .elementor-element.elementor-element-e18f356 {
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+  }
+
+  .elementor-335 .elementor-element.elementor-element-8431714,
+  .elementor-335 .elementor-element.elementor-element-f3ad67f {
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .elementor-335 .elementor-element.elementor-element-f3ad67f {
+    --width: auto;
+    width: auto !important;
+  }
+
+  .elementor-335 .elementor-element.elementor-element-add4bac {
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    align-items: center !important;
+    background: transparent !important;
+    flex-wrap: nowrap !important;
+    gap: 10px !important;
+  }
+
+  .elementor-335 .elementor-element.elementor-element-318d7f5 {
+    order: 1;
+  }
+
+  .elementor-335 .elementor-element.elementor-element-87b56ed {
+    --order: 2;
+    order: 2;
+  }
+
+  /* Burger button */
+  .elementor-335 .elementor-element-87b56ed .elementor-menu-toggle {
+    background-color: var(--e-global-color-b7f3b2e) !important;
+    border-radius: 14px !important;
+    color: #fff !important;
+    height: 46px;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: background-color 0.2s;
+    width: 46px;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-menu-toggle svg {
+    fill: #fff !important;
+    height: 20px !important;
+    width: 20px !important;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-menu-toggle.elementor-active {
+    background-color: var(--e-global-color-bc69b90) !important;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-menu-toggle.elementor-active svg {
+    fill: var(--e-global-color-b7f3b2e) !important;
+  }
+
+  /* Floating menu card */
+  .elementor-335 .elementor-element-87b56ed nav.elementor-nav-menu--dropdown.elementor-nav-menu__container {
+    background: #fff !important;
+    border: 1px solid rgb(16 42 67 / 8%);
+    border-radius: 22px !important;
+    box-shadow: 0 24px 48px rgb(16 42 67 / 22%), 0 0 0 100vmax rgb(16 42 67 / 0%);
+    left: 12px !important;
+    margin-top: 0 !important;
+    padding: 8px;
+    right: 12px !important;
+    top: calc(100% + 8px) !important;
+    transform-origin: top right;
+    width: auto !important;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-menu-toggle.elementor-active + nav.elementor-nav-menu--dropdown {
+    box-shadow: 0 24px 48px rgb(16 42 67 / 22%), 0 0 0 100vmax rgb(16 42 67 / 35%);
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown .elementor-nav-menu {
+    display: grid;
+    gap: 2px;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown li a.elementor-item {
+    align-items: center;
+    background: transparent !important;
+    border-radius: 14px !important;
+    color: var(--e-global-color-b7f3b2e) !important;
+    display: flex;
+    font-size: 1.05rem !important;
+    font-weight: 600 !important;
+    justify-content: space-between;
+    padding: 14px 16px !important;
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown li:not(.menu-item-phone) a.elementor-item:is(:hover, :focus-visible) {
+    background: #f4f6f0 !important;
+    color: var(--e-global-color-bc69b90) !important;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown li.menu-item-phone {
+    border-top: 1px solid rgb(16 42 67 / 8%);
+    margin-top: 6px;
+    padding-top: 8px;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown li.menu-item-phone a.elementor-item {
+    background: var(--e-global-color-bc69b90) !important;
+    color: var(--e-global-color-b7f3b2e) !important;
+    font-weight: 700 !important;
+    justify-content: center;
+    letter-spacing: 0.02em;
+  }
+
+  /* Less space between the bar and the hero. */
+  .elementor-971 .elementor-element.elementor-element-7fb7d3ba {
+    --padding-top: 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor-335 .elementor-element.elementor-element-e18f356 {
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    --padding-left: 16px;
+    --padding-right: 16px;
+  }
+
+  .elementor-335 .elementor-element-fa06027 img.site-logo-mark {
+    height: 40px !important;
+  }
+
+  .elementor-335 .elementor-element.elementor-element-fa06027 {
+    padding: 0 !important;
+  }
+
+  /* Phone CTA collapses to a round call button beside the burger. */
+  .elementor-335 .elementor-element-318d7f5 a.header-phone {
+    background: #f4f6f0;
+    border: 1px solid rgb(16 42 67 / 10%);
+    gap: 0;
+    height: 46px;
+    justify-content: center;
+    padding: 0;
+    width: 46px;
+  }
+
+  .elementor-335 .header-phone__number {
+    display: none;
+  }
+
+  .elementor-335 .header-phone__icon {
+    height: 34px;
+    width: 34px;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-7fb7d3ba {
+    --padding-left: 12px;
+    --padding-right: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .elementor-335 .elementor-element.elementor-element-fa06027 {
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+  }
+
+  .elementor-335 .elementor-element.elementor-element-cb0fe9c,
+  .elementor-335 .elementor-element.elementor-element-f3ad67f {
+    --width: auto;
+    flex: 0 0 auto;
+    width: auto !important;
+  }
+
+  .elementor-335 .elementor-element.elementor-element-8431714 {
+    justify-content: space-between !important;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown a.elementor-item::before,
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown a.elementor-item::after {
+    display: none !important;
+  }
+
+  /* Chevron on regular menu links. */
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown li:not(.menu-item-phone) a.elementor-item {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23102a43' stroke-opacity='.45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3E%3Cpath d='m9 18 6-6-6-6'/%3E%3C/svg%3E") !important;
+    background-position: right 14px center !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown li.menu-item-phone a.elementor-item {
+    gap: 10px;
+  }
+
+  .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown li.menu-item-phone svg {
+    fill: none !important;
+    height: 18px;
+    width: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .elementor-335 :is(.elementor-element-87b56ed, .elementor-element-318d7f5, .elementor-element-add4bac) {
+    flex: 0 0 auto !important;
+    max-width: none !important;
+    width: auto !important;
+  }
+}
+
+/* Phones: no separate round call button in the header (the number is in the menu). */
+@media (max-width: 767px) {
+  .elementor-335 .elementor-element.elementor-element-318d7f5 {
+    display: none !important;
+  }
+}

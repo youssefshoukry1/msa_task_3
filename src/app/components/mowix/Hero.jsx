@@ -1,6 +1,6 @@
 // Generated from the Mowix WordPress home page (Elementor page 971, container 7fb7d3ba) by mowix-export/convert-html.mjs.
-import Image from "next/image";
 import CoverVideo from "./CoverVideo";
+import GoogleRatingCard from "./GoogleRatingCard";
 import HomeIcon from "./HomeIcon";
 
 export default function Hero() {
@@ -29,69 +29,8 @@ export default function Hero() {
                 </a>
               </div>
             </div>
-            <div className="elementor-element elementor-element-18d4aedd e-con-full e-flex elementor-invisible e-con e-child" data-id="18d4aedd" data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateX_effect":"yes","motion_fx_translateX_speed":{"unit":"px","size":1,"sizes":[]},"motion_fx_devices":["desktop","tablet"],"animation":"fadeInRight","motion_fx_translateX_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}'>
-              <div className="elementor-element elementor-element-4aadc77d e-con-full e-flex e-con e-child" data-id="4aadc77d">
-                <div className="elementor-element elementor-element-58e11d85 e-con-full e-flex e-con e-child" data-id="58e11d85">
-                  <div className="elementor-element elementor-element-2fa54ff1 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="2fa54ff1" data-widget_type="image.default">
-                    <a href="#">
-                      <Image width="800" height="800" src="/mowix/images/2026/02/Photo-12.jpg" className="attachment-large size-large wp-image-133" alt="" sizes="60px" quality={90} />
-                    </a>
-                  </div>
-                  <div className="elementor-element elementor-element-1401cb2d elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="1401cb2d" data-widget_type="image.default">
-                    <a href="#">
-                      <Image width="800" height="800" src="/mowix/images/2026/02/Photo-5.jpg" className="attachment-large size-large wp-image-131" alt="" sizes="60px" quality={90} />
-                    </a>
-                  </div>
-                  <div className="elementor-element elementor-element-22f9abac elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="22f9abac" data-widget_type="image.default">
-                    <a href="#">
-                      <Image width="800" height="800" src="/mowix/images/2026/02/Photo-8.jpg" className="attachment-large size-large wp-image-132" alt="" sizes="60px" quality={90} />
-                    </a>
-                  </div>
-                </div>
-                <div className="elementor-element elementor-element-2781729a elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2781729a" data-widget_type="heading.default">
-                  <p className="elementor-heading-title elementor-size-default">Persönlich beraten</p>
-                </div>
-              </div>
-              <div className="elementor-element elementor-element-1838b068 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="1838b068" data-widget_type="heading.default">
-                <h6 className="elementor-heading-title elementor-size-default">Kompetent, transparent und verlässlich.</h6>
-              </div>
-              <div className="elementor-element elementor-element-2d8b8f27 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="2d8b8f27" data-widget_type="divider.default">
-                <div className="elementor-divider">
-                  <span className="elementor-divider-separator" />
-                </div>
-              </div>
-              <div className="elementor-element elementor-element-2592e80b e-con-full e-flex e-con e-child" data-id="2592e80b">
-                <div className="elementor-element elementor-element-6a92a725 e-con-full e-flex e-con e-child" data-id="6a92a725">
-                  <div className="elementor-element elementor-element-1f96a16b elementor-widget elementor-widget-counter" data-id="1f96a16b" data-widget_type="counter.default">
-                    <div className="elementor-counter">
-                      <div className="elementor-counter-number-wrapper">
-                        <span className="elementor-counter-number-prefix" />
-                        {" "}
-                        <span className="elementor-counter-number" data-duration="2000" data-to-value="4.9" data-from-value="0" data-delimiter=",">0</span>
-                        {" "}
-                        <span className="elementor-counter-number-suffix" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="elementor-element elementor-element-7a8ab19a elementor-widget elementor-widget-rating" data-id="7a8ab19a" data-widget_type="rating.default">
-                    <div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
-                      <div className="e-rating-wrapper" itemProp="ratingValue" content="1" role="img" aria-label="Rated 1 out of 1">
-                        <div className="e-icon">
-                          <div className="e-icon-wrapper e-icon-marked">
-                            <HomeIcon name="star" />
-                          </div>
-                          <div className="e-icon-wrapper e-icon-unmarked">
-                            <HomeIcon name="star" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="elementor-element elementor-element-57bb1f2b elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="57bb1f2b" data-widget_type="heading.default">
-                  <h5 className="elementor-heading-title elementor-size-default">Kunden&shy;bewertung</h5>
-                </div>
-              </div>
+            <div className="elementor-element elementor-element-18d4aedd e-con-full e-flex elementor-invisible e-con e-child" data-id="18d4aedd" data-settings='{"animation":"fadeInRight"}'>
+              <GoogleRatingCard />
             </div>
           </div>
         </div>

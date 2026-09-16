@@ -69,6 +69,11 @@ export default function Testimonials() {
                   <h5 className="elementor-heading-title elementor-size-default">Google Bewertungen</h5>
                 </div>
               </div>
+              <div className="rating-avatars" aria-hidden="true">
+                <Image width="800" height="800" src="/mowix/images/2026/02/Photo-12.jpg" alt="" sizes="48px" quality={90} />
+                <Image width="800" height="800" src="/mowix/images/2026/02/Photo-5.jpg" alt="" sizes="48px" quality={90} />
+                <Image width="800" height="800" src="/mowix/images/2026/02/Photo-8.jpg" alt="" sizes="48px" quality={90} />
+              </div>
             </div>
           </div>
           <div className="elementor-element elementor-element-241abcf8 e-con-full e-flex elementor-invisible e-con e-child" data-id="241abcf8" data-settings='{"animation":"fadeInRight"}'>

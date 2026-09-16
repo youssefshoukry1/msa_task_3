@@ -101,30 +101,12 @@ export default function MowixFooter() {
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
-                      <a href="#ablauf">
+                      <a href="#kontakt">
                         <span className="elementor-icon-list-icon">
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Ablauf</span>
-                      </a>
-                    </li>
-                    <li className="elementor-icon-list-item">
-                      <a href="#loesungen">
-                        <span className="elementor-icon-list-icon">
-                          <Icon name="fas-chevron-circle-right" />
-                        </span>
-                        {" "}
-                        <span className="elementor-icon-list-text">Lösungen</span>
-                      </a>
-                    </li>
-                    <li className="elementor-icon-list-item">
-                      <a href="#bewertungen">
-                        <span className="elementor-icon-list-icon">
-                          <Icon name="fas-chevron-circle-right" />
-                        </span>
-                        {" "}
-                        <span className="elementor-icon-list-text">Bewertungen</span>
+                        <span className="elementor-icon-list-text">Kontakt</span>
                       </a>
                     </li>
                     <li className="elementor-icon-list-item">
@@ -133,16 +115,7 @@ export default function MowixFooter() {
                           <Icon name="fas-chevron-circle-right" />
                         </span>
                         {" "}
-                        <span className="elementor-icon-list-text">Ratgeber</span>
-                      </a>
-                    </li>
-                    <li className="elementor-icon-list-item">
-                      <a href="#kontakt">
-                        <span className="elementor-icon-list-icon">
-                          <Icon name="fas-chevron-circle-right" />
-                        </span>
-                        {" "}
-                        <span className="elementor-icon-list-text">Kontakt</span>
+                        <span className="elementor-icon-list-text">FAQ</span>
                       </a>
                     </li>
                   </ul>
