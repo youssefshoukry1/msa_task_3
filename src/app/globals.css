@@ -52,6 +52,82 @@
   letter-spacing: -0.008em;
 }
 
+/* Icon treatments stay transparent; gold remains reserved for deliberate
+   typography and CTA accents rather than icon backplates. */
+.elementor-971 :is(
+  .elementor-element-2f4b91c,
+  .elementor-element-128371aa,
+  .elementor-element-6b3e5fa6,
+  .elementor-element-b8b299c,
+  .elementor-element-537a78c1,
+  .elementor-element-2803e70b,
+  .elementor-element-5017219,
+  .elementor-element-7a63f943,
+  .elementor-element-567fce9c,
+  .elementor-element-771ea021,
+  .elementor-element-241d26f3,
+  .elementor-element-e5766e9,
+  .elementor-element-aec15c4,
+  .elementor-element-de2b52c,
+  .elementor-element-12ea6505,
+  .elementor-element-7e1a7f95,
+  .elementor-element-71b9973c,
+  .elementor-element-3d7f6e94,
+  .elementor-element-2a84c2fd,
+  .elementor-element-5b64db19,
+  .elementor-element-4a2d9590,
+  .elementor-element-35c6d4f0,
+  .elementor-element-23bf67eb
+) {
+  background-color: transparent !important;
+}
+
+.elementor-971 :is(
+  .elementor-element-2f4b91c,
+  .elementor-element-128371aa,
+  .elementor-element-6b3e5fa6,
+  .elementor-element-b8b299c,
+  .elementor-element-537a78c1,
+  .elementor-element-2803e70b,
+  .elementor-element-5017219,
+  .elementor-element-7a63f943,
+  .elementor-element-567fce9c,
+  .elementor-element-771ea021,
+  .elementor-element-241d26f3,
+  .elementor-element-e5766e9,
+  .elementor-element-aec15c4,
+  .elementor-element-de2b52c,
+  .elementor-element-12ea6505,
+  .elementor-element-7e1a7f95,
+  .elementor-element-71b9973c,
+  .elementor-element-3d7f6e94,
+  .elementor-element-2a84c2fd,
+  .elementor-element-5b64db19,
+  .elementor-element-4a2d9590,
+  .elementor-element-35c6d4f0,
+  .elementor-element-23bf67eb
+) > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+  background-color: transparent !important;
+}
+
+/* Match the 3D icon turn used by the ALEX repair-service cards. */
+.elementor-971 :is(
+  .elementor-element-a98c060,
+  .elementor-element-6c748ea1,
+  .elementor-element-6b041375
+) .elementor-widget-image svg {
+  transform-style: preserve-3d;
+  transition: transform 1s cubic-bezier(0.25, 0, 0.25, 1.2);
+}
+
+.elementor-971 :is(
+  .elementor-element-a98c060,
+  .elementor-element-6c748ea1,
+  .elementor-element-6b041375
+):hover .elementor-widget-image svg {
+  transform: rotateY(360deg);
+}
+
 /* The exported hero avatars use a hard-coded version of the accent color. */
 .elementor-971 .elementor-element.elementor-element-2fa54ff1 img,
 .elementor-971 .elementor-element.elementor-element-1401cb2d img,
@@ -80,56 +156,8 @@
   width: 30px;
 }
 
-/* Financing service card photography. Elementor can move backgrounds into a
-   runtime layer, so each image is applied to both the card and that layer. */
-.elementor-971 .elementor-element.elementor-element-4303f253 {
-  --service-card-image: url("/mowix/images/related_content_imgs/couple%20buying%20apartment.jpg");
-}
-
-.elementor-971 .elementor-element.elementor-element-491c2243 {
-  --service-card-image: url("/mowix/images/related_content_imgs/couple%20buying%20house.webp");
-}
-
-.elementor-971 .elementor-element.elementor-element-6bb1ea81 {
-  --service-card-image: url("/mowix/images/related_content_imgs/modern%20house%20construction.webp");
-}
-
-.elementor-971 .elementor-element.elementor-element-1ad2502c {
-  --service-card-image: url("/mowix/images/related_content_imgs/home%20renovation%20couple.webp");
-}
-
-.elementor-971 .elementor-element.elementor-element-73bfb998 {
-  --service-card-image: url("/mowix/images/related_content_imgs/financial%20advisor%20meeting%20couple.webp");
-}
-
-.elementor-971 .elementor-element.elementor-element-522e4b1d {
-  --service-card-image: url("/mowix/images/related_content_imgs/loan%20consultation.webp");
-}
-
-.elementor-971 .elementor-element.elementor-element-78070704 {
-  --service-card-image: url("/mowix/images/related_content_imgs/personal%20finance%20consultation.webp");
-}
-
-.elementor-971 .elementor-element.elementor-element-2d9a2803 {
-  --service-card-image: url("/mowix/images/related_content_imgs/business%20financial%20meeting.webp");
-}
-
-.elementor-971 .elementor-element.elementor-element-65bcdf1c {
-  --service-card-image: url("/mowix/images/related_content_imgs/financial%20advisor%20documents.webp");
-}
-
-.elementor-971 .elementor-element.elementor-element-3f05f6be {
-  --service-card-image: url("/mowix/images/related_content_imgs/couple%20financial%20planning.webp");
-}
-
-.elementor-971 .elementor-element.elementor-element-17b79ccb {
-  --service-card-image: url("/mowix/images/related_content_imgs/mortgage%20comparison.webp");
-}
-
-.elementor-971 .elementor-element.elementor-element-58f74161 {
-  --service-card-image: url("/mowix/images/related_content_imgs/financial%20advisor%20client.webp");
-}
-
+/* Service card photography is rendered with next/image (CoverImage), so the
+   exported CSS backgrounds are disabled. */
 .elementor-971 :is(
   .elementor-element-4303f253,
   .elementor-element-491c2243,
@@ -143,10 +171,7 @@
   .elementor-element-3f05f6be,
   .elementor-element-17b79ccb,
   .elementor-element-58f74161
-) {
-  background-image: var(--service-card-image) !important;
-}
-
+),
 .elementor-971 :is(
   .elementor-element-4303f253,
   .elementor-element-491c2243,
@@ -161,7 +186,12 @@
   .elementor-element-17b79ccb,
   .elementor-element-58f74161
 ) > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-  background-image: var(--service-card-image) !important;
+  background-image: none !important;
+}
+
+.elementor-971 .cover-image {
+  pointer-events: none;
+  z-index: -1;
 }
 
 /* Responsive service cards: keep the information panel inside the photo,
@@ -458,16 +488,17 @@
   }
 }
 
-/* Financing call-to-action photography. Apply it to the runtime motion layer
-   as well, because Elementor moves scrolling backgrounds into that layer. */
-.elementor-971 .elementor-element.elementor-element-fd9fdb9,
-.elementor-971 .elementor-element.elementor-element-fd9fdb9
+/* Hero and call-to-action photography is rendered with next/image
+   (CoverImage) behind the section content. */
+.elementor-971 :is(.elementor-element-613fb167, .elementor-element-fd9fdb9),
+.elementor-971 :is(.elementor-element-613fb167, .elementor-element-fd9fdb9)
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/mowix/images/related_content_imgs/couple%20standing%20outside%20new%20house.jpg") !important;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: none !important;
+}
+
+.elementor-971 :is(.elementor-element-613fb167, .elementor-element-fd9fdb9) {
+  isolation: isolate;
 }
 
 /* Keep the new portrait-oriented testimonial photos inside the original
@@ -634,4 +665,16 @@ html {
 
 .active-link{
 
+}
+
+/* Process photo: house-shaped mask in place of the exported leaf logo mask. */
+.elementor-971 .elementor-element.elementor-element-67db69f3.elementor-widget-image img {
+  -webkit-mask-image: url("/mowix/images/2026/02/Mowix-Masking-Home.svg");
+  mask-image: url("/mowix/images/2026/02/Mowix-Masking-Home.svg");
+  -webkit-mask-position: center center;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }

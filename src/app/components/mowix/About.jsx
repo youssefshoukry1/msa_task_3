@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 2c8fd3ca) by mowix-export/convert-html.mjs.
+import Image from "next/image";
 import HomeIcon from "./HomeIcon";
 
 export default function About() {
@@ -9,10 +9,10 @@ export default function About() {
         <div className="elementor-element elementor-element-6d476a70 e-con-full e-flex e-con e-child" data-id="6d476a70">
           <div className="elementor-element elementor-element-3079adac e-con-full e-flex e-con e-child" data-id="3079adac">
             <div className="elementor-element elementor-element-6cb3edd7 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="6cb3edd7" data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateY_effect":"yes","motion_fx_translateY_direction":"negative","motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"motion_fx_devices":["desktop","tablet"],"motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}' data-widget_type="image.default">
-          <img loading="lazy" decoding="async" width="3800" height="2138" src="/mowix/images/related_content_imgs/happy couple meeting financial advisor.jpg" className="attachment-large size-large wp-image-1182" alt="Ein Paar im persönlichen Beratungsgespräch mit einer Finanzberaterin" />
+          <Image width="3800" height="2138" src="/mowix/images/related_content_imgs/happy couple meeting financial advisor.webp" className="attachment-large size-large wp-image-1182" alt="Ein Paar im persönlichen Beratungsgespräch mit einer Finanzberaterin" sizes="(max-width: 1024px) 57vw, 26vw" quality={90} />
             </div>
             <div className="elementor-element elementor-element-275f5c8c elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="275f5c8c" data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateY_effect":"yes","motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"motion_fx_devices":["desktop","tablet"],"motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}' data-widget_type="image.default">
-          <img loading="lazy" decoding="async" width="4500" height="3000" src="/mowix/images/related_content_imgs/mortgage advisor reviewing documents with clients.jpg" className="attachment-large size-large wp-image-1181" alt="Finanzberater bespricht Finanzierungsunterlagen mit einem Paar" />
+          <Image width="4500" height="3000" src="/mowix/images/related_content_imgs/mortgage advisor reviewing documents with clients.webp" className="attachment-large size-large wp-image-1181" alt="Finanzberater bespricht Finanzierungsunterlagen mit einem Paar" sizes="(max-width: 1024px) 57vw, 26vw" quality={90} />
             </div>
             <div className="elementor-element elementor-element-424f4f71 e-con-full e-flex e-con e-child" data-id="424f4f71">
               <div className="elementor-element elementor-element-304e26d7 elementor-widget elementor-widget-text-path" data-id="304e26d7" data-settings='{"text":"Precision • Expertise • Reliability • Innovation • Excellence •","motion_fx_motion_fx_scrolling":"yes","motion_fx_rotateZ_effect":"yes","motion_fx_rotateZ_speed":{"unit":"px","size":2,"sizes":[]},"link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"start_point":{"unit":"%","size":0,"sizes":[]},"motion_fx_rotateZ_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"motion_fx_devices":["desktop","tablet","mobile"]}' data-widget_type="text-path.default">

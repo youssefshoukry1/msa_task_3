@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 78696582) by mowix-export/convert-html.mjs.
+import Image from "next/image";
 import HomeIcon from "./HomeIcon";
 
 export default function Blog() {
@@ -33,7 +33,7 @@ export default function Blog() {
                     <div className="elementor-element elementor-element-060e89c e-flex e-con-boxed e-con e-parent" data-id="060e89c">
                       <div className="e-con-inner">
                         <div className="elementor-element elementor-element-a341deb elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="a341deb" data-widget_type="theme-post-featured-image.default">
-              <img loading="lazy" decoding="async" width="3317" height="2517" src="/mowix/images/related_content_imgs/couple calculating home buying budget.jpg" className="attachment-large size-large wp-image-1226" alt="Paar berechnet das Budget für den Immobilienkauf" />
+              <Image width="3317" height="2517" src="/mowix/images/related_content_imgs/couple calculating home buying budget.webp" className="attachment-large size-large wp-image-1226" alt="Paar berechnet das Budget für den Immobilienkauf" sizes="(max-width: 767px) 85vw, (max-width: 1024px) 44vw, 29vw" quality={90} />
                         </div>
                         <div className="elementor-element elementor-element-50bff99 e-con-full e-flex e-con e-child" data-id="50bff99">
                           <div className="elementor-element elementor-element-4ceefca e-con-full e-flex e-con e-child" data-id="4ceefca">
@@ -78,7 +78,7 @@ export default function Blog() {
                     <div className="elementor-element elementor-element-060e89c e-flex e-con-boxed e-con e-parent" data-id="060e89c">
                       <div className="e-con-inner">
                         <div className="elementor-element elementor-element-a341deb elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="a341deb" data-widget_type="theme-post-featured-image.default">
-              <img loading="lazy" decoding="async" width="4500" height="3000" src="/mowix/images/related_content_imgs/pexels-rdne-8292895.jpg" className="attachment-large size-large wp-image-1225" alt="Berater erläutert unterschiedliche Hypothekenzinsen" />
+              <Image width="4500" height="3000" src="/mowix/images/related_content_imgs/pexels-rdne-8292895.webp" className="attachment-large size-large wp-image-1225" alt="Berater erläutert unterschiedliche Hypothekenzinsen" sizes="(max-width: 767px) 85vw, (max-width: 1024px) 44vw, 29vw" quality={90} />
                         </div>
                         <div className="elementor-element elementor-element-50bff99 e-con-full e-flex e-con e-child" data-id="50bff99">
                           <div className="elementor-element elementor-element-4ceefca e-con-full e-flex e-con e-child" data-id="4ceefca">
@@ -123,7 +123,7 @@ export default function Blog() {
                     <div className="elementor-element elementor-element-060e89c e-flex e-con-boxed e-con e-parent" data-id="060e89c">
                       <div className="e-con-inner">
                         <div className="elementor-element elementor-element-a341deb elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="a341deb" data-widget_type="theme-post-featured-image.default">
-              <img loading="lazy" decoding="async" width="4500" height="3000" src="/mowix/images/related_content_imgs/mortgage refinancing consultation.jpg" className="attachment-large size-large wp-image-1224" alt="Beratungsgespräch über die Umschuldung eines Immobilienkredits" />
+              <Image width="4500" height="3000" src="/mowix/images/related_content_imgs/mortgage refinancing consultation.webp" className="attachment-large size-large wp-image-1224" alt="Beratungsgespräch über die Umschuldung eines Immobilienkredits" sizes="(max-width: 767px) 85vw, (max-width: 1024px) 44vw, 29vw" quality={90} />
                         </div>
                         <div className="elementor-element elementor-element-50bff99 e-con-full e-flex e-con e-child" data-id="50bff99">
                           <div className="elementor-element elementor-element-4ceefca e-con-full e-flex e-con e-child" data-id="4ceefca">

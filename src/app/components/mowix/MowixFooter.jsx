@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor footer template 1002) by mowix-export/convert-html.mjs.
+import Image from "next/image";
 import Icon from "./Icon";
 
 export default function MowixFooter() {
@@ -12,7 +12,7 @@ export default function MowixFooter() {
               <div className="elementor-element elementor-element-0ac8d7e e-con-full e-flex e-con e-child" data-id="0ac8d7e">
                 <div className="elementor-element elementor-element-9453c1e elementor-widget elementor-widget-image" data-id="9453c1e" data-widget_type="image.default">
                   <a href="/">
-                    <img width="512" height="143" src="/mowix/images/2026/02/Mowix-Logo-light.png" className="attachment-large size-large wp-image-1113" alt="" />
+                    <Image width="512" height="143" src="/mowix/images/2026/02/Mowix-Logo-light.png" className="attachment-large size-large wp-image-1113" alt="" sizes="215px" loading="eager" />
                   </a>
                 </div>
                 <div className="elementor-element elementor-element-74471e2 elementor-widget elementor-widget-heading" data-id="74471e2" data-widget_type="heading.default">

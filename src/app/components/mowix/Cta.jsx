@@ -1,4 +1,5 @@
 // Generated from the Mowix WordPress home page (Elementor page 971, container 5d8eebdc) by mowix-export/convert-html.mjs.
+import CoverImage from "./CoverImage";
 import HomeIcon from "./HomeIcon";
 
 export default function Cta() {
@@ -78,7 +79,8 @@ export default function Cta() {
             </div>
           </div>
         </div>
-        <div className="elementor-element elementor-element-fd9fdb9 e-con-full e-flex e-con e-child" data-id="fd9fdb9" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateX_effect":"yes","background_motion_fx_translateX_direction":"negative","background_motion_fx_translateX_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_scale_effect":"yes","background_motion_fx_scale_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_scale_direction":"in-out","background_motion_fx_translateX_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_scale_range":{"unit":"%","size":"","sizes":{"start":20,"end":80}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+        <div className="elementor-element elementor-element-fd9fdb9 e-con-full e-flex e-con e-child" data-id="fd9fdb9">
+          <CoverImage src="/mowix/images/related_content_imgs/couple%20standing%20outside%20new%20house.webp" alt="Paar vor seinem neuen Eigenheim" sizes="(max-width: 767px) 90vw, 48vw" />
           <div className="elementor-element elementor-element-f167e6d elementor-widget elementor-widget-spacer" data-id="f167e6d" data-widget_type="spacer.default">
             <div className="elementor-spacer">
               <div className="elementor-spacer-inner" />

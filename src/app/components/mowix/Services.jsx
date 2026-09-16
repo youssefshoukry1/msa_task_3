@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 177374ed) by mowix-export/convert-html.mjs.
 import HomeIcon from "./HomeIcon";
+import CoverImage from "./CoverImage";
 
 export default function Services() {
   return (
@@ -58,7 +59,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="1" role="group" aria-roledescription="slide" aria-label="1 of 6">
                               <div className="elementor-element elementor-element-66298dd6 e-flex e-con-boxed e-con e-child" data-id="66298dd6">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-4303f253 e-con-full e-flex e-con e-child" data-id="4303f253" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-4303f253 e-con-full e-flex e-con e-child" data-id="4303f253">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/couple%20buying%20apartment.webp" alt="Paar beim Kauf einer Wohnung" />
                                     <div className="elementor-element elementor-element-515354af e-con-full e-flex e-con e-child" data-id="515354af">
                                       <div className="elementor-element elementor-element-13043879 e-con-full e-flex e-con e-child" data-id="13043879">
                                         <div className="elementor-element elementor-element-2c9f15fb elementor-widget elementor-widget-spacer" data-id="2c9f15fb" data-widget_type="spacer.default">
@@ -120,7 +122,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="2" role="group" aria-roledescription="slide" aria-label="2 of 6">
                               <div className="elementor-element elementor-element-518497f9 e-flex e-con-boxed e-con e-child" data-id="518497f9">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-491c2243 e-con-full e-flex e-con e-child" data-id="491c2243" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_direction":"negative","background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-491c2243 e-con-full e-flex e-con e-child" data-id="491c2243">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/couple%20buying%20house.webp" alt="Paar beim Hauskauf" />
                                     <div className="elementor-element elementor-element-79fb4fca e-con-full e-flex e-con e-child" data-id="79fb4fca">
                                       <div className="elementor-element elementor-element-26c9a407 e-con-full e-flex e-con e-child" data-id="26c9a407">
                                         <div className="elementor-element elementor-element-14956538 elementor-widget elementor-widget-spacer" data-id="14956538" data-widget_type="spacer.default">
@@ -182,7 +185,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="3" role="group" aria-roledescription="slide" aria-label="3 of 6">
                               <div className="elementor-element elementor-element-1bc90625 e-flex e-con-boxed e-con e-child" data-id="1bc90625">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-6bb1ea81 e-con-full e-flex e-con e-child" data-id="6bb1ea81" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-6bb1ea81 e-con-full e-flex e-con e-child" data-id="6bb1ea81">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/modern%20house%20construction.webp" alt="Neubau eines modernen Hauses" />
                                     <div className="elementor-element elementor-element-4715e6 e-con-full e-flex e-con e-child" data-id="4715e6">
                                       <div className="elementor-element elementor-element-2027dc75 e-con-full e-flex e-con e-child" data-id="2027dc75">
                                         <div className="elementor-element elementor-element-2850a7ad elementor-widget elementor-widget-spacer" data-id="2850a7ad" data-widget_type="spacer.default">
@@ -244,7 +248,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="4" role="group" aria-roledescription="slide" aria-label="4 of 6">
                               <div className="elementor-element elementor-element-1d98b5d5 e-flex e-con-boxed e-con e-child" data-id="1d98b5d5">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-1ad2502c e-con-full e-flex e-con e-child" data-id="1ad2502c" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_direction":"negative","background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-1ad2502c e-con-full e-flex e-con e-child" data-id="1ad2502c">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/home%20renovation%20couple.webp" alt="Paar bei der Renovierung des Eigenheims" />
                                     <div className="elementor-element elementor-element-6c77465d e-con-full e-flex e-con e-child" data-id="6c77465d">
                                       <div className="elementor-element elementor-element-884cb50 e-con-full e-flex e-con e-child" data-id="884cb50">
                                         <div className="elementor-element elementor-element-65b34984 elementor-widget elementor-widget-spacer" data-id="65b34984" data-widget_type="spacer.default">
@@ -306,7 +311,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="5" role="group" aria-roledescription="slide" aria-label="5 of 6">
                               <div className="elementor-element elementor-element-1045732c e-flex e-con-boxed e-con e-child" data-id="1045732c">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-73bfb998 e-con-full e-flex e-con e-child" data-id="73bfb998" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-73bfb998 e-con-full e-flex e-con e-child" data-id="73bfb998">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/financial%20advisor%20meeting%20couple.webp" alt="Finanzberater im Gespräch mit einem Paar" />
                                     <div className="elementor-element elementor-element-7921a607 e-con-full e-flex e-con e-child" data-id="7921a607">
                                       <div className="elementor-element elementor-element-4f2bd4f5 e-con-full e-flex e-con e-child" data-id="4f2bd4f5">
                                         <div className="elementor-element elementor-element-2da219e3 elementor-widget elementor-widget-spacer" data-id="2da219e3" data-widget_type="spacer.default">
@@ -368,7 +374,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="6" role="group" aria-roledescription="slide" aria-label="6 of 6">
                               <div className="elementor-element elementor-element-2f707809 e-flex e-con-boxed e-con e-child" data-id="2f707809">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-522e4b1d e-con-full e-flex e-con e-child" data-id="522e4b1d" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_direction":"negative","background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-522e4b1d e-con-full e-flex e-con e-child" data-id="522e4b1d">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/loan%20consultation.webp" alt="Kreditberatung" />
                                     <div className="elementor-element elementor-element-4d4a104a e-con-full e-flex e-con e-child" data-id="4d4a104a">
                                       <div className="elementor-element elementor-element-48e7b55b e-con-full e-flex e-con e-child" data-id="48e7b55b">
                                         <div className="elementor-element elementor-element-13d57e7c elementor-widget elementor-widget-spacer" data-id="13d57e7c" data-widget_type="spacer.default">
@@ -447,7 +454,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="1" role="group" aria-roledescription="slide" aria-label="1 of 6">
                               <div className="elementor-element elementor-element-6c5e59a5 e-flex e-con-boxed e-con e-child" data-id="6c5e59a5">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-78070704 e-con-full e-flex e-con e-child" data-id="78070704" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-78070704 e-con-full e-flex e-con e-child" data-id="78070704">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/personal%20finance%20consultation.webp" alt="Beratung zu persönlichen Finanzen" position="center right" />
                                     <div className="elementor-element elementor-element-549e35a3 e-con-full e-flex e-con e-child" data-id="549e35a3">
                                       <div className="elementor-element elementor-element-1f9273da e-con-full e-flex e-con e-child" data-id="1f9273da">
                                         <div className="elementor-element elementor-element-b3d5a98 elementor-widget elementor-widget-spacer" data-id="b3d5a98" data-widget_type="spacer.default">
@@ -509,7 +517,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="2" role="group" aria-roledescription="slide" aria-label="2 of 6">
                               <div className="elementor-element elementor-element-76d131c7 e-flex e-con-boxed e-con e-child" data-id="76d131c7">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-2d9a2803 e-con-full e-flex e-con e-child" data-id="2d9a2803" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_direction":"negative","background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-2d9a2803 e-con-full e-flex e-con e-child" data-id="2d9a2803">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/business%20financial%20meeting.webp" alt="Geschäftliches Finanzierungsgespräch" position="center right" />
                                     <div className="elementor-element elementor-element-3218aae6 e-con-full e-flex e-con e-child" data-id="3218aae6">
                                       <div className="elementor-element elementor-element-2e5fd40b e-con-full e-flex e-con e-child" data-id="2e5fd40b">
                                         <div className="elementor-element elementor-element-4b0dd91 elementor-widget elementor-widget-spacer" data-id="4b0dd91" data-widget_type="spacer.default">
@@ -571,7 +580,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="3" role="group" aria-roledescription="slide" aria-label="3 of 6">
                               <div className="elementor-element elementor-element-6549d87e e-flex e-con-boxed e-con e-child" data-id="6549d87e">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-65bcdf1c e-con-full e-flex e-con e-child" data-id="65bcdf1c" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-65bcdf1c e-con-full e-flex e-con e-child" data-id="65bcdf1c">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/financial%20advisor%20documents.webp" alt="Finanzberater mit Unterlagen" position="center right" />
                                     <div className="elementor-element elementor-element-366a5330 e-con-full e-flex e-con e-child" data-id="366a5330">
                                       <div className="elementor-element elementor-element-6640ef9b e-con-full e-flex e-con e-child" data-id="6640ef9b">
                                         <div className="elementor-element elementor-element-78fc28ce elementor-widget elementor-widget-spacer" data-id="78fc28ce" data-widget_type="spacer.default">
@@ -633,7 +643,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="4" role="group" aria-roledescription="slide" aria-label="4 of 6">
                               <div className="elementor-element elementor-element-5b11e24b e-flex e-con-boxed e-con e-child" data-id="5b11e24b">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-3f05f6be e-con-full e-flex e-con e-child" data-id="3f05f6be" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_direction":"negative","background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-3f05f6be e-con-full e-flex e-con e-child" data-id="3f05f6be">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/couple%20financial%20planning.webp" alt="Paar bei der Finanzplanung" position="bottom center" />
                                     <div className="elementor-element elementor-element-53a6dbaf e-con-full e-flex e-con e-child" data-id="53a6dbaf">
                                       <div className="elementor-element elementor-element-3f3d3598 e-con-full e-flex e-con e-child" data-id="3f3d3598">
                                         <div className="elementor-element elementor-element-5bf6ad0b elementor-widget elementor-widget-spacer" data-id="5bf6ad0b" data-widget_type="spacer.default">
@@ -695,7 +706,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="5" role="group" aria-roledescription="slide" aria-label="5 of 6">
                               <div className="elementor-element elementor-element-293ff6dc e-flex e-con-boxed e-con e-child" data-id="293ff6dc">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-17b79ccb e-con-full e-flex e-con e-child" data-id="17b79ccb" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-17b79ccb e-con-full e-flex e-con e-child" data-id="17b79ccb">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/mortgage%20comparison.webp" alt="Vergleich von Baufinanzierungen" />
                                     <div className="elementor-element elementor-element-4411dd33 e-con-full e-flex e-con e-child" data-id="4411dd33">
                                       <div className="elementor-element elementor-element-1c47ee7e e-con-full e-flex e-con e-child" data-id="1c47ee7e">
                                         <div className="elementor-element elementor-element-79f7f650 elementor-widget elementor-widget-spacer" data-id="79f7f650" data-widget_type="spacer.default">
@@ -757,7 +769,8 @@ export default function Services() {
                             <div className="swiper-slide" data-slide="6" role="group" aria-roledescription="slide" aria-label="6 of 6">
                               <div className="elementor-element elementor-element-79d2301a e-flex e-con-boxed e-con e-child" data-id="79d2301a">
                                 <div className="e-con-inner">
-                                  <div className="elementor-element elementor-element-58f74161 e-con-full e-flex e-con e-child" data-id="58f74161" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_translateY_direction":"negative","background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'>
+                                  <div className="elementor-element elementor-element-58f74161 e-con-full e-flex e-con e-child" data-id="58f74161">
+                                    <CoverImage sizes="(max-width: 1024px) 85vw, 30vw" src="/mowix/images/related_content_imgs/financial%20advisor%20client.webp" alt="Finanzberater mit Kundin" />
                                     <div className="elementor-element elementor-element-77c17a23 e-con-full e-flex e-con e-child" data-id="77c17a23">
                                       <div className="elementor-element elementor-element-34bc9f81 e-con-full e-flex e-con e-child" data-id="34bc9f81">
                                         <div className="elementor-element elementor-element-2645c807 elementor-widget elementor-widget-spacer" data-id="2645c807" data-widget_type="spacer.default">

@@ -1,11 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 7fb7d3ba) by mowix-export/convert-html.mjs.
+import Image from "next/image";
+import CoverImage from "./CoverImage";
 import HomeIcon from "./HomeIcon";
 
 export default function Hero() {
   return (
     <div className="elementor-element elementor-element-7fb7d3ba e-con-full e-flex e-con e-parent" data-id="7fb7d3ba">
-      <div className="elementor-element elementor-element-613fb167 e-con-full e-flex e-con e-child" data-id="613fb167" data-settings='{"background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_direction":"negative","motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_speed":{"unit":"px","size":1.5,"sizes":[]},"background_motion_fx_scale_effect":"yes","background_motion_fx_scale_speed":{"unit":"px","size":1,"sizes":[]},"background_motion_fx_scale_range":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_scale_direction":"out-in","background_motion_fx_devices":["desktop","tablet","mobile"],"motion_fx_devices":["desktop","tablet","mobile"]}'>
+      <div className="elementor-element elementor-element-613fb167 e-con-full e-flex e-con e-child" data-id="613fb167">
+        <CoverImage src="/mowix/images/2026/02/Hero-Background-New.jpg" sizes="96vw" position="bottom center" priority />
         <div className="elementor-element elementor-element-9b68d0b e-flex e-con-boxed e-con e-child" data-id="9b68d0b">
           <div className="e-con-inner">
             <div className="elementor-element elementor-element-1f8b3af0 e-con-full e-flex elementor-invisible e-con e-child" data-id="1f8b3af0" data-settings='{"animation":"fadeInLeft"}'>
@@ -32,17 +34,17 @@ export default function Hero() {
                 <div className="elementor-element elementor-element-58e11d85 e-con-full e-flex e-con e-child" data-id="58e11d85">
                   <div className="elementor-element elementor-element-2fa54ff1 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="2fa54ff1" data-widget_type="image.default">
                     <a href="#">
-                      <img decoding="async" width="800" height="800" src="/mowix/images/2026/02/Photo-12.jpg" className="attachment-large size-large wp-image-133" alt="" />
+                      <Image width="800" height="800" src="/mowix/images/2026/02/Photo-12.jpg" className="attachment-large size-large wp-image-133" alt="" sizes="60px" quality={90} />
                     </a>
                   </div>
                   <div className="elementor-element elementor-element-1401cb2d elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="1401cb2d" data-widget_type="image.default">
                     <a href="#">
-                      <img decoding="async" width="800" height="800" src="/mowix/images/2026/02/Photo-5.jpg" className="attachment-large size-large wp-image-131" alt="" />
+                      <Image width="800" height="800" src="/mowix/images/2026/02/Photo-5.jpg" className="attachment-large size-large wp-image-131" alt="" sizes="60px" quality={90} />
                     </a>
                   </div>
                   <div className="elementor-element elementor-element-22f9abac elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="22f9abac" data-widget_type="image.default">
                     <a href="#">
-                      <img loading="lazy" decoding="async" width="800" height="800" src="/mowix/images/2026/02/Photo-8.jpg" className="attachment-large size-large wp-image-132" alt="" />
+                      <Image width="800" height="800" src="/mowix/images/2026/02/Photo-8.jpg" className="attachment-large size-large wp-image-132" alt="" sizes="60px" quality={90} />
                     </a>
                   </div>
                 </div>

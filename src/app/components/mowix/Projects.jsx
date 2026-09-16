@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 7fbc4fc7) by mowix-export/convert-html.mjs.
+import Image from "next/image";
 import HomeIcon from "./HomeIcon";
 
 export default function Projects() {
@@ -38,7 +38,7 @@ export default function Projects() {
                 </div>
                 <div className="elementor-element elementor-element-3aee76d0 e-con-full e-flex e-con e-child" data-id="3aee76d0">
                   <div className="elementor-element elementor-element-33720dbd elementor-widget elementor-widget-image" data-id="33720dbd" data-widget_type="image.default">
-                    <img loading="lazy" decoding="async" width="4961" height="3721" src="/mowix/images/related_content_imgs/couple standing outside new house.jpg" className="attachment-large size-large wp-image-1196" alt="Paar vor dem neu erworbenen Eigenheim" />
+                    <Image width="4961" height="3721" src="/mowix/images/related_content_imgs/couple standing outside new house.webp" className="attachment-large size-large wp-image-1196" alt="Paar vor dem neu erworbenen Eigenheim" sizes="(max-width: 1024px) 93vw, 35vw" quality={90} />
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-4a3f8348 e-con-full e-flex e-con e-child" data-id="4a3f8348">
@@ -100,7 +100,7 @@ export default function Projects() {
                 </div>
                 <div className="elementor-element elementor-element-2762a242 e-con-full e-flex e-con e-child" data-id="2762a242">
                   <div className="elementor-element elementor-element-46e179a4 elementor-widget elementor-widget-image" data-id="46e179a4" data-widget_type="image.default">
-                    <img loading="lazy" decoding="async" width="1920" height="1280" src="/mowix/images/related_content_imgs/modern house construction.webp" className="attachment-large size-large wp-image-1197" alt="Modernes Wohnhaus während der Bauphase" />
+                    <Image width="1920" height="1280" src="/mowix/images/related_content_imgs/modern house construction.webp" className="attachment-large size-large wp-image-1197" alt="Modernes Wohnhaus während der Bauphase" sizes="(max-width: 1024px) 93vw, 35vw" quality={90} />
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-39f6be45 e-con-full e-flex e-con e-child" data-id="39f6be45">
@@ -162,7 +162,7 @@ export default function Projects() {
                 </div>
                 <div className="elementor-element elementor-element-4d617115 e-con-full e-flex e-con e-child" data-id="4d617115">
                   <div className="elementor-element elementor-element-5b74b907 elementor-widget elementor-widget-image" data-id="5b74b907" data-widget_type="image.default">
-                    <img loading="lazy" decoding="async" width="1920" height="1280" src="/mowix/images/related_content_imgs/home renovation couple.webp" className="attachment-large size-large wp-image-1198" alt="Paar bei der Planung einer Haussanierung" />
+                    <Image width="1920" height="1280" src="/mowix/images/related_content_imgs/home renovation couple.webp" className="attachment-large size-large wp-image-1198" alt="Paar bei der Planung einer Haussanierung" sizes="(max-width: 1024px) 93vw, 35vw" quality={90} />
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-606af3d5 e-con-full e-flex e-con e-child" data-id="606af3d5">
@@ -224,7 +224,7 @@ export default function Projects() {
                 </div>
                 <div className="elementor-element elementor-element-25bd57ab e-con-full e-flex e-con e-child" data-id="25bd57ab">
                   <div className="elementor-element elementor-element-708fcf6a elementor-widget elementor-widget-image" data-id="708fcf6a" data-widget_type="image.default">
-                    <img loading="lazy" decoding="async" width="3000" height="2001" src="/mowix/images/related_content_imgs/mortgage interest rate comparison.jpg" className="attachment-large size-large wp-image-1199" alt="Vergleich verschiedener Immobilienkredite und Konditionen" />
+                    <Image width="3000" height="2001" src="/mowix/images/related_content_imgs/mortgage interest rate comparison.webp" className="attachment-large size-large wp-image-1199" alt="Vergleich verschiedener Immobilienkredite und Konditionen" sizes="(max-width: 1024px) 93vw, 35vw" quality={90} />
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-20de0ee5 e-con-full e-flex e-con e-child" data-id="20de0ee5">

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505 454" width="505" height="454">
+  <!-- House-shaped image mask: solid pieces separated by transparent gaps. -->
+  <g fill="#000">
+    <!-- Roof, left and right halves split at the ridge -->
+    <path d="M241 24 L241 100 L62 238 Q44 252 30 234 L22 224 Q10 208 26 196 Z" />
+    <path d="M264 24 L264 100 L443 238 Q461 252 475 234 L483 224 Q495 208 479 196 Z" />
+    <!-- Chimney on the right roof slope, bottom parallel to the roof -->
+    <path d="M370 83 L370 60 Q370 40 390 40 Q410 40 410 60 L410 115 Z" />
+    <!-- Round gable window -->
+    <circle cx="252.5" cy="150" r="28" />
+    <!-- Walls either side of the door -->
+    <path d="M92 254 L207 165 L207 432 L118 432 Q92 432 92 406 Z" />
+    <path d="M413 254 L298 165 L298 432 L387 432 Q413 432 413 406 Z" />
+    <!-- Arched door -->
+    <path d="M227 432 L227 226 Q227 198 252.5 198 Q278 198 278 226 L278 432 Z" />
+  </g>
+</svg>

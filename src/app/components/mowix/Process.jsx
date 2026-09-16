@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 433b8abf) by mowix-export/convert-html.mjs.
+import Image from "next/image";
 import HomeIcon from "./HomeIcon";
 
 export default function Process() {
@@ -28,7 +28,7 @@ export default function Process() {
             </div>
             <div className="elementor-element elementor-element-597bfd4e e-con-full e-flex e-con e-child" data-id="597bfd4e" data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateY_effect":"yes","motion_fx_translateY_speed":{"unit":"px","size":5,"sizes":[]},"motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":50}},"motion_fx_range":"viewport","motion_fx_devices":["desktop","tablet","mobile"]}'>
               <div className="elementor-element elementor-element-6d909a90 elementor-widget elementor-widget-image" data-id="6d909a90" data-widget_type="image.default">
-                <img loading="lazy" decoding="async" width="4500" height="3000" src="/mowix/images/related_content_imgs/mortgage advisor reviewing documents with clients.jpg" className="attachment-large size-large wp-image-542" alt="Berater erklärt einem Paar die nächsten Schritte ihrer Finanzierung" />
+                <Image width="4500" height="3000" src="/mowix/images/related_content_imgs/mortgage advisor reviewing documents with clients.webp" className="attachment-large size-large wp-image-542" alt="Berater erklärt einem Paar die nächsten Schritte ihrer Finanzierung" sizes="(max-width: 1024px) 38vw, 19vw" quality={90} />
               </div>
             </div>
             <div className="elementor-element elementor-element-5486c2b1 e-con-full e-flex elementor-invisible e-con e-child" data-id="5486c2b1" data-settings='{"animation":"fadeInRight"}'>
@@ -52,13 +52,6 @@ export default function Process() {
             <div className="elementor-element elementor-element-7613a62c e-con-full e-flex e-con e-child" data-id="7613a62c">
               <div className="elementor-element elementor-element-6396fc4c e-con-full e-flex e-con e-child" data-id="6396fc4c">
                 <div className="elementor-element elementor-element-b8b299c e-con-full e-flex e-con e-child" data-id="b8b299c">
-                  <div className="elementor-element elementor-element-7e8c875a elementor-view-default elementor-widget elementor-widget-icon" data-id="7e8c875a" data-widget_type="icon.default">
-                    <div className="elementor-icon-wrapper">
-                      <div className="elementor-icon">
-                        <HomeIcon name="check" />
-                      </div>
-                    </div>
-                  </div>
                   <div className="elementor-element elementor-element-c1e5dd0 e-con-full e-flex e-con e-child" data-id="c1e5dd0">
                     <div className="elementor-element elementor-element-7f8fc222 elementor-widget elementor-widget-heading" data-id="7f8fc222" data-widget_type="heading.default">
                       <p className="elementor-heading-title elementor-size-default">01</p>
@@ -83,13 +76,6 @@ export default function Process() {
               </div>
               <div className="elementor-element elementor-element-2e492cfc e-con-full e-flex e-con e-child" data-id="2e492cfc">
                 <div className="elementor-element elementor-element-537a78c1 e-con-full e-flex e-con e-child" data-id="537a78c1">
-                  <div className="elementor-element elementor-element-4a53dbba elementor-view-default elementor-widget elementor-widget-icon" data-id="4a53dbba" data-widget_type="icon.default">
-                    <div className="elementor-icon-wrapper">
-                      <div className="elementor-icon">
-                        <HomeIcon name="bankComparison" />
-                      </div>
-                    </div>
-                  </div>
                   <div className="elementor-element elementor-element-b1f807c e-con-full e-flex e-con e-child" data-id="b1f807c">
                     <div className="elementor-element elementor-element-690f7435 elementor-widget elementor-widget-heading" data-id="690f7435" data-widget_type="heading.default">
                       <h2 className="elementor-heading-title elementor-size-default">02</h2>
@@ -108,19 +94,12 @@ export default function Process() {
             </div>
             <div className="elementor-element elementor-element-76b47e4e e-con-full e-flex e-con e-child" data-id="76b47e4e">
               <div className="elementor-element elementor-element-67db69f3 elementor-widget elementor-widget-image" data-id="67db69f3" data-widget_type="image.default">
-                <img loading="lazy" decoding="async" width="4160" height="2773" src="/mowix/images/related_content_imgs/mortgage application documents calculator.jpg" className="attachment-large size-large wp-image-1192" alt="Finanzierungsunterlagen mit Taschenrechner für den Bankenvergleich" />
+                <Image width="4160" height="2773" src="/mowix/images/related_content_imgs/mortgage application documents calculator.webp" className="attachment-large size-large wp-image-1192" alt="Finanzierungsunterlagen mit Taschenrechner für den Bankenvergleich" sizes="(max-width: 1024px) 91vw, 36vw" quality={90} />
               </div>
             </div>
             <div className="elementor-element elementor-element-60bf3a87 e-con-full e-flex e-con e-child" data-id="60bf3a87">
               <div className="elementor-element elementor-element-7a9d82c9 e-con-full e-flex e-con e-child" data-id="7a9d82c9">
                 <div className="elementor-element elementor-element-2803e70b e-con-full e-flex e-con e-child" data-id="2803e70b">
-                  <div className="elementor-element elementor-element-8b4e171 elementor-view-default elementor-widget elementor-widget-icon" data-id="8b4e171" data-widget_type="icon.default">
-                    <div className="elementor-icon-wrapper">
-                      <div className="elementor-icon">
-                        <HomeIcon name="financing" />
-                      </div>
-                    </div>
-                  </div>
                   <div className="elementor-element elementor-element-6f436bc9 e-con-full e-flex e-con e-child" data-id="6f436bc9">
                     <div className="elementor-element elementor-element-57e32416 elementor-widget elementor-widget-heading" data-id="57e32416" data-widget_type="heading.default">
                       <p className="elementor-heading-title elementor-size-default">03</p>
@@ -145,13 +124,6 @@ export default function Process() {
               </div>
               <div className="elementor-element elementor-element-31ad843c e-con-full e-flex e-con e-child" data-id="31ad843c">
                 <div className="elementor-element elementor-element-5017219 e-con-full e-flex e-con e-child" data-id="5017219">
-                  <div className="elementor-element elementor-element-427a6488 elementor-view-default elementor-widget elementor-widget-icon" data-id="427a6488" data-widget_type="icon.default">
-                    <div className="elementor-icon-wrapper">
-                      <div className="elementor-icon">
-                        <HomeIcon name="check" />
-                      </div>
-                    </div>
-                  </div>
                   <div className="elementor-element elementor-element-541a505e e-con-full e-flex e-con e-child" data-id="541a505e">
                     <div className="elementor-element elementor-element-31d47733 elementor-widget elementor-widget-heading" data-id="31d47733" data-widget_type="heading.default">
                       <h2 className="elementor-heading-title elementor-size-default">04</h2>

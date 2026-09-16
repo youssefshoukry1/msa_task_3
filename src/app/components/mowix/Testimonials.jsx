@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor page 971, container 3a024c01) by mowix-export/convert-html.mjs.
+import Image from "next/image";
 import Icon from "./HomeIcon";
 
 export default function Testimonials() {
@@ -9,11 +9,11 @@ export default function Testimonials() {
         <div className="elementor-element elementor-element-29616c63 e-con-full e-flex e-con e-child" data-id="29616c63">
           <div className="elementor-element elementor-element-17974187 e-con-full e-flex elementor-invisible e-con e-child" data-id="17974187" data-settings='{"animation":"fadeInLeft"}'>
             <div className="elementor-element elementor-element-318eaafd elementor-widget elementor-widget-image" data-id="318eaafd" data-widget_type="image.default">
-              <img loading="lazy" decoding="async" width="3800" height="2138" src="/mowix/images/related_content_imgs/happy couple meeting financial advisor.jpg" className="attachment-large size-large wp-image-71" alt="Zufriedenes Paar während einer persönlichen Finanzierungsberatung" />
+              <Image width="3800" height="2138" src="/mowix/images/related_content_imgs/happy couple meeting financial advisor.webp" className="attachment-large size-large wp-image-71" alt="Zufriedenes Paar während einer persönlichen Finanzierungsberatung" sizes="(max-width: 1024px) 95vw, 40vw" quality={90} />
             </div>
             <div className="elementor-element elementor-element-97300fe e-con-full e-flex e-con e-child" data-id="97300fe">
               <div className="elementor-element elementor-element-61b9be67 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="61b9be67" data-widget_type="image.default">
-                <img loading="lazy" decoding="async" width="512" height="512" src="/mowix/images/2026/02/google.png" className="attachment-large size-large wp-image-742" alt="" />
+                <Image width="512" height="512" src="/mowix/images/2026/02/google.png" className="attachment-large size-large wp-image-742" alt="" sizes="52px" />
               </div>
               <div className="elementor-element elementor-element-696f5774 e-con-full e-flex e-con e-child" data-id="696f5774">
                 <div className="elementor-element elementor-element-11250b39 elementor-widget elementor-widget-heading" data-id="11250b39" data-widget_type="heading.default">
@@ -164,7 +164,7 @@ export default function Testimonials() {
                           </div>
                           <div className="elementor-element elementor-element-2913404d e-con-full e-flex e-con e-child" data-id="2913404d">
                             <div className="elementor-element elementor-element-1798c426 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="1798c426" data-widget_type="image.default">
-                              <img decoding="async" width="4160" height="6240" src="/mowix/images/related_content_imgs/professional woman portrait.jpg" className="attachment-large size-large wp-image-131" alt="Porträt einer Kundin" />
+                              <Image width="4160" height="6240" src="/mowix/images/related_content_imgs/professional woman portrait.webp" className="attachment-large size-large wp-image-131" alt="Porträt einer Kundin" sizes="70px" quality={90} />
                             </div>
                             <div className="elementor-element elementor-element-1d7a87d9 e-con-full e-flex e-con e-child" data-id="1d7a87d9">
                               <div className="elementor-element elementor-element-3d0deaa7 elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="3d0deaa7" data-widget_type="heading.default">
@@ -275,7 +275,7 @@ export default function Testimonials() {
                           </div>
                           <div className="elementor-element elementor-element-322896f0 e-con-full e-flex e-con e-child" data-id="322896f0">
                             <div className="elementor-element elementor-element-1f98e4a0 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="1f98e4a0" data-widget_type="image.default">
-                              <img decoding="async" width="4000" height="6000" src="/mowix/images/related_content_imgs/middle aged man portrait.jpg" className="attachment-large size-large wp-image-133" alt="Porträt eines Kunden" />
+                              <Image width="4000" height="6000" src="/mowix/images/related_content_imgs/middle aged man portrait.webp" className="attachment-large size-large wp-image-133" alt="Porträt eines Kunden" sizes="70px" quality={90} />
                             </div>
                             <div className="elementor-element elementor-element-4738b290 e-con-full e-flex e-con e-child" data-id="4738b290">
                               <div className="elementor-element elementor-element-7b766398 elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="7b766398" data-widget_type="heading.default">
@@ -386,7 +386,7 @@ export default function Testimonials() {
                           </div>
                           <div className="elementor-element elementor-element-5af8e0c3 e-con-full e-flex e-con e-child" data-id="5af8e0c3">
                             <div className="elementor-element elementor-element-5ebe17b4 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="5ebe17b4" data-widget_type="image.default">
-                              <img loading="lazy" decoding="async" width="4000" height="6000" src="/mowix/images/related_content_imgs/professional man portrait, young woman portrait.jpg" className="attachment-large size-large wp-image-134" alt="Porträt einer Kundin" />
+                              <Image width="4000" height="6000" src="/mowix/images/related_content_imgs/professional man portrait, young woman portrait.webp" className="attachment-large size-large wp-image-134" alt="Porträt einer Kundin" sizes="70px" quality={90} />
                             </div>
                             <div className="elementor-element elementor-element-1c8bc6ec e-con-full e-flex e-con e-child" data-id="1c8bc6ec">
                               <div className="elementor-element elementor-element-ae8963b elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="ae8963b" data-widget_type="heading.default">
@@ -497,7 +497,7 @@ export default function Testimonials() {
                           </div>
                           <div className="elementor-element elementor-element-58848481 e-con-full e-flex e-con e-child" data-id="58848481">
                             <div className="elementor-element elementor-element-39d739b elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="39d739b" data-widget_type="image.default">
-                              <img loading="lazy" decoding="async" width="4000" height="6000" src="/mowix/images/related_content_imgs/middle aged man portrait.jpg" className="attachment-large size-large wp-image-132" alt="Porträt eines Kunden" />
+                              <Image width="4000" height="6000" src="/mowix/images/related_content_imgs/middle aged man portrait.webp" className="attachment-large size-large wp-image-132" alt="Porträt eines Kunden" sizes="70px" quality={90} />
                             </div>
                             <div className="elementor-element elementor-element-4bad9f1e e-con-full e-flex e-con e-child" data-id="4bad9f1e">
                               <div className="elementor-element elementor-element-2a833919 elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="2a833919" data-widget_type="heading.default">

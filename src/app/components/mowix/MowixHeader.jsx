@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 // Generated from the Mowix WordPress home page (Elementor header template 335) by mowix-export/convert-html.mjs.
+import Image from "next/image";
 import Icon from "./Icon";
 
 export default function MowixHeader() {
@@ -10,7 +10,7 @@ export default function MowixHeader() {
           <div className="elementor-element elementor-element-cb0fe9c e-con-full e-flex e-con e-child" data-id="cb0fe9c">
             <div className="elementor-element elementor-element-fa06027 elementor-widget__width-initial elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="fa06027" data-widget_type="theme-site-logo.default">
               <a href="/">
-                <img fetchPriority="high" width="512" height="143" src="/mowix/images/2026/02/Mowix-Logo.png" className="attachment-full size-full wp-image-1099" alt="" />
+                <Image width="512" height="143" src="/mowix/images/2026/02/Mowix-Logo.png" className="attachment-full size-full wp-image-1099" alt="" sizes="(max-width: 767px) 115px, 183px" priority />
               </a>
             </div>
             <div className="elementor-element elementor-element-e439ee2 e-con-full e-flex e-con e-child" data-id="e439ee2">
