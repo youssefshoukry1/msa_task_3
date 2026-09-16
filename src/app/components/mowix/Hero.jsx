@@ -89,7 +89,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="elementor-element elementor-element-57bb1f2b elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="57bb1f2b" data-widget_type="heading.default">
-                  <h5 className="elementor-heading-title elementor-size-default">Kundenbewertung</h5>
+                  <h5 className="elementor-heading-title elementor-size-default">Kunden&shy;bewertung</h5>
                 </div>
               </div>
             </div>

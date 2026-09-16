@@ -1160,3 +1160,26 @@ html {
     background: linear-gradient(180deg, rgb(16 42 67 / 20%) 0%, rgb(16 42 67 / 55%) 40%, rgb(16 42 67 / 15%) 75%);
   }
 }
+
+/* Hero rating card on phones: star beside the score, label may break at its soft hyphen. */
+@media (max-width: 767px) {
+  .elementor-971 .elementor-element.elementor-element-6a92a725 {
+    flex-shrink: 0;
+    flex-wrap: nowrap !important;
+  }
+
+  .elementor-971 .elementor-element-7a8ab19a .e-icon {
+    font-size: 16px;
+  }
+
+  .elementor-971 .elementor-element.elementor-element-57bb1f2b {
+    flex: 1 1 auto;
+    max-width: none !important;
+    min-width: 0;
+  }
+
+  .elementor-971 .elementor-element-57bb1f2b .elementor-heading-title {
+    hyphens: manual;
+    overflow-wrap: normal;
+  }
+}
