@@ -1190,70 +1190,6 @@ html {
   }
 }
 
-/* ===== Hero: plain rounded card, no notches =====
-   The header no longer overlaps the hero, so the white cut-outs and their
-   inverted-corner spacers go away. */
-.elementor-335 .elementor-element.elementor-element-e18f356 {
-  --margin-bottom: 0px;
-}
-
-.elementor-335 :is(
-  .elementor-element-e439ee2,
-  .elementor-element-a43ecea,
-  .elementor-element-8714a57,
-  .elementor-element-d103320
-) {
-  display: none !important;
-}
-
-.elementor-971 .elementor-element.elementor-element-613fb167 {
-  --border-radius: 12px !important;
-  border-radius: 12px !important;
-  min-height: calc(100svh - 140px) !important;
-}
-
-.elementor-971 .elementor-element.elementor-element-9b68d0b {
-  --margin-top: 40px;
-}
-
-@media (max-width: 1024px) {
-  .elementor-971 .elementor-element.elementor-element-9b68d0b {
-    --margin-top: 0px;
-    --padding-top: 60px;
-  }
-}
-
-/* Bottom tags strip: floating glass panel inside the hero instead of a white notch. */
-.elementor-971 :is(
-  .elementor-element-62c768aa,
-  .elementor-element-24749500,
-  .elementor-element-3d402d68
-) {
-  display: none !important;
-}
-
-.elementor-971 .elementor-element.elementor-element-c269fc9 {
-  bottom: 24px;
-  left: clamp(24px, 3.5vw, 64px);
-}
-
-.elementor-971 .elementor-element.elementor-element-354f89e8 {
-  --border-radius: 10px;
-  --padding-top: 14px;
-  --padding-bottom: 14px;
-  --padding-left: 20px;
-  --padding-right: 20px;
-  backdrop-filter: blur(8px);
-}
-
-.elementor-971 .elementor-element.elementor-element-354f89e8:not(.elementor-motion-effects-element-type-background) {
-  background-color: rgb(16 42 67 / 45%);
-}
-
-.elementor-971 .elementor-element-3a72beae .elementor-heading-title {
-  color: #fff !important;
-}
-
 /* Tag pill icons: always navy, not just on hover (lucide strokes use currentColor). */
 .elementor-971 :is(
   .elementor-element-3b35012c,
@@ -1261,50 +1197,6 @@ html {
   .elementor-element-79fa6ee5
 ) .elementor-icon-list-icon {
   color: var(--e-global-color-b7f3b2e, #102a43) !important;
-}
-
-/* Tags panel: breathing room and wrapping on smaller screens. */
-.elementor-971 .elementor-element.elementor-element-c269fc9 {
-  max-width: calc(100% - 2 * clamp(24px, 3.5vw, 64px));
-}
-
-.elementor-971 .elementor-element.elementor-element-354f89e8 {
-  --width: auto;
-  --flex-wrap: wrap;
-  --gap: 10px 16px;
-  --row-gap: 10px;
-  --column-gap: 16px;
-  --padding-top: 16px;
-  --padding-bottom: 16px;
-}
-
-.elementor-971 .elementor-element.elementor-element-5dcdf95b {
-  --width: auto;
-  --flex-wrap: wrap;
-  --justify-content: flex-start;
-  --gap: 8px;
-  --row-gap: 8px;
-  --column-gap: 8px;
-}
-
-/* Keep the hero content clear of the floating tags panel. */
-@media (min-width: 768px) {
-  .elementor-971 .elementor-element.elementor-element-9b68d0b {
-    padding-bottom: 130px !important;
-  }
-}
-
-@media (max-width: 1024px) and (min-width: 768px) {
-  .elementor-971 .elementor-element.elementor-element-c269fc9 {
-    bottom: 20px;
-    left: 20px;
-    max-width: calc(100% - 40px);
-  }
-
-  .elementor-971 .elementor-element.elementor-element-354f89e8 {
-    --flex-direction: column;
-    --align-items: flex-start;
-  }
 }
 
 /* About band video: local clip clipped to the framed, rounded box. */
@@ -1816,52 +1708,9 @@ html {
   }
 }
 
-/* ===== Header on tablet & phone: compact sticky bar + floating menu card ===== */
+/* ===== Header on tablet & phone: burger + floating menu card ===== */
 @media (max-width: 1024px) {
-  header.elementor-335 {
-    backdrop-filter: saturate(160%) blur(12px);
-    background: rgb(255 255 255 / 88%);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
 
-  /* Let the dropdown position itself against the header bar. */
-  .elementor-335 :is(
-    .elementor-element-e18f356,
-    .elementor-element-8431714,
-    .elementor-element-f3ad67f,
-    .elementor-element-add4bac,
-    .elementor-element-87b56ed
-  ) {
-    --position: static;
-    position: static !important;
-  }
-
-  .elementor-335 .elementor-element.elementor-element-e18f356 {
-    --padding-top: 12px;
-    --padding-bottom: 12px;
-  }
-
-  .elementor-335 .elementor-element.elementor-element-8431714,
-  .elementor-335 .elementor-element.elementor-element-f3ad67f {
-    align-items: center !important;
-    flex-wrap: nowrap !important;
-  }
-
-  .elementor-335 .elementor-element.elementor-element-f3ad67f {
-    --width: auto;
-    width: auto !important;
-  }
-
-  .elementor-335 .elementor-element.elementor-element-add4bac {
-    --padding-bottom: 0px;
-    --padding-left: 0px;
-    align-items: center !important;
-    background: transparent !important;
-    flex-wrap: nowrap !important;
-    gap: 10px !important;
-  }
 
   .elementor-335 .elementor-element.elementor-element-318d7f5 {
     order: 1;
@@ -1898,28 +1747,24 @@ html {
     fill: var(--e-global-color-b7f3b2e) !important;
   }
 
-  /* Floating menu card */
+  /* Floating menu card: navMenu.js stretches the dropdown to the viewport, the list inside is the card. */
   .elementor-335 .elementor-element-87b56ed nav.elementor-nav-menu--dropdown.elementor-nav-menu__container {
-    background: #fff !important;
-    border: 1px solid rgb(16 42 67 / 8%);
-    border-radius: 22px !important;
-    box-shadow: 0 24px 48px rgb(16 42 67 / 22%), 0 0 0 100vmax rgb(16 42 67 / 0%);
-    left: 12px !important;
+    background: transparent !important;
+    border-radius: 0 !important;
     margin-top: 0 !important;
-    padding: 8px;
-    right: 12px !important;
-    top: calc(100% + 8px) !important;
-    transform-origin: top right;
-    width: auto !important;
-  }
-
-  .elementor-335 .elementor-element-87b56ed .elementor-menu-toggle.elementor-active + nav.elementor-nav-menu--dropdown {
-    box-shadow: 0 24px 48px rgb(16 42 67 / 22%), 0 0 0 100vmax rgb(16 42 67 / 35%);
+    padding: 0 12px 36px;
+    top: calc(100% + 10px) !important;
+    transform-origin: top;
   }
 
   .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown .elementor-nav-menu {
+    background: #fff;
+    border: 1px solid rgb(16 42 67 / 8%);
+    border-radius: 22px;
+    box-shadow: 0 12px 28px rgb(16 42 67 / 24%);
     display: grid;
     gap: 2px;
+    padding: 8px;
   }
 
   .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown li a.elementor-item {
@@ -1953,29 +1798,9 @@ html {
     justify-content: center;
     letter-spacing: 0.02em;
   }
-
-  /* Less space between the bar and the hero. */
-  .elementor-971 .elementor-element.elementor-element-7fb7d3ba {
-    --padding-top: 4px;
-  }
 }
 
 @media (max-width: 767px) {
-  .elementor-335 .elementor-element.elementor-element-e18f356 {
-    --padding-top: 10px;
-    --padding-bottom: 10px;
-    --padding-left: 16px;
-    --padding-right: 16px;
-  }
-
-  .elementor-335 .elementor-element-fa06027 img.site-logo-mark {
-    height: 40px !important;
-  }
-
-  .elementor-335 .elementor-element.elementor-element-fa06027 {
-    padding: 0 !important;
-  }
-
   /* Phone CTA collapses to a round call button beside the burger. */
   .elementor-335 .elementor-element-318d7f5 a.header-phone {
     background: #f4f6f0;
@@ -1995,31 +1820,9 @@ html {
     height: 34px;
     width: 34px;
   }
-
-  .elementor-971 .elementor-element.elementor-element-7fb7d3ba {
-    --padding-left: 12px;
-    --padding-right: 12px;
-  }
 }
 
 @media (max-width: 1024px) {
-  .elementor-335 .elementor-element.elementor-element-fa06027 {
-    background: transparent !important;
-    border-radius: 0 !important;
-    padding: 0 !important;
-  }
-
-  .elementor-335 .elementor-element.elementor-element-cb0fe9c,
-  .elementor-335 .elementor-element.elementor-element-f3ad67f {
-    --width: auto;
-    flex: 0 0 auto;
-    width: auto !important;
-  }
-
-  .elementor-335 .elementor-element.elementor-element-8431714 {
-    justify-content: space-between !important;
-  }
-
   .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown a.elementor-item::before,
   .elementor-335 .elementor-element-87b56ed .elementor-nav-menu--dropdown a.elementor-item::after {
     display: none !important;
@@ -2043,17 +1846,50 @@ html {
   }
 }
 
-@media (max-width: 1024px) {
-  .elementor-335 :is(.elementor-element-87b56ed, .elementor-element-318d7f5, .elementor-element-add4bac) {
-    flex: 0 0 auto !important;
-    max-width: none !important;
-    width: auto !important;
-  }
-}
-
 /* Phones: no separate round call button in the header (the number is in the menu). */
 @media (max-width: 767px) {
   .elementor-335 .elementor-element.elementor-element-318d7f5 {
     display: none !important;
   }
+}
+
+/* Finanzierungslösungen + Lebenspläne cards: gold arrow button with a black arrow, also on hover. */
+.elementor-971 .elementor-element:is(
+  .elementor-element-7a63f943,
+  .elementor-element-567fce9c,
+  .elementor-element-771ea021,
+  .elementor-element-241d26f3,
+  .elementor-element-e5766e9,
+  .elementor-element-aec15c4,
+  .elementor-element-de2b52c,
+  .elementor-element-12ea6505,
+  .elementor-element-7e1a7f95,
+  .elementor-element-71b9973c,
+  .elementor-element-3d7f6e94,
+  .elementor-element-2a84c2fd,
+  .elementor-element-5b64db19,
+  .elementor-element-4a2d9590,
+  .elementor-element-35c6d4f0,
+  .elementor-element-23bf67eb
+),
+.elementor-971 .elementor-element:is(
+  .elementor-element-7a63f943,
+  .elementor-element-567fce9c,
+  .elementor-element-771ea021,
+  .elementor-element-241d26f3,
+  .elementor-element-e5766e9,
+  .elementor-element-aec15c4,
+  .elementor-element-de2b52c,
+  .elementor-element-12ea6505,
+  .elementor-element-7e1a7f95,
+  .elementor-element-71b9973c,
+  .elementor-element-3d7f6e94,
+  .elementor-element-2a84c2fd,
+  .elementor-element-5b64db19,
+  .elementor-element-4a2d9590,
+  .elementor-element-35c6d4f0,
+  .elementor-element-23bf67eb
+):hover {
+  background-color: var(--e-global-color-bc69b90) !important;
+  background-image: url("/mowix/images/2026/02/Arrow-3.png") !important;
 }
