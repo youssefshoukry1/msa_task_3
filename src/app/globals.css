@@ -1893,3 +1893,34 @@ html {
   background-color: var(--e-global-color-bc69b90) !important;
   background-image: url("/mowix/images/2026/02/Arrow-3.png") !important;
 }
+
+/* Hero frame: keep the header cut-outs ~60px tall (like the original template) so the
+   rounded corners of the raised hero part flow straight into the inverted curves. */
+@media (min-width: 768px) {
+  .elementor-335 .elementor-element.elementor-element-fa06027 {
+    padding-bottom: 2px !important;
+  }
+
+  .elementor-335 .elementor-element.elementor-element-add4bac {
+    --padding-bottom: 8px;
+  }
+
+  /* Top corner pieces: 40px tall so their white shadow stops where the 30px curve below begins. */
+  .elementor-335 :is(.elementor-element-e439ee2, .elementor-element-8714a57) {
+    --min-height: 40px;
+    min-height: 40px !important;
+  }
+
+  .elementor-335 :is(.elementor-element-f583587, .elementor-element-ec60ed5) {
+    --spacer-size: 40px;
+  }
+
+  .elementor-335 :is(.elementor-element-f583587, .elementor-element-ec60ed5) .elementor-spacer-inner {
+    height: 40px !important;
+  }
+
+  /* Keep the header height (and so the hero overlap) unchanged. */
+  .elementor-335 .elementor-element.elementor-element-e18f356 {
+    --padding-bottom: 8px;
+  }
+}
